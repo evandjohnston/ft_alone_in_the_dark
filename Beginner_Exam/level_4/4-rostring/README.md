@@ -1,15 +1,21 @@
 # rostring
 
-### Conceptual Overview
-Create an huge array of pointers to char. Step through the string passed as argument, converting spaces & tabs to '\0', and storing a pointer to the beginning of each word in the array. Print the 2nd through last words in the array followed by a space, then print the first word.
+## Conceptual Overview
+### The Problem
+We are asked to write a program that is given a string as argument. It prints the 2nd through last words followed by the first word, with exactly one space between the words printed.
+
+[ [Full Subject][./subject.en.txt] | [Examples][./examples.txt] ]
+
+### Approach
+Create an huge array of pointers to char. Step through the string passed as argument, converting spaces & tabs to '\0', and as the beginning of each word is found, store a pointer to it in the array. Print the 2nd through last words in the array followed by a space, then print the first word.
 
 This approach is sloppy and tedious to code, but easy to debug.
 
-### Pseudocode
+## Pseudocode
 ```
 If exactly 0 arguments have been given
 	print a newline and exit
-set char \*str to the beginning of the first argument
+set char *str to the beginning of the first argument
 create an array named "words" containing several thousand char * pointers initialized to NULL
 set int i to 0
 while str points to a non-'\0' character
@@ -31,7 +37,7 @@ if element 0 of the array words is a non-NULL pointer
 print a newline
 ```
 
-### Test cases
+## Test cases
 ```
 ./rostring "Que la      lumiere soit et la lumiere fut"
 ./rostring "     AkjhZ zLKIJz , 23y"
