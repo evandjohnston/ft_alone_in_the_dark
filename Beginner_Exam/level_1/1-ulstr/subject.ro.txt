@@ -1,0 +1,21 @@
+Exercitiu  : ulstr
+Fisiere de iesire   : ulstr.c
+Functii autorizate : write
+--------------------------------------------------------------------------------
+
+Scrieti un program ce ia ca parametru u sir de caractere si care transforma toate 
+literele minuscule in majuscule si toate literele majuscule in minuscule. Restul 
+caracterelor vor ramane nemodificate.
+
+Trebuie sa afisati resultatul urmat de un '\n'.
+
+Daca numarul de parametri transmis este diferit de 1, programul va afisa '\n'.
+
+Exemple:
+
+$>./ulstr "PeTEr PIpeR pICKeD A PeCK of pIckLEd PEPPers." | cat -e
+pEteR piPEr PickEd a pEck OF PiCKleD peppERS.$
+$>./ulstr "A pEcK OF picKLED pePPErS PeTEr PIpeR picked.  " | cat -e
+a PeCk of PICkled PEppeRs pEteR piPEr PICKED.  $
+$>./ulstr | cat -e
+$
