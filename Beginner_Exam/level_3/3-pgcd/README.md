@@ -2,7 +2,7 @@
 
 ## Conceptual Overview
 ### The Problem
-We are asked to write a program that is given two strings as argument, each representing a positive integer. It finds the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) and prints it.
+We are asked to write a program that is given two strings as argument, each representing a positive whole number. It finds the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) and prints it.
 
 [ [Full Subject](subject.en.txt) | [Examples](examples.txt) ]
 
@@ -27,9 +27,12 @@ print a newline and exit.
 ```
 
 ## Test cases
+It is particularly important to test cases in which one of the arguments is 1, one of the arguments is a divisor of the other, and in which the GCD of the numbers is 1.
 ```
 ./pgcd "920556" "1980488"
 ./pgcd "1803684" "3539916"
 ./pgcd "15" "18"
+./pgcd "6" "18"
+./pgcd "13" "17"
 ./pgcd "1" "17"
 ```
