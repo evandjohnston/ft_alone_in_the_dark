@@ -1,12 +1,12 @@
 # rostring
 
 ### Conceptual Overview
-Create an huge array of pointers to char. Step through the string passed as argument, converting spaces & tabs to '\0', and storing the beginning of each word in the array. Print the 2nd through last words in the array followed by a space, then print the first word.
+Create an huge array of pointers to char. Step through the string passed as argument, converting spaces & tabs to '\0', and storing a pointer to the beginning of each word in the array. Print the 2nd through last words in the array followed by a space, then print the first word.
 
 This approach is sloppy and tedious to code, but easy to debug.
----
 
 ### Pseudocode
+```
 If exactly 0 arguments have been given
 	print a newline and exit
 set char \*str to the beginning of the first argument
@@ -29,9 +29,10 @@ while element i of the array words is a non-NULL pointer
 if element 0 of the array words is a non-NULL pointer
 	print the string pointed to by element 0 of words
 print a newline
----
+```
 
 ### Test cases
+```
 ./rostring "Que la      lumiere soit et la lumiere fut"
 ./rostring "     AkjhZ zLKIJz , 23y"
 ./rostring "first" "2" "11000000"
@@ -42,3 +43,4 @@ print a newline
 ./rostring "abc  def   ghi    "
 ./rostring ""
 ./rostring " "
+```
