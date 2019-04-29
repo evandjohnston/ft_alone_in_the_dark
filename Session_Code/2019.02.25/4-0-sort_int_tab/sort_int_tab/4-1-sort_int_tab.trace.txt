@@ -1,0 +1,75 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r2p1.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Thu Feb 14 11:41:42 PST 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/exam_20190214/cschulle
+
+= Git history ==================================================================
+$> git -C /var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user log --pretty='%H - %an, %ad : %s'
+c5b87206f574d40dfc959b223bd35edc5ea660e9 - Exam 42, Thu Feb 14 11:39:45 2019 -0800 : k cool let's see what I missed
+36c82996d110bf07d7ca0ea2ce368ad2a3e92ced - Exam 42, Thu Feb 14 10:55:14 2019 -0800 : oh boy is this it??
+a4792a83819bc8d90dcf82b7e05c6de311c82155 - Exam 42, Thu Feb 14 10:11:13 2019 -0800 : Oh boy it's raining a lot
+ca37f70eac6a75b39b0d5bf13a06da75fbd05043 - Exam 42, Thu Feb 14 09:30:17 2019 -0800 : I hope I get to go to lunch with my frands
+2248a9ab190d8fc003e9724a79760b150fe71bba - Exam 42, Thu Feb 14 09:16:12 2019 -0800 : or Valentine's day I guess
+a19ba3fb876a1e79e3ca0b73b7495d842723203c - Exam 42, Thu Feb 14 09:10:03 2019 -0800 : Happy Lupercaria
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1626 Feb 14 11:41 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 14 11:41 ft_countdown
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 14 11:41 ft_itoa
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 14 11:41 ft_range
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 14 11:41 ft_strdup
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 14 11:41 ft_strlen
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 14 11:41 sort_int_tab
+
+/var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user/ft_countdown:
+total 8
+-rw-r--r--  1 deepthought  deepthought  975 Feb 14 11:41 ft_countdown.c
+
+/var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user/ft_itoa:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1489 Feb 14 11:41 ft_itoa.c
+
+/var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user/ft_range:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1398 Feb 14 11:41 ft_range.c
+
+/var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user/ft_strdup:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1210 Feb 14 11:41 ft_strdup.c
+
+/var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user/ft_strlen:
+total 8
+-rw-r--r--  1 deepthought  deepthought  969 Feb 14 11:41 ft_strlen.c
+
+/var/folders/p8/_sd4h6vd48zf47nvysjfjx580000gp/T/tmpApp0Z3/user/sort_int_tab:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1437 Feb 14 11:41 sort_int_tab.c
+ 
+= sort_int_tab =================================================================
+$> gcc -Wextra -Wall -Werror main.c sort_int_tab.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./xopbzmfwyfb49d1rta36uo04
+Command './xopbzmfwyfb49d1rta36uo04' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= Final grade: 0 ===============================================================

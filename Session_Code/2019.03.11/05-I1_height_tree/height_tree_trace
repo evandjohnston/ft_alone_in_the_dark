@@ -1,0 +1,53 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r7p10.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Tue Feb 19 09:49:19 PST 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/exam_20190219/seli
+= Git history ==================================================================
+$> git -C /var/folders/25/0ctv9b15365fl12mt8j46v200000gp/T/tmpfEDsEA/user log --pretty='%H - %an, %ad : %s'
+117068f4ceffe458dc3de11ae27beee7202a782d - Exam 42, Tue Feb 19 09:48:19 2019 -0800 : lvl1
+6e073152c45e610fbf52dde7aec070acb1506ae7 - Exam 42, Tue Feb 19 09:28:00 2019 -0800 : lvl 0
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/25/0ctv9b15365fl12mt8j46v200000gp/T/tmpfEDsEA/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  468 Feb 19 09:49 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 19 09:49 height_tree
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 19 09:49 print_doublon
+/var/folders/25/0ctv9b15365fl12mt8j46v200000gp/T/tmpfEDsEA/user/height_tree:
+total 8
+-rw-r--r--  1 deepthought  deepthought  390 Feb 19 09:49 height_tree.c
+/var/folders/25/0ctv9b15365fl12mt8j46v200000gp/T/tmpfEDsEA/user/print_doublon:
+total 8
+-rw-r--r--  1 deepthought  deepthought  579 Feb 19 09:49 print_doublon.c
+ 
+= height_tree ==================================================================
+$> gcc -Wextra -Wall -Werror height_tree.c main.c -o user_exe 
+= Test 1 ===================================================
+$> ./1hxhmsk024awd6nef1fwq4w6 0
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1   2019-02-19 09:49:21.000000000 -0800$
++++ test1.output    2019-02-19 09:49:21.000000000 -0800$
+@@ -1,3 +1,3 @@$
+ randomDepth = 11$
+ height = 11$
+-height = 12$
++height = 11$
+Diff KO :(
+Grade: 0
+= Final grade: 0 ===============================================================

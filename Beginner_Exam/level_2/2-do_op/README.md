@@ -9,9 +9,9 @@ We are asked to write a program that is given 3 strings as arguments, representi
 ### Approach
 Convert the strings representing numbers to ints. Use the string containing the mathematical operator to pick which operation to perform on the two numbers, and print the result. 
 
-## Pseudocode
+### Pseudocode
 ```
-if more or less than 3 arguments have been given
+if more or fewer than 3 arguments have been given
 	print a newline and exit
 set int x to the converted integer value of the first argument
 set int y to the converted integer value of the third argument
@@ -28,7 +28,7 @@ otherwise, if the second argument is "%"
 print the result followed by a newline and exit
 ```
 
-## Test cases
+### Test Cases
 * Check all operators at least once
 * Check negative numbers
 * Check 0
