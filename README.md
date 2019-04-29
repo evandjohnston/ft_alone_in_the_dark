@@ -40,7 +40,7 @@ Pull requests welcome!
 | [3-rstr_capitalizer](Beginner_Exam/level_3/3-rstr_capitalizer)   | [:scroll:](Beginner_Exam/level_3/3-rstr_capitalizer/subject.en.txt)  | :no_entry_sign:                                            | :no_entry_sign:           |
 | [3-str_capitalizer](Beginner_Exam/level_3/3-str_capitalizer)     | [:scroll:](Beginner_Exam/level_3/3-str_capitalizer/subject.en.txt)   | :no_entry_sign:                                            | :no_entry_sign:           |
 | [3-tab_mult](Beginner_Exam/level_3/3-tab_mult)                   | [:scroll:](Beginner_Exam/level_3/3-tab_mult/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
-| [4-check_mate](Beginner_Exam/level_4/4-check_mate)               | [:scroll:](Beginner_Exam/level_4/4-check_mate/subject.en.txt)        | :no_entry_sign:                                            | [:pencil:](Beginner_Exam/level_4/4-check_mate/check_mate.c)           |
+| [4-check_mate](Beginner_Exam/level_4/4-check_mate)               | [:scroll:](Beginner_Exam/level_4/4-check_mate/subject.en.txt)        | :no_entry_sign:                                            | [:pencil:](Beginner_Exam/level_4/4-check_mate/check_mate.c) |
 | [4-flood_fill](Beginner_Exam/level_4/4-flood_fill)               | [:scroll:](Beginner_Exam/level_4/4-flood_fill/subject.en.txt)        | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-ft_list_foreach](Beginner_Exam/level_4/4-ft_list_foreach)     | [:scroll:](Beginner_Exam/level_4/4-ft_list_foreach/subject.en.txt)   | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-ft_list_remove_if](Beginner_Exam/level_4/4-ft_list_remove_if) | [:scroll:](Beginner_Exam/level_4/4-ft_list_remove_if/subject.en.txt) | :no_entry_sign:                                            | :no_entry_sign:           |
@@ -51,13 +51,14 @@ Pull requests welcome!
 | [5-brackets](Beginner_Exam/level_5/5-brackets)                   | [:scroll:](Beginner_Exam/level_5/5-brackets/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
 | [5-ft_itoa_base](Beginner_Exam/level_5/5-ft_itoa_base)           | [:scroll:](Beginner_Exam/level_5/5-ft_itoa_base/subject.en.txt)      | :no_entry_sign:                                            | :no_entry_sign:           |
 | [5-options](Beginner_Exam/level_5/5-options)                     | [:scroll:](Beginner_Exam/level_5/5-options/subject.en.txt)           | :no_entry_sign:                                            | :no_entry_sign:           |
-| [5-print_memory](Beginner_Exam/level_5/5-print_memory)           | [:scroll:](Beginner_Exam/level_5/5-print_memory/subject.en.txt)      | :no_entry_sign:                                            | :no_entry_sign:           |
+| [5-print_memory](Beginner_Exam/level_5/5-print_memory)           | [:scroll:](Beginner_Exam/level_5/5-print_memory/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-print_memory/README.md) | [:pencil:](Beginner_Exam/level_5/5-print_memory/print_memory.c) |
 | [5-rpn_calc](Beginner_Exam/level_5/5-rpn_calc)                   | [:scroll:](Beginner_Exam/level_5/5-rpn_calc/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
 
 ## Intermediate Exam
 | Problem              | Subjects | Guide | Code  |
 | -------------------- | :------: | :---: | :---: |
-| [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot) 		   | [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)    | :no_entry_sign:                                            | [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) |
+| [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot) 		   | [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)    | :no_entry_sign:                                            | [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) 		|
 
 ## Exam Tips
+* [2019.04.29 Using Sublime Text on Exams](Tips/2019.04.29_exam_sublime_text/README.md) -- _How to use a GUI text editor on 42's exams_
 * [2019.02.25 Testing Code with limits.h](Tips/2019.02.25_limits.h/README.md) -- _Use limits.h to test integer handling_
