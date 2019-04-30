@@ -1,0 +1,3 @@
+Summary of Manmeet (maparmar)'s' notes on the whiteboard
+
+Starting from the last digit in each string, add the two digits together. Save the ones digit from the result to an output string, and save the tens digit, if any, to be used in the next addition. Repeat with the previous digit in each string, adding in any carried digit. Repeat until both strings have been exhausted.
