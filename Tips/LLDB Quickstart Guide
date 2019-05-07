@@ -1,0 +1,35 @@
+LLDB is a software debugger available from the command line. It has broad & varied capabilities, but one of its most helpful use cases at 42 is in-exam troubleshooting. Here are the basic commands to get you started.
+
+1) Compile with debug symbols:
+    gcc -g filename.c
+    
+    ^^ this will output both an a.out file AND an a.out.dSYM (debug SYMbols) file - be careful not to push either!)
+
+2) Start LLDB:
+    lldb a.out
+    
+3) Set a breakpoint:
+    b function_name
+    
+    You can set multiple breakpoints, or none at all. Setting no breakpoints is a good way to step through your code to find the source of a segfault.
+    
+4) Run your code:
+    r
+    
+   Run your code with arguments:
+    r "argument" "argument"
+    
+5) Move forward one step:
+    n
+
+6) Help:
+    help
+    
+7) Exit LLDB:
+    q
+    
+USING THE GUI
+    LLDB has a handy graphic interface that can make it easier to use. Use command "gui" from within LLDB to launch the interface.
+    
+You can find out more about LLDB by reading the documentation here:
+https://lldb.llvm.org/index.html
