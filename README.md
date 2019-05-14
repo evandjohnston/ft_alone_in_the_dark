@@ -5,6 +5,13 @@ Questions? Requests? Reach me on Slack @evjohnst.
 
 Pull requests welcome!
 
+## Sessions
+*6pm - 8pm on Mondays, room 115*
+
+Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst, @cschulle, or @jadawson.
+
+[Code from most recent session (2019.05.13)](Session_Code/2019.05.13)
+
 ## Beginner Exam
 | Problem                                                          | Subjects                                                             | Guide                                                      | Code                      |
 | ---------------------------------------------------------------- | :------------------------------------------------------------------: | :--------------------------------------------------------: | :-----------------------: |
