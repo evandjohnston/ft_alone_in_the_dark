@@ -40,7 +40,7 @@ Pull requests welcome!
 | [3-rstr_capitalizer](Beginner_Exam/level_3/3-rstr_capitalizer)   | [:scroll:](Beginner_Exam/level_3/3-rstr_capitalizer/subject.en.txt)  | :no_entry_sign:                                            | :no_entry_sign:           |
 | [3-str_capitalizer](Beginner_Exam/level_3/3-str_capitalizer)     | [:scroll:](Beginner_Exam/level_3/3-str_capitalizer/subject.en.txt)   | :no_entry_sign:                                            | :no_entry_sign:           |
 | [3-tab_mult](Beginner_Exam/level_3/3-tab_mult)                   | [:scroll:](Beginner_Exam/level_3/3-tab_mult/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
-| [4-check_mate](Beginner_Exam/level_4/4-check_mate)               | [:scroll:](Beginner_Exam/level_4/4-check_mate/subject.en.txt)        | :no_entry_sign:                                            | [:pencil:](Beginner_Exam/level_4/4-check_mate/check_mate.c) |
+| [4-check_mate](Beginner_Exam/level_4/4-check_mate)               | [:scroll:](Beginner_Exam/level_4/4-check_mate/subject.en.txt)        | [:green_book:](Beginner_Exam/level_4/4-check_mate/README.md) | [:pencil:](Beginner_Exam/level_4/4-check_mate/check_mate.c) |
 | [4-flood_fill](Beginner_Exam/level_4/4-flood_fill)               | [:scroll:](Beginner_Exam/level_4/4-flood_fill/subject.en.txt)        | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-ft_list_foreach](Beginner_Exam/level_4/4-ft_list_foreach)     | [:scroll:](Beginner_Exam/level_4/4-ft_list_foreach/subject.en.txt)   | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-ft_list_remove_if](Beginner_Exam/level_4/4-ft_list_remove_if) | [:scroll:](Beginner_Exam/level_4/4-ft_list_remove_if/subject.en.txt) | :no_entry_sign:                                            | :no_entry_sign:           |
@@ -49,10 +49,10 @@ Pull requests welcome!
 | [4-sort_int_tab](Beginner_Exam/level_4/4-sort_int_tab)           | [:scroll:](Beginner_Exam/level_4/4-sort_int_tab/subject.en.txt)      | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-sort_list](Beginner_Exam/level_4/4-sort_list)                 | [:scroll:](Beginner_Exam/level_4/4-sort_list/subject.en.txt)         | :no_entry_sign:                                            | :no_entry_sign:           |
 | [5-brackets](Beginner_Exam/level_5/5-brackets)                   | [:scroll:](Beginner_Exam/level_5/5-brackets/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
-| [5-ft_itoa_base](Beginner_Exam/level_5/5-ft_itoa_base)           | [:scroll:](Beginner_Exam/level_5/5-ft_itoa_base/subject.en.txt)      | :no_entry_sign:                                            | :no_entry_sign:           |
-| [5-options](Beginner_Exam/level_5/5-options)                     | [:scroll:](Beginner_Exam/level_5/5-options/subject.en.txt)           | :no_entry_sign:                                            | :no_entry_sign:           |
+| [5-ft_itoa_base](Beginner_Exam/level_5/5-ft_itoa_base)           | [:scroll:](Beginner_Exam/level_5/5-ft_itoa_base/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-ft_itoa_base/README.md) | [:pencil:](Beginner_Exam/level_5/5-ft_itoa_base/ft_itoa_base.c) |
+| [5-options](Beginner_Exam/level_5/5-options)                     | [:scroll:](Beginner_Exam/level_5/5-options/subject.en.txt)           | :no_entry_sign:                                            | [:pencil:](Beginner_Exam/level_5/5-options/options.c) |
 | [5-print_memory](Beginner_Exam/level_5/5-print_memory)           | [:scroll:](Beginner_Exam/level_5/5-print_memory/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-print_memory/README.md) | [:pencil:](Beginner_Exam/level_5/5-print_memory/print_memory.c) |
-| [5-rpn_calc](Beginner_Exam/level_5/5-rpn_calc)                   | [:scroll:](Beginner_Exam/level_5/5-rpn_calc/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
+| [5-rpn_calc](Beginner_Exam/level_5/5-rpn_calc)                   | [:scroll:](Beginner_Exam/level_5/5-rpn_calc/subject.en.txt)          | [:green_book:](Beginner_Exam/level_5/5-rpn_calc/README.md) | [:pencil:](Beginner_Exam/level_5/5-rpn_calc/rpn_calc.c) |
 
 ## Intermediate Exam
 | Problem              | Subjects | Guide | Code  |

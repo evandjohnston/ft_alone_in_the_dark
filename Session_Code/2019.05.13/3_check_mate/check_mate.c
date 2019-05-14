@@ -46,18 +46,18 @@ int		check_capture(t_pos pos, t_pos direction, int b_size, char **board)
 
 int		check_mate(int board_size, char **board)
 {
-	t_pos king_pos = find_king(board_size, board);
+	t_pos king = find_king(board_size, board);
 
 	return (
-		check_capture(king_pos, (t_pos){-1, -1}, board_size, board)
-		|| check_capture(king_pos, (t_pos){-1, 0}, board_size, board)
-		|| check_capture(king_pos, (t_pos){-1, 1}, board_size, board)
-		|| check_capture(king_pos, (t_pos){0, -1}, board_size, board)
-		|| check_capture(king_pos, (t_pos){0, 1}, board_size, board)
-		|| check_capture(king_pos, (t_pos){1, -1}, board_size, board)
-		|| check_capture(king_pos, (t_pos){1, 0}, board_size, board)
-		|| check_capture(king_pos, (t_pos){1, 1}, board_size, board)
-		); // Returns 1 if logical test is true, 0 if false
+			check_capture(king, (t_pos){-1, -1}, board_size, board)
+			|| check_capture(king, (t_pos){-1, 0}, board_size, board)
+			|| check_capture(king, (t_pos){-1, 1}, board_size, board)
+			|| check_capture(king, (t_pos){0, -1}, board_size, board)
+			|| check_capture(king, (t_pos){0, 1}, board_size, board)
+			|| check_capture(king, (t_pos){1, -1}, board_size, board)
+			|| check_capture(king, (t_pos){1, 0}, board_size, board)
+			|| check_capture(king, (t_pos){1, 1}, board_size, board)
+			);
 }
 
 int		main(int ac, char **av)
