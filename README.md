@@ -12,7 +12,21 @@ Each Monday we discuss problems from the exams with an emphasis on conceptual un
 
 [Code from most recent session (2019.05.13)](Session_Code/2019.05.13)
 
+#### Agenda for next session (2019.05.20)
+
+* Beginner 4: rev_wstr with @lolee
+* B4: flood_fill with @cchao
+* Intermediate 3: perimeter with @mtaylor
+
 ## Beginner Exam
+
+The beginner exam includes about 50 problems divided into 6 levels of increasing complexity, numbered 0 through 5. Level 0 problems are as easy as [only_a](Beginner_Exam/level_0/0-only_a), which prints the character 'a' to stdout, while level 4 and 5 problems are as complex as [flood_fill](Beginner_Exam/level_4/4-flood_fill), [ft_itoa_base](Beginner_Exam/level_5/5-ft_itoa_base), and [print_memory](Beginner_Exam/level_5/5-print_memory).
+
+Subjects covered include string manipulation, bitwise operations, memory allocation, sorting algorithms, simple data structures, linked lists, and base conversions. Solutions must run in under 10 seconds; no other optimization is required.
+
+<details>
+	<summary>Show Problem List</summary>
+
 | Problem                                                          | Subjects                                                             | Guide                                                      | Code                      |
 | ---------------------------------------------------------------- | :------------------------------------------------------------------: | :--------------------------------------------------------: | :-----------------------: |
 | [0-aff_a](Beginner_Exam/level_0/0-aff_a)                         | [:scroll:](Beginner_Exam/level_0/0-aff_a/subject.en.txt)             | :no_entry_sign:                                            | :no_entry_sign:           |
@@ -55,17 +69,38 @@ Each Monday we discuss problems from the exams with an emphasis on conceptual un
 | [4-rostring](Beginner_Exam/level_4/4-rostring)                   | [:scroll:](Beginner_Exam/level_4/4-rostring/subject.en.txt)          | [:green_book:](Beginner_Exam/level_4/4-rostring/README.md) | :no_entry_sign:           |
 | [4-sort_int_tab](Beginner_Exam/level_4/4-sort_int_tab)           | [:scroll:](Beginner_Exam/level_4/4-sort_int_tab/subject.en.txt)      | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-sort_list](Beginner_Exam/level_4/4-sort_list)                 | [:scroll:](Beginner_Exam/level_4/4-sort_list/subject.en.txt)         | :no_entry_sign:                                            | :no_entry_sign:           |
-| [5-brackets](Beginner_Exam/level_5/5-brackets)                   | [:scroll:](Beginner_Exam/level_5/5-brackets/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
+| [5-brackets](Beginner_Exam/level_5/5-brackets)                   | [:scroll:](Beginner_Exam/level_5/5-brackets/subject.en.txt)          | [:green_book:](Beginner_Exam/level_5/5-brackets/README.md) | [:pencil:](Beginner_Exam/level_5/5-brackets/brackets.c) |
 | [5-ft_itoa_base](Beginner_Exam/level_5/5-ft_itoa_base)           | [:scroll:](Beginner_Exam/level_5/5-ft_itoa_base/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-ft_itoa_base/README.md) | [:pencil:](Beginner_Exam/level_5/5-ft_itoa_base/ft_itoa_base.c) |
 | [5-options](Beginner_Exam/level_5/5-options)                     | [:scroll:](Beginner_Exam/level_5/5-options/subject.en.txt)           | :no_entry_sign:                                            | [:pencil:](Beginner_Exam/level_5/5-options/options.c) |
 | [5-print_memory](Beginner_Exam/level_5/5-print_memory)           | [:scroll:](Beginner_Exam/level_5/5-print_memory/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-print_memory/README.md) | [:pencil:](Beginner_Exam/level_5/5-print_memory/print_memory.c) |
 | [5-rpn_calc](Beginner_Exam/level_5/5-rpn_calc)                   | [:scroll:](Beginner_Exam/level_5/5-rpn_calc/subject.en.txt)          | [:green_book:](Beginner_Exam/level_5/5-rpn_calc/README.md) | [:pencil:](Beginner_Exam/level_5/5-rpn_calc/rpn_calc.c) |
 
+</details>
+
 ## Intermediate Exam
+
+The intermediate exam is similar in structure to the beginning exam, but it introduces dynamic programming, optimization requirements, and implementations of data structures.
+
+Subjects covered include Big O notation, traversal of binary trees, multiply linked lists, and string math. Some problems require solutions that run in a specific time complexity.
+
+<details>
+	<summary>Show Problem List</summary>
+
 | Problem              | Subjects | Guide | Code  |
 | -------------------- | :------: | :---: | :---: |
-| [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot) 		   | [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)    | :no_entry_sign:                                            | [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) 		|
+| [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot)		| [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) |
+| [3-gold_gain](Intermediate_Exam/level_3/3-gold_gain)			| [:scroll:](Intermediate_Exam/level_3/3-gold_gain/subject.en.txt)		| [:green_book:](Intermediate_Exam/level_3/3-gold_gain/README.md)	| [:pencil:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.c) |
+
+</details>
 
 ## Exam Tips
 * [2019.04.29 Using Sublime Text on Exams](Tips/2019.04.29_exam_sublime_text/README.md) -- _How to use a GUI text editor on 42's exams_
 * [2019.02.25 Testing Code with limits.h](Tips/2019.02.25_limits.h/README.md) -- _Use limits.h to test integer handling_
+
+## Exam Mechanics & Logistics
+
+Exams take place every Tuesday morning from 9:00am - 1:00pm, in Zone 2 at 42 Silicon Valley. Students log into a special exam account with limited access to apps and the Internet, and take the test using a combination of git and an in-house terminal app called `examshell`.
+
+Students are given one question at a time, beginning the test at level 0. For each correct solution, they are awarded points and they progress to the next level of the test, up to a maximum of level 5. For each incorrect solution, they are given a different problem of the same level, and the number of points they may earn on the current level is reduced by 5, to a minimum of 0. Up to 16 points may be earned for each of levels 0 through 4, and up to 20 points may be earned for level 5, for a maximum total of 100.
+
+In order to pass the exams, students must achieve at least 75 points for the beginner version, or 80 points for intermediate. In order to receive course credit for the exam and become eligible to take the next difficulty level, students must pass at least 5 times. There is currently no advanced exam, but a few students are writing problems for it.
