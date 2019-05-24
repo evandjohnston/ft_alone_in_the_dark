@@ -1,3 +1,5 @@
+// Passed Moulinette on 2019.05.14
+
 int	max_three(int a, int b, int c)
 {
 	if (a > b)

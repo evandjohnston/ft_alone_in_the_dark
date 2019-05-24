@@ -1,3 +1,5 @@
+// Passed Moulinette 2019.05.19
+
 #include <stdio.h>
 
 void	equation(int n)

@@ -1,3 +1,5 @@
+// Passed Moulinette on 2019.05.03
+
 int		sum_array(int *arr, int n)
 {
 	int i = 0;

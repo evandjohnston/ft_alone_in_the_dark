@@ -10,13 +10,11 @@ Pull requests welcome!
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst, @cschulle, or @jadawson.
 
-[Code from most recent session (2019.05.13)](Session_Code/2019.05.13)
+[Code from most recent session (2019.05.20)](Session_Code/2019.05.20)
 
-#### Agenda for next session (2019.05.20)
+#### Agenda for next session (2019.05.27)
 
-* Beginner 4: rev_wstr with @lolee
-* B4: flood_fill with @cchao
-* Intermediate 3: perimeter with @mtaylor
+* Beginner 2: is_power_of_two with @lolee
 
 ## Beginner Exam
 
@@ -77,6 +75,9 @@ Subjects covered include string manipulation, bitwise operations, memory allocat
 
 </details>
 
+#### Recommended Solutions Repos
+* [Jo Chang (jochang)](https://github.com/MagicHatJo/-42-exam_beginner) -- Near-complete set of solutions
+
 ## Intermediate Exam
 
 The intermediate exam is similar in structure to the beginning exam, but it introduces dynamic programming, optimization requirements, and implementations of data structures.
@@ -88,10 +89,26 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 
 | Problem              | Subjects | Guide | Code  |
 | -------------------- | :------: | :---: | :---: |
-| [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot)		| [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) |
-| [3-gold_gain](Intermediate_Exam/level_3/3-gold_gain)			| [:scroll:](Intermediate_Exam/level_3/3-gold_gain/subject.en.txt)		| [:green_book:](Intermediate_Exam/level_3/3-gold_gain/README.md)	| [:pencil:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.c) |
+| [0-equation](Intermediate_Exam/level_0/0-equation)				| [:scroll:](Intermediate_Exam/level_0/0-equation/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-equation/equation.c) |
+| [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot)			| [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) |
+| [1-count_alpha](Intermediate_Exam/level_1/1-count_alpha)			| [:scroll:](Intermediate_Exam/level_1/1-count_alpha/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_1/1-count_alpha/count_alpha.c) |
+| [2-is_looping](Intermediate_Exam/level_2/2-is_looping)			| [:scroll:](Intermediate_Exam/level_2/2-is_looping/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_2/2-is_looping/is_looping.c) |
+| [2-longest_sequence](Intermediate_Exam/level_2/2-longest_sequence)| [:scroll:](Intermediate_Exam/level_2/2-longest_sequence/subject.en.txt)	| :no_entry_sign:													| :no_entry_sign: |
+| [2-reverse_tree](Intermediate_Exam/level_2/2-reverse_tree)		| [:scroll:](Intermediate_Exam/level_2/2-reverse_tree/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_2/2-reverse_tree/reverse_tree.c) |
+| [3-can_split](Intermediate_Exam/level_3/3-can_split)				| [:scroll:](Intermediate_Exam/level_3/3-can_split/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_3/3-can_split/can_split.c) |
+| [3-gold_gain](Intermediate_Exam/level_3/3-gold_gain)				| [:scroll:](Intermediate_Exam/level_3/3-gold_gain/subject.en.txt)			| [:green_book:](Intermediate_Exam/level_3/3-gold_gain/README.md)	| [:pencil:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.c) |
+| [3-width_tree](Intermediate_Exam/level_3/3-width_tree)			| [:scroll:](Intermediate_Exam/level_3/3-width_tree/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_3/3-width_tree/width_tree.c) |
+| [4-clone_list](Intermediate_Exam/level_4/4-clone_list)			| [:scroll:](Intermediate_Exam/level_4/4-clone_list/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-clone_list/clone_list.c) |
+| [4-range_comb](Intermediate_Exam/level_4/4-range_comb)			| [:scroll:](Intermediate_Exam/level_4/4-range_comb/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-range_comb/range_comb.c) |
+| [5-infin_add](Intermediate_Exam/level_5/5-infin_add)				| [:scroll:](Intermediate_Exam/level_5/5-infin_add/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
+| [5-infin_mult](Intermediate_Exam/level_5/5-infin_mult)			| [:scroll:](Intermediate_Exam/level_5/5-infin_mult/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
 
 </details>
+
+#### Recommended Solutions Repos
+* [Dmitry Fonarev (dfonarev)](https://github.com/ruv1nce/42-exam_intermediate) -- Complete set of solutions
+* [Manmeet Parmar (maparmar)](https://github.com/Manmeet2018/42_Exam-C-Intermediate) -- Complete set of solutions
+* [Mo Taylor (mtaylor)](https://github.com/motaylormo/42-Intermediate-Exam) -- Most solutions and many test mains
 
 ## Exam Tips
 * [2019.04.29 Using Sublime Text on Exams](Tips/2019.04.29_exam_sublime_text/README.md) -- _How to use a GUI text editor on 42's exams_
@@ -99,7 +116,7 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 
 ## Exam Mechanics & Logistics
 
-Exams take place every Tuesday morning from 9:00am - 1:00pm, in Zone 2 at 42 Silicon Valley. Students log into a special exam account with limited access to apps and the Internet, and take the test using a combination of git and an in-house terminal app called `examshell`.
+Exams take place every Tuesday morning from 9:00am - 1:00pm, in Zone 2 at 42 Silicon Valley. Students log into a special exam account with limited access to applications and the Internet, and take the test using a text editor, git, and an in-house terminal app called `examshell`.
 
 Students are given one question at a time, beginning the test at level 0. For each correct solution, they are awarded points and they progress to the next level of the test, up to a maximum of level 5. For each incorrect solution, they are given a different problem of the same level, and the number of points they may earn on the current level is reduced by 5, to a minimum of 0. Up to 16 points may be earned for each of levels 0 through 4, and up to 20 points may be earned for level 5, for a maximum total of 100.
 
