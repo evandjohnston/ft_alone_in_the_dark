@@ -15,6 +15,7 @@ Each Monday we discuss problems from the exams with an emphasis on conceptual un
 #### Agenda for next session (2019.05.27)
 
 * Beginner 2: is_power_of_two with @lolee
+* Beginner 3: lcm
 
 ## Beginner Exam
 
@@ -89,6 +90,7 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 
 | Problem              | Subjects | Guide | Code  |
 | -------------------- | :------: | :---: | :---: |
+| [0-count_of_2](Intermediate_Exam/level_0/0-count_of_2)			| [:scroll:](Intermediate_Exam/level_0/0-count_of_2/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-count_of_2/count_of_2.c) |
 | [0-equation](Intermediate_Exam/level_0/0-equation)				| [:scroll:](Intermediate_Exam/level_0/0-equation/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-equation/equation.c) |
 | [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot)			| [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) |
 | [1-count_alpha](Intermediate_Exam/level_1/1-count_alpha)			| [:scroll:](Intermediate_Exam/level_1/1-count_alpha/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_1/1-count_alpha/count_alpha.c) |
