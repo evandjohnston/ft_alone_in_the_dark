@@ -10,12 +10,11 @@ Pull requests welcome!
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst, @cschulle, or @jadawson.
 
-[Code from most recent session (2019.05.20)](Session_Code/2019.05.20)
+[Code from most recent session (2019.05.27)](Session_Code/2019.05.27)
 
 #### Agenda for next session (2019.05.27)
 
-* Beginner 2: is_power_of_two with @lolee
-* Beginner 3: lcm
+*Nothing yet!*
 
 ## Beginner Exam
 
@@ -93,15 +92,30 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 | [0-count_of_2](Intermediate_Exam/level_0/0-count_of_2)			| [:scroll:](Intermediate_Exam/level_0/0-count_of_2/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-count_of_2/count_of_2.c) |
 | [0-equation](Intermediate_Exam/level_0/0-equation)				| [:scroll:](Intermediate_Exam/level_0/0-equation/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-equation/equation.c) |
 | [0-find_pivot](Intermediate_Exam/level_0/0-find_pivot)			| [:scroll:](Intermediate_Exam/level_0/0-find_pivot/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-find_pivot/find_pivot.c) |
+| [0-is_anagram](Intermediate_Exam/level_0/0-is_anagram)			| [:scroll:](Intermediate_Exam/level_0/0-is_anagram/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-is_anagram/is_anagram.c) |
+| [0-print_doublon](Intermediate_Exam/level_0/0-print_doublon)		| [:scroll:](Intermediate_Exam/level_0/0-print_doublon/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_0/0-print_doublon/print_doublon.c) |
 | [1-count_alpha](Intermediate_Exam/level_1/1-count_alpha)			| [:scroll:](Intermediate_Exam/level_1/1-count_alpha/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_1/1-count_alpha/count_alpha.c) |
+| [1-flood_fill](Intermediate_Exam/level_1/1-flood_fill)			| [:scroll:](Intermediate_Exam/level_1/1-flood_fill/subject.en.txt)			| [:green_book:](Intermediate_Exam/level_1/1-flood_fill/README.md)	| [:pencil:](Intermediate_Exam/level_1/1-flood_fill/flood_fill.c) |
+| [1-height_tree](Intermediate_Exam/level_1/1-height_tree)			| [:scroll:](Intermediate_Exam/level_1/1-height_tree/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_1/1-height_tree/height_tree.c) |
+| [1-queue](Intermediate_Exam/level_1/1-queue)						| [:scroll:](Intermediate_Exam/level_1/1-queue/subject.en.txt)				| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_1/1-queue/queue.c) |
+| [1-stack](Intermediate_Exam/level_1/1-stack)						| [:scroll:](Intermediate_Exam/level_1/1-stack/subject.en.txt)				| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_1/1-stack/stack.c) |
 | [2-is_looping](Intermediate_Exam/level_2/2-is_looping)			| [:scroll:](Intermediate_Exam/level_2/2-is_looping/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_2/2-is_looping/is_looping.c) |
 | [2-longest_sequence](Intermediate_Exam/level_2/2-longest_sequence)| [:scroll:](Intermediate_Exam/level_2/2-longest_sequence/subject.en.txt)	| :no_entry_sign:													| :no_entry_sign: |
+| [2-str_maxlenoc](Intermediate_Exam/level_2/2-str_maxlenoc)		| [:scroll:](Intermediate_Exam/level_2/2-str_maxlenoc/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.c) |
+| [2-ord_alphlong](Intermediate_Exam/level_2/2-ord_alphlong)		| [:scroll:](Intermediate_Exam/level_2/2-ord_alphlong/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_2/2-ord_alphlong/ord_alphlong.c) |
 | [2-reverse_tree](Intermediate_Exam/level_2/2-reverse_tree)		| [:scroll:](Intermediate_Exam/level_2/2-reverse_tree/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_2/2-reverse_tree/reverse_tree.c) |
-| [3-can_split](Intermediate_Exam/level_3/3-can_split)				| [:scroll:](Intermediate_Exam/level_3/3-can_split/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_3/3-can_split/can_split.c) |
+| [3-can_split](Intermediate_Exam/level_3/3-can_split)				| [:scroll:](Intermediate_Exam/level_3/3-can_split/subject.en.txt)			| :no_entry_sign:													| [:warning:](Intermediate_Exam/level_3/3-can_split/can_split.c) |
+| [3-convert_bst](Intermediate_Exam/level_3/3-convert_bst)			| [:scroll:](Intermediate_Exam/level_3/3-convert_bst/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_3/3-convert_bst/convert_bst.c) |
 | [3-gold_gain](Intermediate_Exam/level_3/3-gold_gain)				| [:scroll:](Intermediate_Exam/level_3/3-gold_gain/subject.en.txt)			| [:green_book:](Intermediate_Exam/level_3/3-gold_gain/README.md)	| [:pencil:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.c) |
+| [3-perimeter](Intermediate_Exam/level_3/3-perimeter)				| [:scroll:](Intermediate_Exam/level_3/3-perimeter/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_3/3-perimeter/perimeter.c) |
 | [3-width_tree](Intermediate_Exam/level_3/3-width_tree)			| [:scroll:](Intermediate_Exam/level_3/3-width_tree/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_3/3-width_tree/width_tree.c) |
 | [4-clone_list](Intermediate_Exam/level_4/4-clone_list)			| [:scroll:](Intermediate_Exam/level_4/4-clone_list/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-clone_list/clone_list.c) |
-| [4-range_comb](Intermediate_Exam/level_4/4-range_comb)			| [:scroll:](Intermediate_Exam/level_4/4-range_comb/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-range_comb/range_comb.c) |
+| [4-intersection](Intermediate_Exam/level_4/4-intersection)		| [:scroll:](Intermediate_Exam/level_4/4-intersection/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-intersection/intersection.c) |
+| [4-longest_subarray](Intermediate_Exam/level_4/4-longest_subarray)| [:scroll:](Intermediate_Exam/level_4/4-longest_subarray/subject.en.txt)	| :no_entry_sign:													| :no_entry_sign: |
+| [4-range_comb](Intermediate_Exam/level_4/4-range_comb)			| [:scroll:](Intermediate_Exam/level_4/4-range_comb/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
+| [4-volume_histogram](Intermediate_Exam/level_4/4-volume_histogram)| [:scroll:](Intermediate_Exam/level_4/4-volume_histogram/subject.en.txt)	| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-volume_histogram/volume_histogram.c) |
+| [5-count_island](Intermediate_Exam/level_5/5-count_island)		| [:scroll:](Intermediate_Exam/level_5/5-count_island/subject.en.txt)		| :no_entry_sign:													| :no_entry_sign: |
+| [5-g_diam](Intermediate_Exam/level_5/5-g_diam)					| [:scroll:](Intermediate_Exam/level_5/5-g_diam/subject.en.txt)				| :no_entry_sign:													| :no_entry_sign: |
 | [5-infin_add](Intermediate_Exam/level_5/5-infin_add)				| [:scroll:](Intermediate_Exam/level_5/5-infin_add/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
 | [5-infin_mult](Intermediate_Exam/level_5/5-infin_mult)			| [:scroll:](Intermediate_Exam/level_5/5-infin_mult/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
 

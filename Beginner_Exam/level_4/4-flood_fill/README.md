@@ -2,7 +2,7 @@
 
 ## Conceptual Overview
 ### The Problem
-We are asked to write a function that takes arguments of a 2-dimensional array of chars, and two coordinate pairs representing the dimensions of the array and the starting point in the array, respectively. The function replaces the starting character and all "connected" characters with 'F', where connected characters are those that have the same value as the starting character and are one space above, below, to the left, or to the right of the starting character.
+We are asked to write a function that takes arguments of a 2-dimensional array of chars and two coordinate pairs representing the dimensions of the array and the starting point in the array, respectively. The function replaces the starting character and all "connected" characters with 'F', where connected characters are those that have the same value as the starting character and are one space above, below, to the left, or to the right of the starting character or another connected character.
 
 <details>
 	<summary>Full Subject</summary>
