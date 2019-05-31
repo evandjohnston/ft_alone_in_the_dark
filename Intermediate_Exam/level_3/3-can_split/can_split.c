@@ -1,4 +1,4 @@
-// This code passed Moulinette 2019.05.19, even though it should fail.
+// Passed Moulinette 2019.05.30
 
 struct s_node 
 {
@@ -7,34 +7,35 @@ struct s_node
 	struct s_node *right;
 };
 
-int	count_nodes(struct s_node *n)
+int	count_nodes(struct s_node *n, int *half_tree_size, int *answer_found)
 {
-	if (!n)
+	if (n == 0 || *answer_found == 1)
 		return (0);
-	return (1 + count_nodes(n->left) + count_nodes(n->right));
+
+	int local_size = 1 + count_nodes(n->left, half_tree_size, answer_found) \
+						+ count_nodes(n->right, half_tree_size, answer_found);
+	if (local_size == *half_tree_size)
+		*answer_found = 1;
+	return (local_size);
 }
 
 int	can_split(struct s_node *n)
 {
-	return (count_nodes(n) % 2 == 0);
+	int tree_size = -1;
+	int answer_found = 0;
+	tree_size = count_nodes(n, &tree_size, &answer_found);
+	if (tree_size % 2 == 1)
+		return (0);
+
+	tree_size /= 2;
+	count_nodes(n, &tree_size, &answer_found);
+
+	return (answer_found);
 }
 
 //--------------------------------------------------------------
 // #include <stdio.h>
 // #define NODE(value, left, right) &(struct s_node){value, left, right}
-
-// int	print_in_order(struct s_node *node)
-// {
-// 	if (!node)
-// 		return (0);
-
-// 	if (node->left)
-// 		print_in_order(node->left);
-// 	printf("%d, ", node->value);
-// 	if (node->right)
-// 		print_in_order(node->right);
-// 	return (1);
-// }
 
 // int	main(void)
 // {
@@ -47,10 +48,9 @@ int	can_split(struct s_node *n)
 // 	//       / \         \
 // 	//      /   \         \
 // 	//     7   13          7
-// 	//    /                 \
-// 	//   /                   \
-// 	//  8                     6
-// 	// Longest sequence: 3 (6 -> 7 -> 8)
+// 	//    /                 
+// 	//   /                   
+// 	//  8                     
 
 // 	struct s_node *root1 = NODE(
 // 		10,
@@ -72,12 +72,21 @@ int	can_split(struct s_node *n)
 // 				8,
 // 				NODE(
 // 					7,
-// 					NULL,//NODE(6, NULL, NULL),
-// 					NULL
+// 					0, //NODE(6, NULL, NULL),
+// 					0
 // 					),
 // 				NULL
 // 				),
 // 			NULL)
 // 		);
-// 	printf("%d\n", can_split(root1));
+// 	printf("Should be 0: %d\n", can_split(root1));
+
+// 	struct s_node *root2 = NODE(1, 0, 0);
+// 	printf("Should be 0: %d\n", can_split(root2));
+
+// 	struct s_node *root3 = NODE(1, NODE(2, 0, 0), 0);
+// 	printf("Should be 1: %d\n", can_split(root3));
+
+// 	struct s_node *root4 = 0;
+// 	printf("Should be 0: %d\n", can_split(root4));
 // }
