@@ -6,15 +6,15 @@ Questions? Requests? Reach me on Slack @evjohnst.
 Pull requests welcome!
 
 ## Sessions
-*6pm - 8pm on Mondays, room 115*
+*On hiatus until 2019.07.22 | 6pm - 8pm on Mondays, room 115*
 
-Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst, @cschulle, or @jadawson.
+Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
 [Code from most recent session (2019.05.27)](Session_Code/2019.05.27)
 
-#### Agenda for next session (2019.05.27)
+#### Agenda for next session (2019.07.22)
 
-* range_comb with @dfonarev
+Nothing yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
 ## Beginner Exam
 
@@ -112,11 +112,11 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 | [4-clone_list](Intermediate_Exam/level_4/4-clone_list)			| [:scroll:](Intermediate_Exam/level_4/4-clone_list/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-clone_list/clone_list.c) |
 | [4-intersection](Intermediate_Exam/level_4/4-intersection)		| [:scroll:](Intermediate_Exam/level_4/4-intersection/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-intersection/intersection.c) |
 | [4-longest_subarray](Intermediate_Exam/level_4/4-longest_subarray)| [:scroll:](Intermediate_Exam/level_4/4-longest_subarray/subject.en.txt)	| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-longest_subarray/longest_subarray.c) |
-| [4-range_comb](Intermediate_Exam/level_4/4-range_comb)			| [:scroll:](Intermediate_Exam/level_4/4-range_comb/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
+| [4-range_comb](Intermediate_Exam/level_4/4-range_comb)			| [:scroll:](Intermediate_Exam/level_4/4-range_comb/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-range_comb/range_comb.c) |
 | [4-volume_histogram](Intermediate_Exam/level_4/4-volume_histogram)| [:scroll:](Intermediate_Exam/level_4/4-volume_histogram/subject.en.txt)	| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_4/4-volume_histogram/volume_histogram.c) |
 | [5-count_island](Intermediate_Exam/level_5/5-count_island)		| [:scroll:](Intermediate_Exam/level_5/5-count_island/subject.en.txt)		| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_5/4-count_island/count_island.c) |
 | [5-g_diam](Intermediate_Exam/level_5/5-g_diam)					| [:scroll:](Intermediate_Exam/level_5/5-g_diam/subject.en.txt)				| :no_entry_sign:													| :no_entry_sign: |
-| [5-infin_add](Intermediate_Exam/level_5/5-infin_add)				| [:scroll:](Intermediate_Exam/level_5/5-infin_add/subject.en.txt)			| :no_entry_sign:													| :no_entry_sign: |
+| [5-infin_add](Intermediate_Exam/level_5/5-infin_add)				| [:scroll:](Intermediate_Exam/level_5/5-infin_add/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_5/4-infin_add/infin_add.c) |
 | [5-infin_mult](Intermediate_Exam/level_5/5-infin_mult)			| [:scroll:](Intermediate_Exam/level_5/5-infin_mult/subject.en.txt)			| :no_entry_sign:													| [:pencil:](Intermediate_Exam/level_5/4-infin_mult/infin_mult.c) |
 
 </details>

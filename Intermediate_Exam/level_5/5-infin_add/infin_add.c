@@ -57,7 +57,7 @@ void	biggest_first(char **big, char **small)
 int		check_negative(char **a, char **b)
 {
 	int ret = 0;
-	if ((**a == '-' && **b != '-') || (**a != '-' && **b =='-'))
+	if ((**a == '-' && **b != '-') || (**a != '-' && **b == '-'))
 		ret = 1;
 
 	if ((**a == '-' && **b == '-') || (**a == '-' && **b != '-'))
