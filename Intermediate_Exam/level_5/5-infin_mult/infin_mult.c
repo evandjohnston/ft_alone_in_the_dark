@@ -68,6 +68,9 @@ int		main(int ac, char **av)
 {
 	if (ac == 3)
 	{
+		char *a = av[1];
+		char *b = av[2];
+
 		if (*a == '0' || *b == '0')
 		{
 			write(1, "0\n", 2);
@@ -75,8 +78,6 @@ int		main(int ac, char **av)
 		}
 
 		// Print '-' if exactly one of the numbers is negative
-		char *a = av[1];
-		char *b = av[2];
 		if ((*a == '-' && *b != '-') || (*b == '-' && *a != '-'))
 			write(1, "-", 1);
 		if (*a == '-')
