@@ -1,4 +1,4 @@
-// This code has not passed Moulinette.
+// Passed Moulinette 2019.06.18
 
 #include <fcntl.h>
 #include <unistd.h>
@@ -7,18 +7,24 @@
 int	fill_arr(int fd, char arr[1024][1024])
 {
 	char buf[1025] = {[0 ... 1024] = '\0'};
-	int b = 0;
+	int b;
 	int	bytes_read = 0;
 	int row = 0;
 	int col = -1;
+	int line_len = 0;
 
 	while ((bytes_read = read(fd, buf, 1024)) > 0)
 	{
 		buf[bytes_read] = '\0';
+		b = 0;
 		while (buf[b] != '\0')
 		{
 			if (buf[b] == '\n')
 			{
+				if (line_len == 0)
+					line_len = col;
+				else if (line_len != col)
+					return (0);
 				arr[row][++col] = '\0';
 				row++;
 				col = -1;
