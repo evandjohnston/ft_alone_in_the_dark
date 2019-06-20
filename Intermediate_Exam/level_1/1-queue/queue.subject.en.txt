@@ -17,10 +17,10 @@ code:
 	};
 
 
-A queue uses FIFO (first-in fist-out) ordering :
-items are removed from the data structure in the same order that they are added.
+A queue uses FIFO (first-in fist-out) ordering:
+	Items are removed from the data structure in the same order that they are added.
 
-Implement 5 functions for the following queue operations :
+Implement 5 functions for the following queue operations:
 
 	- init() : Initialize the queue.
 	  The first and last pointers are set to NULL.

@@ -22,7 +22,7 @@ find an optimized solution which will run in O(n) time (where n is
 the length of the longest array between a and b).
 - All elements of an array are unique. The same number will not repeat in an array. 
 - If there is no doublon, just print a new line '\n'.
-- The bigger test we will run will be on 2 arrays of 500 000 elements each,
+- The largest test we will run will be on two arrays of 500,000 elements each,
 it should run in less than 2 seconds.
 
 Example 1:

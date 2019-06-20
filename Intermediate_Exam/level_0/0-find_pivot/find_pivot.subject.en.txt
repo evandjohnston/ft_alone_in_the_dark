@@ -24,7 +24,7 @@ length of the array).
 - The array will always have a length bigger than 1.
 - You don't have to take care of overflow or underflow of sums,
 it will stay in an range of an int.
-- The bigger test we will do is on an array of 1.000.000 elements.
+- The largest test we will run is on an array of 1.000.000 elements.
 It should run in less than 2 seconds.
  
 Example 1:

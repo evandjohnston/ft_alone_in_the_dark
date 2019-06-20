@@ -3,8 +3,8 @@ Expected files   : *.c, *.h
 Allowed functions: write, malloc, free
 --------------------------------------------------------------------------------
 
-Write a program that takes as a parameter two strings that represent two
-numbers potentially infinit, and displays on stdout the result of the
+Write a program that takes as parameters two strings that represent two
+numbers potentially infinite, and displays on stdout the result of the
 multiplication of these two numbers, followed by a '\n'.
 
 A negative number will always be prefixed by one and only one -. The only

@@ -1,0 +1,85 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r4p18.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jun 19 16:37:49 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst13
+
+= Git history ==================================================================
+$> git -C /var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user log --pretty='%H - %an, %ad : %s'
+8b9029fcb23f73115afb4f5f48f48a04ff4445a9 - Evan Johnston, Wed Jun 19 16:37:45 2019 -0700 : .
+a05eebb391614e4fa58c2fcdb44603596667a8b2 - Evan Johnston, Wed Jun 19 16:35:33 2019 -0700 : .
+c8111bd737b3793c17c92985161d5be99f8c0b5f - Evan Johnston, Wed Jun 19 16:33:19 2019 -0700 : .
+0edfe6e81e76a18fc57c1ccbf9c8086ab2d73653 - Evan Johnston, Wed Jun 19 16:30:52 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1029 Jun 19 16:37 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 count_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 gold_gain
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 print_doublon
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 str_maxlenoc
+
+/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/count_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  602 Jun 19 16:37 count_alpha.c
+
+/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/gold_gain:
+total 8
+-rw-r--r--  1 deepthought  deepthought  551 Jun 19 16:37 gold_gain.c
+
+/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/print_doublon:
+total 8
+-rw-r--r--  1 deepthought  deepthought  719 Jun 19 16:37 print_doublon.c
+
+/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/str_maxlenoc:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1604 Jun 19 16:37 str_maxlenoc.c
+ 
+= gold_gain ====================================================================
+$> gcc -Wextra -Wall -Werror gold_gain.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./kictmwtkg75i6g29vitxsg9u test_00.txt
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./mqi2e9sf67mlvx19sbzulmgu test_01.txt
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./xqjlb792bgxrof0eucs9mnq8 test_02.txt
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./rn017a5hgudkz9rq30kkuc3h test_03.txt
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./pvvexod3k2wu0v3024lusrbl test_04.txt
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

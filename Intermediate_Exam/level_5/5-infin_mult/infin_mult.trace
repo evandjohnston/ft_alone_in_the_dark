@@ -1,0 +1,107 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r1p8.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jun 19 16:47:09 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst13
+
+= Git history ==================================================================
+$> git -C /var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user log --pretty='%H - %an, %ad : %s'
+50894ece5de55f118cdab960ed3f0127eae8cc14 - Evan Johnston, Wed Jun 19 16:47:08 2019 -0700 : .
+0ee667905d07aaa45c5b72bf546543995073995b - Evan Johnston, Wed Jun 19 16:40:00 2019 -0700 : .
+8b9029fcb23f73115afb4f5f48f48a04ff4445a9 - Evan Johnston, Wed Jun 19 16:37:45 2019 -0700 : .
+a05eebb391614e4fa58c2fcdb44603596667a8b2 - Evan Johnston, Wed Jun 19 16:35:33 2019 -0700 : .
+c8111bd737b3793c17c92985161d5be99f8c0b5f - Evan Johnston, Wed Jun 19 16:33:19 2019 -0700 : .
+0edfe6e81e76a18fc57c1ccbf9c8086ab2d73653 - Evan Johnston, Wed Jun 19 16:30:52 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1555 Jun 19 16:47 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:47 count_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:47 gold_gain
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:47 infin_mult
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:47 longest_subarray
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:47 print_doublon
+drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:47 str_maxlenoc
+
+/var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user/count_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  602 Jun 19 16:47 count_alpha.c
+
+/var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user/gold_gain:
+total 8
+-rw-r--r--  1 deepthought  deepthought  551 Jun 19 16:47 gold_gain.c
+
+/var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user/infin_mult:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1753 Jun 19 16:47 infin_mult.c
+
+/var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user/longest_subarray:
+total 16
+-rw-r--r--  1 deepthought  deepthought  6581 Jun 19 16:47 longest_subarray.c
+
+/var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user/print_doublon:
+total 8
+-rw-r--r--  1 deepthought  deepthought  719 Jun 19 16:47 print_doublon.c
+
+/var/folders/s0/_77c0yl50n14jzvbszw1j_340000gp/T/tmpFClD5A/user/str_maxlenoc:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1604 Jun 19 16:47 str_maxlenoc.c
+ 
+= infin_mult ===================================================================
+$> gcc -Wextra -Wall -Werror infin_mult.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./uo9yaha5ekh4iaehyad3edth "0" "0"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./i25d17jjo59hx65q2nbd19b4 "1" "0"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./gvlqaxn582448n2fz7fbrxis "0" "-2"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./aj9kw9q2sp056d71ch12ybf2 "21" "42"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./bgxg2qvgkhksv6251wrzdvgj "4894398524132130" "5906754239"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./cueogtrovwepv1ew5d8jvmq8 "-449540951245" "1320806146"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./5qy0osvp33z2pvfbu3wkuhz0 "-395450348096354305805" "-653092"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

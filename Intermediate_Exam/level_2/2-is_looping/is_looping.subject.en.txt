@@ -22,13 +22,10 @@ int	is_looping(struct s_node *node);
 
 Considerations:
 
-- Be careful: the naive solution won't work on our big input, you have to
+- Be careful: the naive solution won't work on our largest input, you have to
 find a solution with better complexity than O(N^2) time (where N is the
 number of nodes).
 - The values of each node does not matter.
-- The bigger test we will do is on a linked list of 500.000 nodes, with the
-beginning of the loop at the middle. It should run in less than 2 seconds.
-
 
 Example 1:
 
@@ -66,3 +63,5 @@ Example 4:
             \/
 
 In this case, it should return 1 (the loop begins at node 14).
+
+The list may not be modified.

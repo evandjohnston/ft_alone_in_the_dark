@@ -6,8 +6,8 @@ Allowed functions:
 ALERT: OPTIMIZED SOLUTION REQUIRED.
 
 Given the root node of a binary tree, create a function that returns 1 if, by
-removing one edge of the tree, it can be splitted in two trees with the same
-number of nodes (same 'size'). 
+removing one edge of the tree, it can be split into two trees with the same
+number of nodes (i.e with the same 'size'). 
 
 The binary tree uses the following node structure :
 
@@ -26,7 +26,7 @@ Consideration:
 
 - Be careful: the naive solution won't work on our big input, you have to find
 an optimized solution which will run in O(N) time (where N is the number of nodes).
-- The bigger test we will do is about 250 000 nodes. It should run in less
+- The largest test we wil run is about 250 000 nodes. It should run in less
 than 2 seconds.
 
 Example 1:
@@ -72,7 +72,7 @@ Example 4:
    5
   / \
  /   \
-1     6
+1     6    
     /  \
    7    4
  /  \    \

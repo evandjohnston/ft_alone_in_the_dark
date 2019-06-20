@@ -5,7 +5,7 @@ Allowed functions: malloc
 
 ALERT: OPTIMIZED SOLUTION REQUIRED.
 
-Given a matrix which represent a gold mine of n*n dimensions.
+Given a matrix which represents a gold mine of n*n dimensions.
 Each field in this mine contains a positive integer which is the
 amount of gold in tons.
 
@@ -25,8 +25,8 @@ Considerations:
 
 - Be careful: the brute force solution won't work on our big input, you have to
 find an optimized solution which use dynamic programming.
-- You don't have to handle error case, the matrix will be always squared.
-- The bigger test we will do is on matrix of 1 000 * 1 000,
+- You don't have to handle error case, the matrix will be always square.
+- The largest test we will run is a matrix of 1000 by 1000.
 it should run in less than 2 seconds.
 
 Example 1:

@@ -1,0 +1,108 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r9p28.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jun 19 18:34:40 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190620/evjohnst
+
+= Git history ==================================================================
+$> git -C /var/folders/2t/y2dmv8yn47bb99lp1s31cpk40000gp/T/tmpwDG5yv/user log --pretty='%H - %an, %ad : %s'
+cf2a8d79424bdb28ff0321db43e787cac6901720 - Evan Johnston, Wed Jun 19 18:34:38 2019 -0700 : .
+9a5656ef6001d6831cebec7c78fee6f803e8ebf2 - Evan Johnston, Wed Jun 19 18:04:57 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/2t/y2dmv8yn47bb99lp1s31cpk40000gp/T/tmpwDG5yv/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  495 Jun 19 18:34 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 18:34 flood_fill
+drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 18:34 is_anagram
+
+/var/folders/2t/y2dmv8yn47bb99lp1s31cpk40000gp/T/tmpwDG5yv/user/flood_fill:
+total 8
+-rw-r--r--  1 deepthought  deepthought  712 Jun 19 18:34 flood_fill.c
+
+/var/folders/2t/y2dmv8yn47bb99lp1s31cpk40000gp/T/tmpwDG5yv/user/is_anagram:
+total 8
+-rw-r--r--  1 deepthought  deepthought  780 Jun 19 18:34 is_anagram.c
+ 
+= flood_fill ===================================================================
+$> gcc -Wextra -Wall -Werror flood_fill.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./ckfl4k3hs4b07g2kqh1tjdme test1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./pp4wora7o32n15iqw62yd5wk test2
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./5ndzvvu78y300qi6fgg01lgn test3
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./nvmwnn84pc2e838rbvq3gcsn test4
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./fj1kqt6f22sbv187knd6wwb3 test5
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./v8os8z1fmjrhpwley9r0htbk test6
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./cwzt46mpu4g7vs8ej1kjs4jt test7
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./w7fxtyqrjgexnvx46osgg15e test8
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./ispwd8s4jtq0cdeni12mbsbp test9
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./4zyl5qbetlrexg7isdymns4z test10
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./luwoxue9pjd4z58eh512ufyj test11
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./hwevnzifsillzcg9vxjvbjs4 test12
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

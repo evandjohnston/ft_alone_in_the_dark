@@ -1,0 +1,87 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r6p15.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Wed Jun 19 15:05:48 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst10
+
+= Git history ==================================================================
+$> git -C /var/folders/p7/nrk0npln3wz1cjx1tnk1d2bc0000gp/T/tmpf0igVi/user log --pretty='%H - %an, %ad : %s'
+1124ffcc49d301414128289a6c053abc77836ddc - Evan Johnston, Wed Jun 19 15:05:42 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/p7/nrk0npln3wz1cjx1tnk1d2bc0000gp/T/tmpf0igVi/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  262 Jun 19 15:05 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:05 find_pivot
+
+/var/folders/p7/nrk0npln3wz1cjx1tnk1d2bc0000gp/T/tmpf0igVi/user/find_pivot:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1585 Jun 19 15:05 find_pivot.c
+ 
+= find_pivot ===================================================================
+$> gcc -Wextra -Wall -Werror find_pivot.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./zalg6smrm0xzyp0jxe4m326f test_00.txt
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ruloixjye6jmcwb7txhh6slg test_01.txt
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./05jf78hqdz9avztxy0zwqaf3 test_02.txt
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./uetlab4i5c0yagmengyq7myy test_03.txt
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./rbq8eqiswak4n29w2l56n0hd test_04.txt
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./rgnvljrz3hjbd0hw2ofnvcrb test_05.txt
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./wxgut4jmgw7zoafvjbbvxje5 test_06.txt
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./91j3jcsdfuiovxs0pbj8d5ay test_07.txt
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./2l67ds94xc39xeydz6gr3wp0 test_08.txt
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

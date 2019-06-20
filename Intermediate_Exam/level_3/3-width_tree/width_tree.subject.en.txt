@@ -80,10 +80,13 @@ Example 4:
  12   9       
      /     
     3  
+
 In this case, your function should return 4.
 
 Example 5:
 
   10
+
 (here is a root with no children)
+
 In this case, your function should return 1.

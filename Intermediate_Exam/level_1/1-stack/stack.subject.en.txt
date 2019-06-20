@@ -16,10 +16,10 @@ code:
 	};
 
 
-A stack uses LIFO (last-in fist-out) ordering :
-the most recent item added to the stack is the first item to be removed.
+A stack uses LIFO (last-in, first-out) ordering:
+	The most recent item added to the stack is the first item to be removed.
 
-Implement 5 functions for the following stack operations :
+Implement 5 functions for the following stack operations:
 
 	- init() : Initialize the stack.
 	  The top pointer is set to NULL.
