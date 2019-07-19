@@ -6,7 +6,7 @@ Questions? Requests? Reach me on Slack @evjohnst.
 Pull requests welcome!
 
 ## Sessions
-*On hiatus until 2019.07.22 | 6pm - 8pm on Mondays, room 115*
+*6pm - 8pm on Mondays, room 115*
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
@@ -14,7 +14,9 @@ Each Monday we discuss problems from the exams with an emphasis on conceptual un
 
 #### Agenda for next session (2019.07.22)
 
-Nothing yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
+* B2: camel_to_snake
+* B5: brainfuck
+* I5: g_diam
 
 ## Beginner Exam
 
@@ -61,7 +63,6 @@ Subjects covered include string manipulation, bitwise operations, memory allocat
 | [3-rstr_capitalizer](Beginner_Exam/level_3/3-rstr_capitalizer)   | [:scroll:](Beginner_Exam/level_3/3-rstr_capitalizer/subject.en.txt)  | :no_entry_sign:                                            | :no_entry_sign:           |
 | [3-str_capitalizer](Beginner_Exam/level_3/3-str_capitalizer)     | [:scroll:](Beginner_Exam/level_3/3-str_capitalizer/subject.en.txt)   | :no_entry_sign:                                            | :no_entry_sign:           |
 | [3-tab_mult](Beginner_Exam/level_3/3-tab_mult)                   | [:scroll:](Beginner_Exam/level_3/3-tab_mult/subject.en.txt)          | :no_entry_sign:                                            | :no_entry_sign:           |
-| [4-check_mate](Beginner_Exam/level_4/4-check_mate)               | [:scroll:](Beginner_Exam/level_4/4-check_mate/subject.en.txt)        | [:green_book:](Beginner_Exam/level_4/4-check_mate/README.md) | [:pencil:](Beginner_Exam/level_4/4-check_mate/check_mate.c) |
 | [4-flood_fill](Beginner_Exam/level_4/4-flood_fill)               | [:scroll:](Beginner_Exam/level_4/4-flood_fill/subject.en.txt)        | [:green_book:](Beginner_Exam/level_4/4-flood_fill/README.md) | [:pencil:](Beginner_Exam/level_4/4-flood_fill/flood_fill.c) |
 | [4-ft_list_foreach](Beginner_Exam/level_4/4-ft_list_foreach)     | [:scroll:](Beginner_Exam/level_4/4-ft_list_foreach/subject.en.txt)   | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-ft_list_remove_if](Beginner_Exam/level_4/4-ft_list_remove_if) | [:scroll:](Beginner_Exam/level_4/4-ft_list_remove_if/subject.en.txt) | :no_entry_sign:                                            | :no_entry_sign:           |
@@ -70,6 +71,8 @@ Subjects covered include string manipulation, bitwise operations, memory allocat
 | [4-sort_int_tab](Beginner_Exam/level_4/4-sort_int_tab)           | [:scroll:](Beginner_Exam/level_4/4-sort_int_tab/subject.en.txt)      | :no_entry_sign:                                            | :no_entry_sign:           |
 | [4-sort_list](Beginner_Exam/level_4/4-sort_list)                 | [:scroll:](Beginner_Exam/level_4/4-sort_list/subject.en.txt)         | :no_entry_sign:                                            | :no_entry_sign:           |
 | [5-brackets](Beginner_Exam/level_5/5-brackets)                   | [:scroll:](Beginner_Exam/level_5/5-brackets/subject.en.txt)          | [:green_book:](Beginner_Exam/level_5/5-brackets/README.md) | [:pencil:](Beginner_Exam/level_5/5-brackets/brackets.c) |
+| [5-brainfuck](Beginner_Exam/level_5/5-brainfuck)                 | [:scroll:](Beginner_Exam/level_5/5-brainfuck/brainfuck.subject.en.txt) | [:green_book:](Beginner_Exam/level_5/5-brainfuck/README.md) | [:pencil:](Beginner_Exam/level_5/5-brainfuck/brainfuck.c) |
+| [5-check_mate](Beginner_Exam/level_5/5-check_mate)               | [:scroll:](Beginner_Exam/level_5/5-check_mate/subject.en.txt)        | [:green_book:](Beginner_Exam/level_5/5-check_mate/README.md) | [:pencil:](Beginner_Exam/level_5/5-check_mate/check_mate.c) |
 | [5-ft_itoa_base](Beginner_Exam/level_5/5-ft_itoa_base)           | [:scroll:](Beginner_Exam/level_5/5-ft_itoa_base/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-ft_itoa_base/README.md) | [:pencil:](Beginner_Exam/level_5/5-ft_itoa_base/ft_itoa_base.c) |
 | [5-options](Beginner_Exam/level_5/5-options)                     | [:scroll:](Beginner_Exam/level_5/5-options/subject.en.txt)           | :no_entry_sign:                                            | [:pencil:](Beginner_Exam/level_5/5-options/options.c) |
 | [5-print_memory](Beginner_Exam/level_5/5-print_memory)           | [:scroll:](Beginner_Exam/level_5/5-print_memory/subject.en.txt)      | [:green_book:](Beginner_Exam/level_5/5-print_memory/README.md) | [:pencil:](Beginner_Exam/level_5/5-print_memory/print_memory.c) |
@@ -129,7 +132,7 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 	<summary>Problem Changelog (Updates live on 2019.06.17; changelog published 2019.06.19)</summary>
 
 | Problem			| Changes |
-| --------------- | :----- |
+| ----------------- | :------ |
 | 0-count_of_2		| Subject updated with typo fixes. |
 | 0-find_pivot		| Subject updated with typo fixes. |
 | 0-print_doublon	| Subject updated with typo fixes. |

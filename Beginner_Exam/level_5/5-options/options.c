@@ -1,23 +1,34 @@
+// Passed Moulinette 2019.06.29
+
 #include <unistd.h>
 
-int options(char *str, char *out)
+void	ft_putnbr(int n)
 {
-	if (str[0] != '-')
-		return (-1);
+	if (n >= 10)
+		ft_putnbr(n / 10);
+	char c = (n % 10) + '0';
+	write(1, &c, 1);
+}
+
+int		options(char *str, int flags)
+{
 	int i = 1;
+	int bitflag;
+
 	while (str[i])
 	{
 		if (str[i] < 'a' || str[i] > 'z')
 			return (-1);
 		else if (str[i] == 'h')
-			return (1);
-		out[31 - (str[i] - 'a')] = '1';
+			return (-2);
+		bitflag = 1 << (str[i] - 'a');
+		flags = flags | bitflag;
 		++i;
 	}
-	return (0);
+	return (flags);
 }
 
-int	main(int ac, char **av)
+int		main(int ac, char **av)
 {
 	if (ac == 1)
 	{
@@ -26,29 +37,22 @@ int	main(int ac, char **av)
 	}
 
 	int i = 1;
-	int result;
-	char out[] = "00000000000000000000000000000000\n";
+	int flags = 0;
+
 	while (i < ac)
 	{
-		if (result = options(av[i], out))
+		if (av[i][0] == '-' && (flags = options(av[i], flags)) < 0)
 		{
-			if (result == -1)
+			if (flags == -1)
 				write(1, "Invalid Option\n", 15);
-			else if (result == 1)
+			else if (flags == -2)
 				write(1, "options: abcdefghijklmnopqrstuvwxyz\n", 36);
 			return (0);
 		}
 		++i;
 	}
 
-	i = 0;
-	while (out[i])
-	{
-		write(1, out + i, 1);
-		++i;
-		if (i % 8 == 0 && i < 32)
-			write(1, " ", 1);
-	}
-
+	ft_putnbr(flags);
+	write(1, "\n", 1);
 	return (0);
 }
