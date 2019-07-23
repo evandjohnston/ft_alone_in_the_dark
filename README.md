@@ -10,13 +10,11 @@ Pull requests welcome!
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
-[Code from most recent session (2019.05.27)](Session_Code/2019.05.27)
+[Code from most recent session (2019.07.22)](Session_Code/2019.07.22)
 
 #### Agenda for next session (2019.07.22)
 
-* B2: camel_to_snake
-* B5: brainfuck
-* I5: g_diam
+None yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
 ## Beginner Exam
 

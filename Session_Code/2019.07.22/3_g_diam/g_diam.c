@@ -1,0 +1,1 @@
+// Diagrammed on whiteboard; for code see g_diam_correct.c
