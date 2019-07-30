@@ -33,7 +33,7 @@ void	*intersection(struct s_node *lst1, struct s_node *lst2)
 
 // struct s_node *create_node(void)
 // {
-// 	struct s_node *cur = malloc(sizeof(struct s_node *));
+// 	struct s_node *cur = malloc(sizeof(struct s_node));
 // 	cur->next = 0;
 // 	cur->content = 0;
 // 	return (cur);

@@ -14,7 +14,7 @@
 
 struct s_queue *init(void)
 {
-	struct s_queue *queue = malloc(sizeof(struct s_queue *));
+	struct s_queue *queue = malloc(sizeof(struct s_queue));
 	queue->first = NULL;
 	queue->last = NULL;
 	return(queue);
@@ -70,7 +70,7 @@ int isEmpty(struct s_queue *queue)
 // 	char a[] = "Apples"; (void)a;
 // 	char b[] = "Banananananas"; (void)b;
 // 	char c[] = "Charlemagne"; (void)c;
-// 	char d[] = "dddddddicks"; (void)d;
+// 	char d[] = "ddddduodenum"; (void)d;
 
 // 	struct s_queue *queue = init();
 // 	printf("isEmpty A: %d\n", isEmpty(queue));
