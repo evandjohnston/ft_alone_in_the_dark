@@ -14,7 +14,10 @@ Each Monday we discuss problems from the exams with an emphasis on conceptual un
 
 #### Agenda for next session (2019.08.05)
 
-* Intermediate 5: range_comb
+* Beginner 3: lcm [least common multiple]
+* Beginner 4: ft_list_foreach
+* Beginner 4: flood_fill
+* Intermediate 4: range_comb
 
 ## Beginner Exam
 
