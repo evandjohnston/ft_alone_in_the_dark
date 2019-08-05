@@ -1,122 +1,124 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r1p3.42.us.org
-Darwin 17.5.0 x86_64
+e1z3r3p22.42.us.org
+Darwin 17.4.0 x86_64
 $> date
-Tue Jun 18 21:24:58 PDT 2019
+Thu Aug  1 21:09:16 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst7
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst4
 
 = Git history ==================================================================
-$> git -C /var/folders/4s/24p_1t_56s16wj0xn6_3xs900000gp/T/tmpHJDU9J/user log --pretty='%H - %an, %ad : %s'
-473fb33415b37efed69876317cb7d7012984f783 - Evan Johnston, Tue Jun 18 21:24:57 2019 -0700 : .
-ea104b9b1680e25d553800709e0909d41485ac7f - Evan Johnston, Tue Jun 18 21:22:45 2019 -0700 : .
-69d718d540dc1bce5638fc91b4c8fedae1dc2517 - Evan Johnston, Tue Jun 18 21:20:33 2019 -0700 : .
-34ba2861e59c19810172d5a48564e6a071ba9671 - Evan Johnston, Tue Jun 18 21:18:20 2019 -0700 : .
+$> git -C /var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmp4pG1A6/user log --pretty='%H - %an, %ad : %s'
+13b97faf8969e3b794033b39c0340399a4fa2e5a - Evan Johnston, Thu Aug 1 21:07:23 2019 -0700 : .
+16dc5529c39cb76414cf7b5a293fc2e72f48f658 - Evan Johnston, Thu Aug 1 21:07:21 2019 -0700 : .
+7496f49c03bf22045e23b87dc13c2f687b541d59 - Evan Johnston, Thu Aug 1 21:05:21 2019 -0700 : .
+e5601296f75ec5111c4120ccdf3696b5413afddb - Evan Johnston, Thu Aug 1 21:05:19 2019 -0700 : .
+e3627948bd8192a3b3847756ada1d5333398c646 - Evan Johnston, Thu Aug 1 21:03:19 2019 -0700 : .
+1cdba91b96994561ba0fc89ef218df6010b6801e - Evan Johnston, Thu Aug 1 21:03:05 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/4s/24p_1t_56s16wj0xn6_3xs900000gp/T/tmpHJDU9J/user
+$> ls -lAR /var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmp4pG1A6/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1048 Jun 18 21:25 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 18 21:25 can_split
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 18 21:25 count_alpha
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 18 21:25 find_pivot
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 18 21:25 reverse_tree
+-rw-r--r--  1 deepthought  deepthought  1449 Aug  1 21:09 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 21:09 can_split
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 21:09 count_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 21:09 is_anagram
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 21:09 reverse_tree
 
-/var/folders/4s/24p_1t_56s16wj0xn6_3xs900000gp/T/tmpHJDU9J/user/can_split:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmp4pG1A6/user/can_split:
 total 8
--rw-r--r--  1 deepthought  deepthought  1945 Jun 18 21:25 can_split.c
+-rw-r--r--  1 deepthought  deepthought  1945 Aug  1 21:09 can_split.c
 
-/var/folders/4s/24p_1t_56s16wj0xn6_3xs900000gp/T/tmpHJDU9J/user/count_alpha:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmp4pG1A6/user/count_alpha:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Jun 18 21:25 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  602 Aug  1 21:09 count_alpha.c
 
-/var/folders/4s/24p_1t_56s16wj0xn6_3xs900000gp/T/tmpHJDU9J/user/find_pivot:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmp4pG1A6/user/is_anagram:
 total 8
--rw-r--r--  1 deepthought  deepthought  1585 Jun 18 21:25 find_pivot.c
+-rw-r--r--  1 deepthought  deepthought  777 Aug  1 21:09 is_anagram.c
 
-/var/folders/4s/24p_1t_56s16wj0xn6_3xs900000gp/T/tmpHJDU9J/user/reverse_tree:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmp4pG1A6/user/reverse_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  1650 Jun 18 21:25 reverse_tree.c
+-rw-r--r--  1 deepthought  deepthought  1641 Aug  1 21:09 reverse_tree.c
  
 = can_split ====================================================================
 $> gcc -Wextra -Wall -Werror can_split.c main.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./41me2e0aw36151vkr9ca9dlg NNENNEENN
+$> ./5vs3ycvmno5r6pglwrr8cww5 NNENNEENN
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./1yuxriuqabwsswl347xmh3ul NNN
+$> ./1xlrct2fcxc4d4rjb4t2dx8u NNN
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./57h3fdrngjimd9o7kkp7x1xo NNNNEN
+$> ./to4p600jn4naugyf88ce3ofb NNNNEN
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./mmdikj4vq0b8rvtim844oqay NEN
+$> ./zdd8lolh8nf208obpuu70lut NEN
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./herj1o6ijkfu2vs26vfl6u7c N
+$> ./sfx97eoj06htzaial0fk0lvh N
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./0c3y9o468zkc6hxx0k8nfzhu E
+$> ./pjm6etoelrn2mahr1uzsb385 E
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./13jagaxzjtqclzr2asczmp7g NNNEENNEEEENNEN
+$> ./phil07ud5tz5b64goyiwtp59 NNNEENNEEEENNEN
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./yea2nmeap4gn2fg1ozgh5iud NNNEENNEEEENNENEEEEEEEENN
+$> ./g3ofdhicb2notq9y6o2sgg0e NNNEENNEEEENNENEEEEEEEENN
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D
 = Test 9 ===================================================
-$> ./ne83jlc0hd0dqb4tsl1kii7z NENEEENEEEEEEEN
+$> ./e86cxu78aj40vwlil5almt13 NENEEENEEEEEEEN
 $> diff -U 3 user_output_test9 test9.output | cat -e
 
 Diff OK :D
 = Test 10 ==================================================
-$> ./9yy7fc1td8mcwgxhr2f3q2hr 13 4
+$> ./8tinr34xxiie50ybkrndpebr 13 4
 $> diff -U 3 user_output_test10 test10.output | cat -e
 
 Diff OK :D
 = Test 11 ==================================================
-$> ./l6wmlpdaqz8n4yje5jhuykj7 1000 4
+$> ./ruj1obyi3mzaquyw0g6eblkd 1000 4
 $> diff -U 3 user_output_test11 test11.output | cat -e
 
 Diff OK :D
 = Test 12 ==================================================
-$> ./pxskq6g7kicjf3nvvs6a8c48 250000 90
+$> ./xbx1mm76vh51olf3v2bf3lxp 250000 90
 $> diff -U 3 user_output_test12 test12.output | cat -e
 
 Diff OK :D
 = Test 13 ==================================================
-$> ./z7v7lwyd15pecf5ollx8ada0 10001 29 1
+$> ./fnhps2gbemkyaios9o0o8lli 10001 29 1
 $> diff -U 3 user_output_test13 test13.output | cat -e
 
 Diff OK :D

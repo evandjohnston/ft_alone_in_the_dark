@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.05.27
+// Passed Moulinette 2019.08.01
 
 int		min_two(int a, int b)
 {

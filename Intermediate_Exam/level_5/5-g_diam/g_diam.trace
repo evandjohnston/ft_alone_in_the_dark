@@ -1,99 +1,103 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r7p27.42.us.org
-Darwin 17.4.0 x86_64
+e1z1r6p40.42.us.org
+Darwin 17.5.0 x86_64
 $> date
-Wed Jun 19 20:30:16 PDT 2019
+Thu Aug  1 17:11:18 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190620/evjohnst2
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst
 
 = Git history ==================================================================
-$> git -C /var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user log --pretty='%H - %an, %ad : %s'
-535c6913ca6b9c072b4f5069f311e053df53bf78 - Evan Johnston, Wed Jun 19 20:30:14 2019 -0700 : .
-2ce7ed58e6017dff91ece7d503e10a32a63c4501 - Evan Johnston, Wed Jun 19 19:19:32 2019 -0700 : .
-76742566a4d76b999d189bb4b7202b1e341bec78 - Evan Johnston, Wed Jun 19 19:14:28 2019 -0700 : .
-1d97a4b5831aa01f1b39efcec0fad44b10a99730 - Evan Johnston, Wed Jun 19 18:58:42 2019 -0700 : .
-1fc1ee98635770f9bda74cd3abcbc3d383c5eaf3 - Evan Johnston, Wed Jun 19 18:57:56 2019 -0700 : .
-4fa0f33d40520632cd24b48f9a0881140a377fbf - Evan Johnston, Wed Jun 19 18:55:30 2019 -0700 : .
+$> git -C /var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user log --pretty='%H - %an, %ad : %s'
+2e069de1ba847792820f2e1df1143409e6c11756 - Evan Johnston, Thu Aug 1 17:09:38 2019 -0700 : .
+e05180a210ba02b069275f7120672cb8e7e66644 - Evan Johnston, Thu Aug 1 17:09:37 2019 -0700 : .
+41d41af1096c650f7d044ab257bbfbd23258df24 - Evan Johnston, Thu Aug 1 17:07:27 2019 -0700 : .
+8793a9603440b3e1dfce424a2a174c60c4acb4ce - Evan Johnston, Thu Aug 1 17:07:25 2019 -0700 : .
+031aa26aafcc2eba76b475fd6e49b10e6c5e0648 - Evan Johnston, Thu Aug 1 17:05:28 2019 -0700 : .
+774e8fb8f8dc1e0c69b6779e24971e882b8753c8 - Evan Johnston, Thu Aug 1 17:05:27 2019 -0700 : .
+38e28f534e11e0b816083db9e34a941863e35b2a - Evan Johnston, Thu Aug 1 17:03:22 2019 -0700 : .
+d977d957fa7bdea20b256fa13117fef8326ccb8c - Evan Johnston, Thu Aug 1 17:01:21 2019 -0700 : .
+96fa3f587c136b91f0e62c3c0c46b62c739f4f42 - Evan Johnston, Thu Aug 1 17:01:20 2019 -0700 : .
+f4efe9509074c38434cbe4e07a134cb2a7737915 - Evan Johnston, Thu Aug 1 17:01:07 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user
+$> ls -lAR /var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1575 Jun 19 20:30 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 20:30 clone_list
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 20:30 convert_bst
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 20:30 count_alpha
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 20:30 g_diam
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 20:30 print_doublon
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 20:30 reverse_tree
+-rw-r--r--  1 deepthought  deepthought  2410 Aug  1 17:11 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 can_split
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 g_diam
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 height_tree
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 is_anagram
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 longest_subarray
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 ord_alphlong
 
-/var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user/clone_list:
+/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/can_split:
 total 8
--rw-r--r--  1 deepthought  deepthought  2241 Jun 19 20:30 clone_list.c
+-rw-r--r--  1 deepthought  deepthought  1945 Aug  1 17:11 can_split.c
 
-/var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user/convert_bst:
+/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/g_diam:
 total 8
--rw-r--r--  1 deepthought  deepthought  1659 Jun 19 20:30 convert_bst.c
+-rw-r--r--  1 deepthought  deepthought  1877 Aug  1 17:11 g_diam.c
 
-/var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user/count_alpha:
+/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/height_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Jun 19 20:30 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  1851 Aug  1 17:11 height_tree.c
 
-/var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user/g_diam:
+/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/is_anagram:
 total 8
--rw-r--r--  1 deepthought  deepthought  1884 Jun 19 20:30 g_diam.c
+-rw-r--r--  1 deepthought  deepthought  777 Aug  1 17:11 is_anagram.c
 
-/var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user/print_doublon:
-total 8
--rw-r--r--  1 deepthought  deepthought  719 Jun 19 20:30 print_doublon.c
+/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/longest_subarray:
+total 16
+-rw-r--r--  1 deepthought  deepthought  6581 Aug  1 17:11 longest_subarray.c
 
-/var/folders/_v/_7m0jqg159j0p55h2lpw933r0000gp/T/tmp_vF1I0/user/reverse_tree:
+/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/ord_alphlong:
 total 8
--rw-r--r--  1 deepthought  deepthought  1650 Jun 19 20:30 reverse_tree.c
+-rw-r--r--  1 deepthought  deepthought  2201 Aug  1 17:11 ord_alphlong.c
  
 = g_diam =======================================================================
 $> gcc -Wextra -Wall -Werror g_diam.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./f52ujeop4jxkc8xawygu8g32 "9-23 9-2122 2122-23 2122-24 31-2122 31-41 71-31 8-71 42-71"
+$> ./k4nxw117be3dk6y8nuwgsijv "9-23 9-2122 2122-23 2122-24 31-2122 31-41 71-31 8-71 42-71"
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./86mmta2jk24l8p1imm7pipvw "5-56 9-56 7-9 49-9 49-36 7-36 21-7 21-17"
+$> ./ppljo3xs79a3hpyc5w0rpyuh "5-56 9-56 7-9 49-9 49-36 7-36 21-7 21-17"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./0g4mfk80deo50xcj1h1k28o6 "0-4 0-3 0-1 0-2 1-2 1-0 1-4 1-5 2-4 3-2 3-4 3-0 3-1 4-0 4-1 4-5 4-2 5-4 5-3 5-1 5-0"
+$> ./1yna6lrxw8vwrlwq94gjqbak "0-4 0-3 0-1 0-2 1-2 1-0 1-4 1-5 2-4 3-2 3-4 3-0 3-1 4-0 4-1 4-5 4-2 5-4 5-3 5-1 5-0"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./kg6kh0zr1azm9u287kna5zc4 "0-2 0-3 0-1 1-3 1-2 2-3 3-1 3-0"
+$> ./vcv7269hewqvloo2j8760d8b "0-2 0-3 0-1 1-3 1-2 2-3 3-1 3-0"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./pw3xdgxukpvzsgrg8lccbx9j "0-2 0-1 1-3 1-4 1-5 1-2 2-6 2-1 3-2 3-7 3-6 3-1 4-1 4-7 4-6 5-6 5-2 6-5 6-7 6-4 6-3 6-1 6-0 6-2 7-1 7-5 7-3"
+$> ./g0rrzlf25dcb4osz9yq3k4io "0-2 0-1 1-3 1-4 1-5 1-2 2-6 2-1 3-2 3-7 3-6 3-1 4-1 4-7 4-6 5-6 5-2 6-5 6-7 6-4 6-3 6-1 6-0 6-2 7-1 7-5 7-3"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./rnc71wobzuw45bzdo0t6d8sw "0-2 0-1 1-3 1-6 1-0 1-5 2-5 2-6 3-6 3-4 3-5 3-0 3-1 3-2 4-6 5-4 5-2 5-0 5-3 5-6 6-0"
+$> ./fa1sk947smyikccgxziotvwt "0-2 0-1 1-3 1-6 1-0 1-5 2-5 2-6 3-6 3-4 3-5 3-0 3-1 3-2 4-6 5-4 5-2 5-0 5-3 5-6 6-0"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D

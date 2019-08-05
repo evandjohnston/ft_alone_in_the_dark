@@ -1,145 +1,146 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r1p1.42.us.org
-Darwin 17.5.0 x86_64
+e1z2r5p11.42.us.org
+Darwin 17.4.0 x86_64
 $> date
-Tue Jun 18 20:47:07 PDT 2019
+Thu Aug  1 17:03:10 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst6
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst
 
 = Git history ==================================================================
-$> git -C /var/folders/pf/dhn08h216t3c6r4knwvl0__h0000gp/T/tmptfRrYu/user log --pretty='%H - %an, %ad : %s'
-75a3b19f0ef77f59aafff1e79eeab4ae922fd46b - Evan Johnston, Tue Jun 18 20:47:05 2019 -0700 : .
-6af679b807317a45c715ca5508f8161e710f29e1 - Evan Johnston, Tue Jun 18 20:44:53 2019 -0700 : .
+$> git -C /var/folders/bh/rkk90l6n00z9sr_2p6xs8n1w0000gp/T/tmpggKhdE/user log --pretty='%H - %an, %ad : %s'
+d977d957fa7bdea20b256fa13117fef8326ccb8c - Evan Johnston, Thu Aug 1 17:01:21 2019 -0700 : .
+96fa3f587c136b91f0e62c3c0c46b62c739f4f42 - Evan Johnston, Thu Aug 1 17:01:20 2019 -0700 : .
+f4efe9509074c38434cbe4e07a134cb2a7737915 - Evan Johnston, Thu Aug 1 17:01:07 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/pf/dhn08h216t3c6r4knwvl0__h0000gp/T/tmptfRrYu/user
+$> ls -lAR /var/folders/bh/rkk90l6n00z9sr_2p6xs8n1w0000gp/T/tmpggKhdE/user
 total 8
--rw-r--r--  1 deepthought  deepthought  505 Jun 18 20:47 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 18 20:47 equation
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 18 20:47 height_tree
+-rw-r--r--  1 deepthought  deepthought  719 Aug  1 17:03 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 17:03 height_tree
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 17:03 is_anagram
 
-/var/folders/pf/dhn08h216t3c6r4knwvl0__h0000gp/T/tmptfRrYu/user/equation:
+/var/folders/bh/rkk90l6n00z9sr_2p6xs8n1w0000gp/T/tmpggKhdE/user/height_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  481 Jun 18 20:47 equation.c
+-rw-r--r--  1 deepthought  deepthought  1851 Aug  1 17:03 height_tree.c
 
-/var/folders/pf/dhn08h216t3c6r4knwvl0__h0000gp/T/tmptfRrYu/user/height_tree:
+/var/folders/bh/rkk90l6n00z9sr_2p6xs8n1w0000gp/T/tmpggKhdE/user/is_anagram:
 total 8
--rw-r--r--  1 deepthought  deepthought  1879 Jun 18 20:47 height_tree.c
+-rw-r--r--  1 deepthought  deepthought  777 Aug  1 17:03 is_anagram.c
  
 = height_tree ==================================================================
 $> gcc -Wextra -Wall -Werror height_tree.c main.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./hevhce5tm567tgxg34gf3f0w 0
+$> ./vftodbdn8a0i2bt2bbo9n3se 0
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./0si6friv41jbsx5qsbw68ujc 1
+$> ./jdbvb9p7cfpyl24gbg7lz8hj 1
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./kx5fnlbbwy3qrb460ofhxs14 2
+$> ./vzqehzzaloasdskimi4sjw6d 2
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./mnbyqnyd5ojy4e10mf9k15hb 106
+$> ./tcob8dbmuayjhcttkuyxp905 106
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./e001wa5pukcaoiek7pdmubmh 4
+$> ./9wkhgq6fr66vw7hqhvgev8uo 4
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./n892v8dzlyfx1h3x5tfjqsuc 5
+$> ./lyvl7kh1y97tz1zp911l1mvm 5
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./5y2t2ajvnafr4pm3asewr66c 6
+$> ./wudcuwmshkyxk53w9f5vkvmu 6
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./ugm17xs83vq52wlqvbrctszy 7
+$> ./4hbwcwb54udnce2k32gcqgzu 7
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D
 = Test 9 ===================================================
-$> ./sn5y6f6ge1aed55jn90qpp9v 107
+$> ./6v3f2fbmsapibkh03r67dbfb 107
 $> diff -U 3 user_output_test9 test9.output | cat -e
 
 Diff OK :D
 = Test 10 ==================================================
-$> ./161rg9cdqnboian3nc4lhx2f 9
+$> ./xlecljgk3attpor6xind2soi 9
 $> diff -U 3 user_output_test10 test10.output | cat -e
 
 Diff OK :D
 = Test 11 ==================================================
-$> ./15dmdrmwpir9sbjdb20jzkbr 208
+$> ./dwjww5lgrnppej37es2dxc4s 208
 $> diff -U 3 user_output_test11 test11.output | cat -e
 
 Diff OK :D
 = Test 12 ==================================================
-$> ./yp1zzqp2t76gps3pwqqdlgo0 421421
+$> ./7kb7ii4fs6um7z6ee43ns0qd 421421
 $> diff -U 3 user_output_test12 test12.output | cat -e
 
 Diff OK :D
 = Test 13 ==================================================
-$> ./sxc3xvv6cglkusa1084k4662 12
+$> ./wzm4v8jw1yik5zo94oflf1lg 12
 $> diff -U 3 user_output_test13 test13.output | cat -e
 
 Diff OK :D
 = Test 14 ==================================================
-$> ./gv9dr4rc6t07tb1dwl79pin0 13
+$> ./qac0ojujlqmpdvtkay9d8vz4 13
 $> diff -U 3 user_output_test14 test14.output | cat -e
 
 Diff OK :D
 = Test 15 ==================================================
-$> ./2sob1y50rxvj1gynd8ouggl0 14
+$> ./1210uz56le00v8ta03778ivw 14
 $> diff -U 3 user_output_test15 test15.output | cat -e
 
 Diff OK :D
 = Test 16 ==================================================
-$> ./6azf4zo29icx0al9cwl75z4t 15
+$> ./2mdp19vys0cwx86r6v65dlkx 15
 $> diff -U 3 user_output_test16 test16.output | cat -e
 
 Diff OK :D
 = Test 17 ==================================================
-$> ./fa6pilwa17hbwfilb4wbb5hn 1001
+$> ./yiv99gte2o1dq8abtlp66y2b 1001
 $> diff -U 3 user_output_test17 test17.output | cat -e
 
 Diff OK :D
 = Test 18 ==================================================
-$> ./5kbjs0uezcok16qx0h7q6b4s 17
+$> ./zvdvaxkoyix1mi5kyu94tijp 17
 $> diff -U 3 user_output_test18 test18.output | cat -e
 
 Diff OK :D
 = Test 19 ==================================================
-$> ./b5szlpm9suoch349l9adfmfw 47
+$> ./2s32ge82cp9rwxvettld5ncc 47
 $> diff -U 3 user_output_test19 test19.output | cat -e
 
 Diff OK :D
 = Test 20 ==================================================
-$> ./ew6apxnzzo4ezw82hffr1yl7 116
+$> ./jy7o2cul37ksy60jupyq5epr 116
 $> diff -U 3 user_output_test20 test20.output | cat -e
 
 Diff OK :D

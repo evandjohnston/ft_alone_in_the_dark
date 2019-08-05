@@ -1,4 +1,6 @@
-// Passed Moulinette 2019.05.24. Hit me up if you have a shorter solution!
+// Passed Moulinette 2019.08.01
+
+// Please hit me up if you have a shorter solution!
 
 #include <unistd.h>
 #include <stdlib.h>

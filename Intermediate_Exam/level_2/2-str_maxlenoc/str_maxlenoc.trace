@@ -1,76 +1,77 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z3r8p7.42.us.org
-Darwin 17.4.0 x86_64
+e1z1r6p6.42.us.org
+Darwin 17.5.0 x86_64
 $> date
-Wed Jun 19 16:35:34 PDT 2019
+Thu Aug  1 22:36:51 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst13
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst8
 
 = Git history ==================================================================
-$> git -C /var/folders/1l/sc84_5rn5y7dwbxk308fbbfr0000gp/T/tmpmuzvPx/user log --pretty='%H - %an, %ad : %s'
-a05eebb391614e4fa58c2fcdb44603596667a8b2 - Evan Johnston, Wed Jun 19 16:35:33 2019 -0700 : .
-c8111bd737b3793c17c92985161d5be99f8c0b5f - Evan Johnston, Wed Jun 19 16:33:19 2019 -0700 : .
-0edfe6e81e76a18fc57c1ccbf9c8086ab2d73653 - Evan Johnston, Wed Jun 19 16:30:52 2019 -0700 : .
+$> git -C /var/folders/yw/p_tn1tsd2_3gnrk_hnqhr0h40000gp/T/tmpkS5cy0/user log --pretty='%H - %an, %ad : %s'
+4be97770644c67c4b66be4ad2337ce2a214bf6e6 - Evan Johnston, Thu Aug 1 22:35:00 2019 -0700 : .
+de29ede9c6ac6da16da8d8839c8c91ffd005856f - Evan Johnston, Thu Aug 1 22:34:47 2019 -0700 : .
+3d2deac3c148fc3ea7e447d0faf625d6350b6b10 - Evan Johnston, Thu Aug 1 22:27:53 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/1l/sc84_5rn5y7dwbxk308fbbfr0000gp/T/tmpmuzvPx/user
+$> ls -lAR /var/folders/yw/p_tn1tsd2_3gnrk_hnqhr0h40000gp/T/tmpkS5cy0/user
 total 8
--rw-r--r--  1 deepthought  deepthought  783 Jun 19 16:35 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 16:35 count_alpha
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 16:35 print_doublon
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 16:35 str_maxlenoc
+-rw-r--r--  1 deepthought  deepthought  797 Aug  1 22:36 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 22:36 find_pivot
+drwxr-xr-x  4 deepthought  deepthought  136 Aug  1 22:36 flood_fill
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 22:36 str_maxlenoc
 
-/var/folders/1l/sc84_5rn5y7dwbxk308fbbfr0000gp/T/tmpmuzvPx/user/count_alpha:
+/var/folders/yw/p_tn1tsd2_3gnrk_hnqhr0h40000gp/T/tmpkS5cy0/user/find_pivot:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Jun 19 16:35 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  1582 Aug  1 22:36 find_pivot.c
 
-/var/folders/1l/sc84_5rn5y7dwbxk308fbbfr0000gp/T/tmpmuzvPx/user/print_doublon:
-total 8
--rw-r--r--  1 deepthought  deepthought  719 Jun 19 16:35 print_doublon.c
+/var/folders/yw/p_tn1tsd2_3gnrk_hnqhr0h40000gp/T/tmpkS5cy0/user/flood_fill:
+total 16
+-rw-r--r--  1 deepthought  deepthought  713 Aug  1 22:36 flood_fill.c
+-rw-r--r--  1 deepthought  deepthought  184 Aug  1 22:36 flood_fill.t_point.h
 
-/var/folders/1l/sc84_5rn5y7dwbxk308fbbfr0000gp/T/tmpmuzvPx/user/str_maxlenoc:
+/var/folders/yw/p_tn1tsd2_3gnrk_hnqhr0h40000gp/T/tmpkS5cy0/user/str_maxlenoc:
 total 8
--rw-r--r--  1 deepthought  deepthought  1604 Jun 19 16:35 str_maxlenoc.c
+-rw-r--r--  1 deepthought  deepthought  1604 Aug  1 22:36 str_maxlenoc.c
  
 = str_maxlenoc =================================================================
 $> gcc -Wextra -Wall -Werror str_maxlenoc.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./axnu29say96ntn4nvgqkhzpn "Bonjour"
+$> ./y0g2l4q90wfa9c4lxbx6m8kz "Bonjour"
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./oet5ibcjsrbf7ax68lg5vn4n "bonjouran" "bonjouran" "confiseriean" "bonne annee"
+$> ./3l7slfbqwbxfihoy7qpxpgz1 "bonjouran" "bonjouran" "confiseriean" "bonne annee"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./asm54ln2v6uec9zqwuufseq7 "bonjour an" "bonjour an" "confiserie an" "bonne annee"
+$> ./m7yjrnv65cx7kxt6x2srvb89 "bonjour an" "bonjour an" "confiserie an" "bonne annee"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./0s9pct1vqc1q3itmobhtz8q0 "voila" "voila" "ouais ben voila"
+$> ./ymv7qy4kgxx7duqzi92q8cbn "voila" "voila" "ouais ben voila"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./umyp01zy4dg8el8l0btz0lnu "bosdsdfnjodur" "atehhellosd" "afkuonjosurafg" "headfgllosf" "fghellosag afdfbosnjourafg"
+$> ./4to5qhga2anhkd82w55wtqno "bosdsdfnjodur" "atehhellosd" "afkuonjosurafg" "headfgllosf" "fghellosag afdfbosnjourafg"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D

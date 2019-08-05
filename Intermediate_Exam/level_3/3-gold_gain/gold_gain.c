@@ -1,4 +1,4 @@
-// Passed Moulinette on 2019.05.14
+// Passed Moulinette 2019.08.01
 
 int	max_three(int a, int b, int c)
 {

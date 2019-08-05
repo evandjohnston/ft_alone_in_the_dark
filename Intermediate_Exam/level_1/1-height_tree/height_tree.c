@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.05.27
+// Passed Moulinette 2019.08.01
 
 struct s_node {
 	int           value;

@@ -1,104 +1,115 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z3r4p23.42.us.org
-Darwin 17.4.0 x86_64
+e1z1r6p34.42.us.org
+Darwin 17.5.0 x86_64
 $> date
-Wed Jun 19 16:15:34 PDT 2019
+Thu Aug  1 17:00:50 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst12
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190801/evjohnst
 
 = Git history ==================================================================
-$> git -C /var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user log --pretty='%H - %an, %ad : %s'
-168b6a13019f5946ad3130f5e84b775fb38af516 - Evan Johnston, Wed Jun 19 16:15:33 2019 -0700 : .
-0a2e236ff7df6fc28ad06ec2b367cf7326129eaf - Evan Johnston, Wed Jun 19 16:13:16 2019 -0700 : .
-c7a3138daa0e7b8a498700ac8007b5d8aa91b65f - Evan Johnston, Wed Jun 19 16:11:01 2019 -0700 : .
-081a287d0f82239cf876d0a4ccc44c8c302a6ae7 - Evan Johnston, Wed Jun 19 16:08:49 2019 -0700 : .
-7a239d388398425b1c49688cb631dba2e65a96aa - Evan Johnston, Wed Jun 19 16:05:00 2019 -0700 : .
-5dae1592e0fdc0a808848dc701bb53ed979c3ea1 - Evan Johnston, Wed Jun 19 16:00:32 2019 -0700 : .
+$> git -C /var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user log --pretty='%H - %an, %ad : %s'
+bed74a6b76f323f4efe1d922e56ceeeb3aa5fb05 - Evan Johnston, Thu Aug 1 16:59:01 2019 -0700 : .
+ef3e0582cf61f8d55f333f2aeb60d4935284538f - Evan Johnston, Thu Aug 1 16:58:59 2019 -0700 : .
+8e9e93882a87afeb152cbc50197c09c1bcd7c4b9 - Evan Johnston, Thu Aug 1 16:57:07 2019 -0700 : .
+3b36043f67b993a0e430857a873a8771a192f262 - Evan Johnston, Thu Aug 1 16:55:03 2019 -0700 : .
+89220cb534eaec2fd89767a1826819f13c6d92d6 - Evan Johnston, Thu Aug 1 16:54:58 2019 -0700 : .
+c32ff4a14fc509149cf111baf866ebd3a39c8aef - Evan Johnston, Thu Aug 1 16:52:57 2019 -0700 : .
+98c5af77bc3a37a19df90ac0914f8c0fabacebbb - Evan Johnston, Thu Aug 1 16:52:53 2019 -0700 : .
+e8aff485e631f3f8c6e85b398536546d9c673873 - Evan Johnston, Thu Aug 1 16:50:57 2019 -0700 : .
+b028e14cda0e1809bb086f5bad983233578f4054 - Evan Johnston, Thu Aug 1 16:50:53 2019 -0700 : .
+0e2521d17901f0293ec42200b6221e8f9d411b56 - Evan Johnston, Thu Aug 1 16:48:51 2019 -0700 : .
+6ad1f20a72c5fccace21f0c78dc455682de0a5dc - Evan Johnston, Thu Aug 1 16:48:49 2019 -0700 : .
+1bff5e6cbc6ffdf0d06d8f227bd3c28515aa4310 - Evan Johnston, Thu Aug 1 16:48:37 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user
+$> ls -lAR /var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1559 Jun 19 16:15 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:15 gold_gain
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:15 infin_add
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:15 is_looping
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:15 print_doublon
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:15 stack
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:15 volume_histogram
+-rw-r--r--  1 deepthought  deepthought  2891 Aug  1 17:00 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 find_pivot
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 height_tree
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 infin_add
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 intersection
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 longest_sequence
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 longest_subarray
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:00 perimeter
 
-/var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user/gold_gain:
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/find_pivot:
 total 8
--rw-r--r--  1 deepthought  deepthought  551 Jun 19 16:15 gold_gain.c
+-rw-r--r--  1 deepthought  deepthought  1582 Aug  1 17:00 find_pivot.c
 
-/var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user/infin_add:
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/height_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  2241 Jun 19 16:15 infin_add.c
+-rw-r--r--  1 deepthought  deepthought  1851 Aug  1 17:00 height_tree.c
 
-/var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user/is_looping:
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/infin_add:
 total 8
--rw-r--r--  1 deepthought  deepthought  1824 Jun 19 16:15 is_looping.c
+-rw-r--r--  1 deepthought  deepthought  2241 Aug  1 17:00 infin_add.c
 
-/var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user/print_doublon:
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/intersection:
 total 8
--rw-r--r--  1 deepthought  deepthought  719 Jun 19 16:15 print_doublon.c
+-rw-r--r--  1 deepthought  deepthought  1324 Aug  1 17:00 intersection.c
 
-/var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user/stack:
-total 8
--rw-r--r--  1 deepthought  deepthought  1791 Jun 19 16:15 stack.c
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/longest_sequence:
+total 16
+-rw-r--r--  1 deepthought  deepthought  6140 Aug  1 17:00 longest_sequence.c
 
-/var/folders/96/mj5m_99d2f5_62wrxj0xxzkw0000gp/T/tmpcMzlAg/user/volume_histogram:
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/longest_subarray:
+total 16
+-rw-r--r--  1 deepthought  deepthought  6581 Aug  1 17:00 longest_subarray.c
+
+/var/folders/vm/ffqf_kd915v847_zqvq6khp00000gp/T/tmpOfGjNR/user/perimeter:
 total 8
--rw-r--r--  1 deepthought  deepthought  1243 Jun 19 16:15 volume_histogram.c
+-rw-r--r--  1 deepthought  deepthought  2255 Aug  1 17:00 perimeter.c
  
 = infin_add ====================================================================
 $> gcc -Wextra -Wall -Werror infin_add.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./o2cjlv8pu6hltqwwn3r4tczj "0" "0"
+$> ./q67niweyofphqua4q0qqmv4e "0" "0"
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./vu02jyzspugd7y5ep8ftzopi "1" "0"
+$> ./0ltd3a53kpra4ty0136baij3 "1" "0"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./dqwfhq7dbw3y34efnsyvkvpx "0" "-2"
+$> ./frtngpifvybngkpo20mgb5qz "0" "-2"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./uja3muy7wwm5r9lqv99y3iko "21" "42"
+$> ./f5nny7peowlll0bozflo1nls "21" "42"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./kvd485lo006qy4gbezvymem1 "4894398524132130" "5906754239"
+$> ./eppfc95s7ypstl99ngrpy6ni "4894398524132130" "5906754239"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./a990lxngysb4nwmtu5gtqrm7 "-4495409524185401471245" "1320806358203958045104122132132146"
+$> ./v3veb7hzh0dhfr64b6j5vpsv "-4495409524185401471245" "1320806358203958045104122132132146"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./8qdziey1y2dc1l9w15g2kyj8 "-395450348096354305805" "-65849062158917658342568439612590230455643092"
+$> ./83mnmf7mjub30msvyq9o5obj "-395450348096354305805" "-65849062158917658342568439612590230455643092"
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D

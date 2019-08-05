@@ -39,10 +39,10 @@ We are asked to write a function that takes arguments of two integers, one repre
 
 ### Approach
 * Calculate the number of characters in the output string, then allocate a string of the appropriate size.
-	* If the starting number is negative, add 1 for the minus sign; if the starting number is 0, add 1 for the 0 character.
+	* If the starting number is negative and the base is 10, add 1 for the minus sign; if the starting number is 0, add 1 for the 0 character; if the starting number is negative and the base is not 10, cast the number to an unsigned int before the next step.
 	* For each time you are able to divide the absolute value of the starting number by the base before reaching 0, add 1.
 * If the starting number is zero or negative, insert the appropriate character at the beginning of the output string.
-* Starting with the absolute value of the starting number, fill the output string starting from the last character and continuing backwards to the first.
+* Starting with the absolute value of the starting number if the base is 10, or the starting number casted to an unsigned int for all other bases, fill the output string starting from the last character and continuing backwards to the first.
 	* Take the current value modulus the base and insert the character corresponding to the result into the output string at the current location.
 	* Divide the current value by the base and repeat, filling each character into the output string until the current value reaches 0.
 * Return the output string.
@@ -53,10 +53,10 @@ We are asked to write a function that takes arguments of two integers, one repre
 
 char	*ft_itoa_base(int value, int base)
 {
-	unsigned int n = ((value < 0) ? -value : value);
+	unsigned int n = ((base == 10 && value < 0) ? -value : (unsigned int)value);
 	int i = 0;
 
-	if (value <= 0)
+	if (value == 0 || (value < 0 && base == 10))
 		++i;
 	while (n != 0)
 	{
@@ -67,11 +67,11 @@ char	*ft_itoa_base(int value, int base)
 	char *out = malloc(sizeof(char) * (i + 1));
 	char hex_digits[] = "0123456789ABCDEF";
 	out[i] = '\0';
-	if (value < 0)
+	if (value < 0 && base == 10)
 		out[0] = '-';
 	if (value == 0)
 		out[0] = '0';
-	n = ((value < 0) ? -value : value);
+	n = ((base == 10 && value < 0) ? -value : (unsigned int)value);
 	while (n != 0)
 	{
 		--i;

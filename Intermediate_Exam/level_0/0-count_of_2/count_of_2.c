@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.05.20
+// Passed Moulinette 2019.08.01
 
 int	count_2s(int n)
 {

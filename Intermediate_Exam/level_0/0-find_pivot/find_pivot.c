@@ -1,4 +1,4 @@
-// Passed Moulinette on 2019.05.03
+// Passed Moulinette 2019.08.01
 
 int		sum_array(int *arr, int n)
 {

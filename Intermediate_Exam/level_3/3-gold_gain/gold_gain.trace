@@ -1,82 +1,84 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z3r4p18.42.us.org
-Darwin 17.4.0 x86_64
+e1z1r7p34.42.us.org
+Darwin 17.5.0 x86_64
 $> date
-Wed Jun 19 16:37:49 PDT 2019
+Thu Aug  1 22:25:46 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst13
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst7
 
 = Git history ==================================================================
-$> git -C /var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user log --pretty='%H - %an, %ad : %s'
-8b9029fcb23f73115afb4f5f48f48a04ff4445a9 - Evan Johnston, Wed Jun 19 16:37:45 2019 -0700 : .
-a05eebb391614e4fa58c2fcdb44603596667a8b2 - Evan Johnston, Wed Jun 19 16:35:33 2019 -0700 : .
-c8111bd737b3793c17c92985161d5be99f8c0b5f - Evan Johnston, Wed Jun 19 16:33:19 2019 -0700 : .
-0edfe6e81e76a18fc57c1ccbf9c8086ab2d73653 - Evan Johnston, Wed Jun 19 16:30:52 2019 -0700 : .
+$> git -C /var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user log --pretty='%H - %an, %ad : %s'
+ca6a480b870bd3a4a3aa04a7a289d96513bcfebd - Evan Johnston, Thu Aug 1 22:23:53 2019 -0700 : .
+138ca31a709fea3d69ed7e238f585dbe564ed6b1 - Evan Johnston, Thu Aug 1 22:21:52 2019 -0700 : .
+c2b7011c5ff833f3836aa951cc31ff91ed92f41b - Evan Johnston, Thu Aug 1 22:19:49 2019 -0700 : .
+4510578560867b7da46a704c9eacb3aca165606b - Evan Johnston, Thu Aug 1 22:13:42 2019 -0700 : .
+2a158a639f95ada4ba380e063717a9e199fb1504 - Evan Johnston, Thu Aug 1 22:11:41 2019 -0700 : .
+a1edaebf79b7eb02b9ca6820e270d9ac54b4acef - Evan Johnston, Thu Aug 1 22:03:20 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user
+$> ls -lAR /var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1029 Jun 19 16:37 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 count_alpha
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 gold_gain
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 print_doublon
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 16:37 str_maxlenoc
+-rw-r--r--  1 deepthought  deepthought  1420 Aug  1 22:25 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 count_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 count_of_2
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 gold_gain
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 reverse_tree
 
-/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/count_alpha:
+/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/count_alpha:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Jun 19 16:37 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  602 Aug  1 22:25 count_alpha.c
 
-/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/gold_gain:
+/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/count_of_2:
 total 8
--rw-r--r--  1 deepthought  deepthought  551 Jun 19 16:37 gold_gain.c
+-rw-r--r--  1 deepthought  deepthought  397 Aug  1 22:25 count_of_2.c
 
-/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/print_doublon:
+/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/gold_gain:
 total 8
--rw-r--r--  1 deepthought  deepthought  719 Jun 19 16:37 print_doublon.c
+-rw-r--r--  1 deepthought  deepthought  551 Aug  1 22:25 gold_gain.c
 
-/var/folders/0k/n5_dd0yd0sb1k32qz8c3m7n40000gp/T/tmpJ_Q1zX/user/str_maxlenoc:
+/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/reverse_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  1604 Jun 19 16:37 str_maxlenoc.c
+-rw-r--r--  1 deepthought  deepthought  1641 Aug  1 22:25 reverse_tree.c
  
 = gold_gain ====================================================================
 $> gcc -Wextra -Wall -Werror gold_gain.c main.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./kictmwtkg75i6g29vitxsg9u test_00.txt
+$> ./wjxv0wlp9ovvzf8pcs4vhd9o test_00.txt
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./mqi2e9sf67mlvx19sbzulmgu test_01.txt
+$> ./mjdrui11mepxaum4teczpdwo test_01.txt
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./xqjlb792bgxrof0eucs9mnq8 test_02.txt
+$> ./u2syj2gg7c8mo3gnfgia5015 test_02.txt
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./rn017a5hgudkz9rq30kkuc3h test_03.txt
+$> ./paitope8q3w33wu1d66wmt86 test_03.txt
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./pvvexod3k2wu0v3024lusrbl test_04.txt
+$> ./7r47555ggphg31fki209rzri test_04.txt
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D

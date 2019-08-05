@@ -1,9 +1,9 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z3r1p10.42.us.org
+e1z3r8p2.42.us.org
 Darwin 17.4.0 x86_64
 $> date
-Wed Jun 19 15:10:18 PDT 2019
+Thu Aug  1 17:05:12 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
@@ -18,54 +18,55 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst10
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst
 
 = Git history ==================================================================
-$> git -C /var/folders/b1/5dqhl81j2yg2l0s49nk26b3r0000gp/T/tmpRhmbk2/user log --pretty='%H - %an, %ad : %s'
-2604608ff60e2995d312029f783308afb28fd139 - Evan Johnston, Wed Jun 19 15:10:16 2019 -0700 : .
-b94a3a7374e3cb2280bb533b34b824cf7a0f850d - Evan Johnston, Wed Jun 19 15:08:00 2019 -0700 : .
-1124ffcc49d301414128289a6c053abc77836ddc - Evan Johnston, Wed Jun 19 15:05:42 2019 -0700 : .
+$> git -C /var/folders/t1/nkxbls953v5959zj11qvkqg00000gp/T/tmpR1aUt3/user log --pretty='%H - %an, %ad : %s'
+38e28f534e11e0b816083db9e34a941863e35b2a - Evan Johnston, Thu Aug 1 17:03:22 2019 -0700 : .
+d977d957fa7bdea20b256fa13117fef8326ccb8c - Evan Johnston, Thu Aug 1 17:01:21 2019 -0700 : .
+96fa3f587c136b91f0e62c3c0c46b62c739f4f42 - Evan Johnston, Thu Aug 1 17:01:20 2019 -0700 : .
+f4efe9509074c38434cbe4e07a134cb2a7737915 - Evan Johnston, Thu Aug 1 17:01:07 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/b1/5dqhl81j2yg2l0s49nk26b3r0000gp/T/tmpRhmbk2/user
+$> ls -lAR /var/folders/t1/nkxbls953v5959zj11qvkqg00000gp/T/tmpR1aUt3/user
 total 8
--rw-r--r--  1 deepthought  deepthought  789 Jun 19 15:10 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:10 find_pivot
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:10 ord_alphlong
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:10 stack
+-rw-r--r--  1 deepthought  deepthought  974 Aug  1 17:05 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 17:05 height_tree
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 17:05 is_anagram
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 17:05 ord_alphlong
 
-/var/folders/b1/5dqhl81j2yg2l0s49nk26b3r0000gp/T/tmpRhmbk2/user/find_pivot:
+/var/folders/t1/nkxbls953v5959zj11qvkqg00000gp/T/tmpR1aUt3/user/height_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  1585 Jun 19 15:10 find_pivot.c
+-rw-r--r--  1 deepthought  deepthought  1851 Aug  1 17:05 height_tree.c
 
-/var/folders/b1/5dqhl81j2yg2l0s49nk26b3r0000gp/T/tmpRhmbk2/user/ord_alphlong:
+/var/folders/t1/nkxbls953v5959zj11qvkqg00000gp/T/tmpR1aUt3/user/is_anagram:
 total 8
--rw-r--r--  1 deepthought  deepthought  2191 Jun 19 15:10 ord_alphlong.c
+-rw-r--r--  1 deepthought  deepthought  777 Aug  1 17:05 is_anagram.c
 
-/var/folders/b1/5dqhl81j2yg2l0s49nk26b3r0000gp/T/tmpRhmbk2/user/stack:
+/var/folders/t1/nkxbls953v5959zj11qvkqg00000gp/T/tmpR1aUt3/user/ord_alphlong:
 total 8
--rw-r--r--  1 deepthought  deepthought  1791 Jun 19 15:10 stack.c
+-rw-r--r--  1 deepthought  deepthought  2200 Aug  1 17:05 ord_alphlong.c
  
 = ord_alphlong =================================================================
 $> gcc -Wextra -Wall -Werror ord_alphlong.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./7kzartu7fqnqtjn65espmbjn "lorem ipsum dolor sit amet consectetur adipiscing elit curabitur sollicitudin pretium nibh"
+$> ./3byozw334qr9ai2csspamwzn "lorem ipsum dolor sit amet consectetur adipiscing elit curabitur sollicitudin pretium nibh"
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./r01grolue2936s1lbmy1cqq1 "kohlrabies aghas tv sued ox retry gardant bulk cornetter putt gruesome whelk centenary decd bite capo in ok lax empaled ox saga um bandboxical ugh cephalomotor becassine boletaceous sees alkanet friarbird a pucker entour beautifiers guenons tod arracacha porus"
+$> ./ybd5xpctrqckf71rsmwaornl "kohlrabies aghas tv sued ox retry gardant bulk cornetter putt gruesome whelk centenary decd bite capo in ok lax empaled ox saga um bandboxical ugh cephalomotor becassine boletaceous sees alkanet friarbird a pucker entour beautifiers guenons tod arracacha porus"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./7jijd2q0c9qfgy8zcu6biqb0 "a why thrast my pimple pow pew allegiance deer menise euhemeristic sarge or brigatry antialbumid oars gif phthisicky a fore lash champing thule moody a detoxify fem a logs uh sprit tower ha beudanite inlet sat bedebt menses ya consulates beau red pawl chartographically egg mia ghazi mispled damper ped autoput lawless fireplug see boil bargehouse counterplan en off boiserie a bundy frugs sidder fishy ok ack clue selah brim oxygen a footsies tome closh oleraceous dam tug on bauge glood depolariser"
+$> ./ad7iu3xuw3iurymnv9sqd6wo "a why thrast my pimple pow pew allegiance deer menise euhemeristic sarge or brigatry antialbumid oars gif phthisicky a fore lash champing thule moody a detoxify fem a logs uh sprit tower ha beudanite inlet sat bedebt menses ya consulates beau red pawl chartographically egg mia ghazi mispled damper ped autoput lawless fireplug see boil bargehouse counterplan en off boiserie a bundy frugs sidder fishy ok ack clue selah brim oxygen a footsies tome closh oleraceous dam tug on bauge glood depolariser"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./m5ek4laxa5zce43hy5x7r35p "garotes foreboder hash arsenicating accolent ow dims twain handsew outasks fratries hill tot a footraces a comanches potheen skim bike one bacterially nest nay my en dub areostyle railly pre fee joys nepit cite ow coadunate um pox conclavist a axon sparta corelational gyms em daemonian creepingly mirdha buy boxings detruncated vex catbird derealization juts stope gonial ear ziff a a ebionite am smug rue chiasm it preter bitripartite conglobing eflagelliferous gematria corrugator obliger koumyses bye uh oopak ye sos anagogics toughy of prexy fads laigh ok a buss dismiss glimmering aquiform push applenut doest a oh sedged mild decoy fally do seal mien indubitate uh pic yale kymnel aortoiliac beniseed a cercus acroesthesia bradyseismical utick creirgist tuts bostonite kiyas candidacies aye neo pow earl til a intakes ox entocnemial"
+$> ./6et18tplfqqkqdflejejg4wz "garotes foreboder hash arsenicating accolent ow dims twain handsew outasks fratries hill tot a footraces a comanches potheen skim bike one bacterially nest nay my en dub areostyle railly pre fee joys nepit cite ow coadunate um pox conclavist a axon sparta corelational gyms em daemonian creepingly mirdha buy boxings detruncated vex catbird derealization juts stope gonial ear ziff a a ebionite am smug rue chiasm it preter bitripartite conglobing eflagelliferous gematria corrugator obliger koumyses bye uh oopak ye sos anagogics toughy of prexy fads laigh ok a buss dismiss glimmering aquiform push applenut doest a oh sedged mild decoy fally do seal mien indubitate uh pic yale kymnel aortoiliac beniseed a cercus acroesthesia bradyseismical utick creirgist tuts bostonite kiyas candidacies aye neo pow earl til a intakes ox entocnemial"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D

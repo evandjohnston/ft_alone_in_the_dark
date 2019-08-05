@@ -1,0 +1,72 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r3p20.42.us.org
+Darwin 17.5.0 x86_64
+$> date
+Sat Aug  3 18:44:14 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst9
+
+= Git history ==================================================================
+$> git -C /var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user log --pretty='%H - %an, %ad : %s'
+ab1d6afa9b5517d4b29b3a90475bfcaf078b57ea - Evan Johnston, Sat Aug 3 18:42:22 2019 -0700 : .
+c539e68d24bac4289ad484bdee7c42acb3ad122b - Evan Johnston, Sat Aug 3 18:40:22 2019 -0700 : .
+0b38d4209b9a17163c401c2e5e21fcb1a4ffb03e - Evan Johnston, Sat Aug 3 18:40:20 2019 -0700 : .
+18c34cb5c3720f39cab0a10a6ace2aaefbd7ff0f - Evan Johnston, Sat Aug 3 18:38:18 2019 -0700 : .
+1ca210066b924ac3842be28a0a209650fff3719a - Evan Johnston, Sat Aug 3 18:36:16 2019 -0700 : .
+3f66067c174b24b24b7df4d02de2925547eb8c6f - Evan Johnston, Sat Aug 3 18:36:04 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1366 Aug  3 18:44 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:44 hidenp
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:44 last_word
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:44 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:44 sort_int_tab
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:44 ulstr
+
+/var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user/hidenp:
+total 8
+-rw-r--r--  1 deepthought  deepthought  406 Aug  3 18:44 hidenp.c
+
+/var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user/last_word:
+total 8
+-rw-r--r--  1 deepthought  deepthought  475 Aug  3 18:44 last_word.c
+
+/var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  132 Aug  3 18:44 maff_alpha.c
+
+/var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user/sort_int_tab:
+total 8
+-rw-r--r--  1 deepthought  deepthought  844 Aug  3 18:44 sort_int_tab.c
+
+/var/folders/g0/nl2znmp15wlcwq9v3vbcyk6w0000gp/T/tmpNqvrMH/user/ulstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  417 Aug  3 18:44 ulstr.c
+ 
+= sort_int_tab =================================================================
+$> gcc -Wextra -Wall -Werror main.c sort_int_tab.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./q43pefrpi07yfzfcrz90mbtr
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

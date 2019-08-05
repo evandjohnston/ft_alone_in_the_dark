@@ -1,66 +1,68 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z3r6p22.42.us.org
-Darwin 17.4.0 x86_64
+e1z3r1p23.42.us.org
+Darwin 17.7.0 x86_64
 $> date
-Wed Jun 19 15:47:15 PDT 2019
+Thu Aug  1 16:52:42 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
 Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst11
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190801/evjohnst
 
 = Git history ==================================================================
-$> git -C /var/folders/jg/nqhj2p9s5tzgqs_ckjn9s8tw0000gp/T/tmpP0JKtL/user log --pretty='%H - %an, %ad : %s'
-41de89013f3c202d5733ca13e87c89b8668a2dc9 - Evan Johnston, Wed Jun 19 15:47:13 2019 -0700 : .
-a80f0cf2c52f583b516c0937e858710d14de7092 - Evan Johnston, Wed Jun 19 15:39:55 2019 -0700 : .
-41a8d0a8dcd414ec849d55f5f7ee0b4284de22a7 - Evan Johnston, Wed Jun 19 15:37:39 2019 -0700 : .
+$> git -C /var/folders/8s/tb938bn13vjbwml67kmftyqr0000gp/T/tmp7vPt4N/user log --pretty='%H - %an, %ad : %s'
+e8aff485e631f3f8c6e85b398536546d9c673873 - Evan Johnston, Thu Aug 1 16:50:57 2019 -0700 : .
+b028e14cda0e1809bb086f5bad983233578f4054 - Evan Johnston, Thu Aug 1 16:50:53 2019 -0700 : .
+0e2521d17901f0293ec42200b6221e8f9d411b56 - Evan Johnston, Thu Aug 1 16:48:51 2019 -0700 : .
+6ad1f20a72c5fccace21f0c78dc455682de0a5dc - Evan Johnston, Thu Aug 1 16:48:49 2019 -0700 : .
+1bff5e6cbc6ffdf0d06d8f227bd3c28515aa4310 - Evan Johnston, Thu Aug 1 16:48:37 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/jg/nqhj2p9s5tzgqs_ckjn9s8tw0000gp/T/tmpP0JKtL/user
+$> ls -lAR /var/folders/8s/tb938bn13vjbwml67kmftyqr0000gp/T/tmp7vPt4N/user
 total 8
--rw-r--r--  1 deepthought  deepthought  784 Jun 19 15:47 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:47 count_alpha
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:47 longest_sequence
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 19 15:47 print_doublon
+-rw-r--r--  1 deepthought  deepthought  1202 Aug  1 16:52 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 16:52 find_pivot
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 16:52 height_tree
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 16:52 longest_sequence
 
-/var/folders/jg/nqhj2p9s5tzgqs_ckjn9s8tw0000gp/T/tmpP0JKtL/user/count_alpha:
+/var/folders/8s/tb938bn13vjbwml67kmftyqr0000gp/T/tmp7vPt4N/user/find_pivot:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Jun 19 15:47 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  1582 Aug  1 16:52 find_pivot.c
 
-/var/folders/jg/nqhj2p9s5tzgqs_ckjn9s8tw0000gp/T/tmpP0JKtL/user/longest_sequence:
+/var/folders/8s/tb938bn13vjbwml67kmftyqr0000gp/T/tmp7vPt4N/user/height_tree:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1851 Aug  1 16:52 height_tree.c
+
+/var/folders/8s/tb938bn13vjbwml67kmftyqr0000gp/T/tmp7vPt4N/user/longest_sequence:
 total 16
--rw-r--r--  1 deepthought  deepthought  6140 Jun 19 15:47 longest_sequence.c
-
-/var/folders/jg/nqhj2p9s5tzgqs_ckjn9s8tw0000gp/T/tmpP0JKtL/user/print_doublon:
-total 8
--rw-r--r--  1 deepthought  deepthought  719 Jun 19 15:47 print_doublon.c
+-rw-r--r--  1 deepthought  deepthought  6140 Aug  1 16:52 longest_sequence.c
  
 = longest_sequence =============================================================
 $> gcc -Wextra -Wall -Werror main.c longest_sequence.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./s09ikye2ytpzz4rkwttvxxio 657782 8
+$> ./0ukr3xnj47zl3voa7de4top6 657782 8
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./b8znxgtt16mzze8y9cv9y7l1 1244557 13
+$> ./1vfkjoq3j0m4l1s3w6y8vuoe 1244557 13
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./059p3cweuu5bdklmv6rtwivl 100 3
+$> ./ooteguj4axl06n3qo12t08sq 100 3
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D

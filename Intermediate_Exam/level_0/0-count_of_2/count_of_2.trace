@@ -1,84 +1,84 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z3r8p6.42.us.org
-Darwin 17.4.0 x86_64
+e1z1r6p35.42.us.org
+Darwin 17.5.0 x86_64
 $> date
-Tue Jun 18 21:55:07 PDT 2019
+Thu Aug  1 22:03:22 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.4.0
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst8
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst7
 
 = Git history ==================================================================
-$> git -C /var/folders/6s/22217ndn3h94vmxn5069tplm0000gp/T/tmpTfEv77/user log --pretty='%H - %an, %ad : %s'
-0ca5023a6cc6a5e98534530e1e7894377b4665a7 - Evan Johnston, Tue Jun 18 21:55:06 2019 -0700 : .
+$> git -C /var/folders/jr/qd0qxrw10zg0grc4mqmv36ww0000gp/T/tmpY_edqV/user log --pretty='%H - %an, %ad : %s'
+a1edaebf79b7eb02b9ca6820e270d9ac54b4acef - Evan Johnston, Thu Aug 1 22:03:20 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/6s/22217ndn3h94vmxn5069tplm0000gp/T/tmpTfEv77/user
+$> ls -lAR /var/folders/jr/qd0qxrw10zg0grc4mqmv36ww0000gp/T/tmpY_edqV/user
 total 8
--rw-r--r--  1 deepthought  deepthought  243 Jun 18 21:55 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Jun 18 21:55 count_of_2
+-rw-r--r--  1 deepthought  deepthought  234 Aug  1 22:03 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 22:03 count_of_2
 
-/var/folders/6s/22217ndn3h94vmxn5069tplm0000gp/T/tmpTfEv77/user/count_of_2:
+/var/folders/jr/qd0qxrw10zg0grc4mqmv36ww0000gp/T/tmpY_edqV/user/count_of_2:
 total 8
--rw-r--r--  1 deepthought  deepthought  397 Jun 18 21:55 count_of_2.c
+-rw-r--r--  1 deepthought  deepthought  397 Aug  1 22:03 count_of_2.c
  
 = count_of_2 ===================================================================
 $> gcc -Wextra -Wall -Werror main.c count_of_2.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./2zwgiyjm5sb9nsc94isef55i -1
+$> ./zge4pg6xhbly3yd2uvqnkv51 -1
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./y3q2lk6o998hhvqloemvjucl 0
+$> ./jd30wkw7dclyr4ndd4d0by7a 0
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./xam7x6wl59y4staw6ajnrsk9 1
+$> ./hqpl50a4hcyp0arsyflgur18 1
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./q4dcmchuh4uukt3q40gio8h3 13
+$> ./o6wje2aazb17emyfj3j4ff4s 13
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./ndw9nz540d7vtv5fb0nurc06 3
+$> ./ung83wfg7ytva74tv4bzkrhc 3
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./4z7nf1q73j1e3f6dxfqdontn 25
+$> ./jgzc8g2l1qc8onvd5stfa1a6 25
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./8emae4piyr7xnmtm2m7wigh0 300
+$> ./rjnt6m9h37a4km3pt8zzbckc 300
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./hli43stwrzlpop2pw8l76l68 1000
+$> ./i3pwzf7r1oyrj94q2kzxnmo5 1000
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D
 = Test 9 ===================================================
-$> ./9e8ypzfupjco4hjgmk7uf9jc 424242
+$> ./vlfxpfipy7brayie304wa1sf 424242
 $> diff -U 3 user_output_test9 test9.output | cat -e
 
 Diff OK :D

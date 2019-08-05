@@ -1,9 +1,9 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r9p27.42.us.org
+e1z2r9p35.42.us.org
 Darwin 17.4.0 x86_64
 $> date
-Wed Jun 19 15:49:30 PDT 2019
+Thu Aug  1 22:38:53 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
@@ -18,65 +18,67 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190619/evjohnst11
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst8
 
 = Git history ==================================================================
-$> git -C /var/folders/07/d13ntwdx27lbkksxmkyjb4m00000gp/T/tmpQtWD6N/user log --pretty='%H - %an, %ad : %s'
-09b843ae56c1238ceeb808a1e5b8bbe333d39e76 - Evan Johnston, Wed Jun 19 15:49:26 2019 -0700 : .
-41de89013f3c202d5733ca13e87c89b8668a2dc9 - Evan Johnston, Wed Jun 19 15:47:13 2019 -0700 : .
-a80f0cf2c52f583b516c0937e858710d14de7092 - Evan Johnston, Wed Jun 19 15:39:55 2019 -0700 : .
-41a8d0a8dcd414ec849d55f5f7ee0b4284de22a7 - Evan Johnston, Wed Jun 19 15:37:39 2019 -0700 : .
+$> git -C /var/folders/zy/_3_lm12n7sg6gpt0b83xbwzr0000gp/T/tmpajt4Tp/user log --pretty='%H - %an, %ad : %s'
+4efa12d6e501bada171a1719742c132ec34445ad - Evan Johnston, Thu Aug 1 22:37:03 2019 -0700 : .
+76b56effebca59d1fd28021e0200c45a5218f24f - Evan Johnston, Thu Aug 1 22:37:01 2019 -0700 : .
+4be97770644c67c4b66be4ad2337ce2a214bf6e6 - Evan Johnston, Thu Aug 1 22:35:00 2019 -0700 : .
+de29ede9c6ac6da16da8d8839c8c91ffd005856f - Evan Johnston, Thu Aug 1 22:34:47 2019 -0700 : .
+3d2deac3c148fc3ea7e447d0faf625d6350b6b10 - Evan Johnston, Thu Aug 1 22:27:53 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/07/d13ntwdx27lbkksxmkyjb4m00000gp/T/tmpQtWD6N/user
+$> ls -lAR /var/folders/zy/_3_lm12n7sg6gpt0b83xbwzr0000gp/T/tmpajt4Tp/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1047 Jun 19 15:49 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 15:49 count_alpha
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 15:49 longest_sequence
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 15:49 print_doublon
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 19 15:49 width_tree
+-rw-r--r--  1 deepthought  deepthought  1274 Aug  1 22:38 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:38 find_pivot
+drwxr-xr-x  4 deepthought  deepthought   136 Aug  1 22:38 flood_fill
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:38 str_maxlenoc
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:38 width_tree
 
-/var/folders/07/d13ntwdx27lbkksxmkyjb4m00000gp/T/tmpQtWD6N/user/count_alpha:
+/var/folders/zy/_3_lm12n7sg6gpt0b83xbwzr0000gp/T/tmpajt4Tp/user/find_pivot:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Jun 19 15:49 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  1582 Aug  1 22:38 find_pivot.c
 
-/var/folders/07/d13ntwdx27lbkksxmkyjb4m00000gp/T/tmpQtWD6N/user/longest_sequence:
+/var/folders/zy/_3_lm12n7sg6gpt0b83xbwzr0000gp/T/tmpajt4Tp/user/flood_fill:
 total 16
--rw-r--r--  1 deepthought  deepthought  6140 Jun 19 15:49 longest_sequence.c
+-rw-r--r--  1 deepthought  deepthought  713 Aug  1 22:38 flood_fill.c
+-rw-r--r--  1 deepthought  deepthought  184 Aug  1 22:38 flood_fill.t_point.h
 
-/var/folders/07/d13ntwdx27lbkksxmkyjb4m00000gp/T/tmpQtWD6N/user/print_doublon:
+/var/folders/zy/_3_lm12n7sg6gpt0b83xbwzr0000gp/T/tmpajt4Tp/user/str_maxlenoc:
 total 8
--rw-r--r--  1 deepthought  deepthought  719 Jun 19 15:49 print_doublon.c
+-rw-r--r--  1 deepthought  deepthought  1604 Aug  1 22:38 str_maxlenoc.c
 
-/var/folders/07/d13ntwdx27lbkksxmkyjb4m00000gp/T/tmpQtWD6N/user/width_tree:
+/var/folders/zy/_3_lm12n7sg6gpt0b83xbwzr0000gp/T/tmpajt4Tp/user/width_tree:
 total 8
--rw-r--r--  1 deepthought  deepthought  1483 Jun 19 15:49 width_tree.c
+-rw-r--r--  1 deepthought  deepthought  1484 Aug  1 22:38 width_tree.c
  
 = width_tree ===================================================================
 $> gcc -Wextra -Wall -Werror width_tree.c main.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./2m1lz0lqww9g3875lhm8w8h6 1
+$> ./xs514r8gitxclwm4usrif6qm 1
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./506ovi3yt1yf6hvhfgfgiglq 2
+$> ./z51mhgfylwq0wh2lmay7b9ej 2
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./2hpjwceqkvo42v95cxjqmwqs 3
+$> ./g96cw1741k456gkagz7oavz4 3
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./16qfxs7p07zmloyv6eela5fo 4
+$> ./miqg7gjm7kqr4m2y9fjfdkhu 4
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./g4t8tkc226sm6fngujxnqyxu 0 2 3
+$> ./fwtcv8qdz3el6zd5ijk1rktz 0 2 3
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D

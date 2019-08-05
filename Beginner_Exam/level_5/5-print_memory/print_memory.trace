@@ -1,65 +1,83 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r8p24.42.us.org
+e1z3r3p22.42.us.org
 Darwin 17.4.0 x86_64
 $> date
-Sat Jun 29 13:38:58 PDT 2019
+Sun Aug  4 13:17:59 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190629/evjohnst
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst13
 
 = Git history ==================================================================
-$> git -C /var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user log --pretty='%H - %an, %ad : %s'
-b61c6ae2335a65f36eee743b6f2bea431fbcc6a7 - Evan Johnston, Sat Jun 29 13:35:59 2019 -0700 : .
-cd2c5af04eb2e0cfee4067c37e9af2325428d610 - Evan Johnston, Sat Jun 29 13:19:53 2019 -0700 : .
-988c8c8dfe45b63e28bd1f4fef57fe2696b50e3a - Evan Johnston, Sat Jun 29 13:03:08 2019 -0700 : .
-5af8bb468b255d301f887980237228c27fd511ae - Evan Johnston, Sat Jun 29 12:47:38 2019 -0700 : .
-9866cc28f2127292e284da40de1aa56e279c1db5 - Evan Johnston, Sat Jun 29 12:46:28 2019 -0700 : .
+$> git -C /var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user log --pretty='%H - %an, %ad : %s'
+6d1a4e088a77ae9ed723220e902d25578c1f97c6 - Evan Johnston, Sun Aug 4 13:16:09 2019 -0700 : .
+f5afbaaf26758bef323e5828aeec2065958c6523 - Evan Johnston, Sun Aug 4 13:16:07 2019 -0700 : .
+d13c0148b4fbb9a8984addf397f9e3687fc09ed4 - Evan Johnston, Sun Aug 4 13:14:07 2019 -0700 : .
+76661e4e324c9cd17e199d6527e7789085b8bbcd - Evan Johnston, Sun Aug 4 13:14:05 2019 -0700 : .
+ac8786b23086548d24d13c78cf2bcc46b0ee7a6d - Evan Johnston, Sun Aug 4 13:12:05 2019 -0700 : .
+2885ae809df0fda44b789085cd7444e2d683a88d - Evan Johnston, Sun Aug 4 13:12:03 2019 -0700 : .
+326968ec528a43a62c4197d14d38452295a96eb9 - Evan Johnston, Sun Aug 4 13:10:03 2019 -0700 : .
+ab6712860d5d8d942b507ca2218bdf6528c37d7f - Evan Johnston, Sun Aug 4 13:10:01 2019 -0700 : .
+32b49cccc3cfad1b38f045bbc3092694b5bf6006 - Evan Johnston, Sun Aug 4 13:08:00 2019 -0700 : .
+4f8bb5a1823738517b42b1c7019cd373143520ad - Evan Johnston, Sun Aug 4 13:07:59 2019 -0700 : .
+98dacf2c75852cb2c67932308549797fe2b432f3 - Evan Johnston, Sun Aug 4 13:07:48 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user
+$> ls -lAR /var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1200 Jun 29 13:39 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 13:39 ft_rrange
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 13:39 ft_strpbrk
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 13:39 only_z
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 13:39 rev_wstr
-drwxr-xr-x  3 deepthought  deepthought   102 Jun 29 13:39 rot_13
+-rw-r--r--  1 deepthought  deepthought  2532 Aug  4 13:18 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:18 epur_str
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:18 ft_swap
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:18 only_a
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:18 print_memory
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:18 snake_to_camel
+drwxr-xr-x  4 deepthought  deepthought   136 Aug  4 13:18 sort_list
 
-/var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user/ft_rrange:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user/epur_str:
 total 8
--rw-r--r--  1 deepthought  deepthought  757 Jun 29 13:39 ft_rrange.c
+-rw-r--r--  1 deepthought  deepthought  706 Aug  4 13:18 epur_str.c
 
-/var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user/ft_strpbrk:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user/ft_swap:
 total 8
--rw-r--r--  1 deepthought  deepthought  722 Jun 29 13:39 ft_strpbrk.c
+-rw-r--r--  1 deepthought  deepthought  103 Aug  4 13:18 ft_swap.c
 
-/var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user/only_z:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user/only_a:
 total 8
--rw-r--r--  1 deepthought  deepthought  71 Jun 29 13:39 only_z.c
+-rw-r--r--  1 deepthought  deepthought  104 Aug  4 13:18 only_a.c
 
-/var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user/rev_wstr:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user/print_memory:
 total 8
--rw-r--r--  1 deepthought  deepthought  526 Jun 29 13:39 rev_wstr.c
+-rw-r--r--  1 deepthought  deepthought  2263 Aug  4 13:18 print_memory.c
 
-/var/folders/49/pmf3nl8j6970f8qr96ljf_340000gp/T/tmpW_QJ9j/user/rot_13:
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user/snake_to_camel:
 total 8
--rw-r--r--  1 deepthought  deepthought  472 Jun 29 13:39 rot_13.c
+-rw-r--r--  1 deepthought  deepthought  326 Aug  4 13:18 snake_to_camel.c
+
+/var/folders/wj/2mbppcl95gv5t7cssvgwrwp00000gp/T/tmpeOBU_J/user/sort_list:
+total 16
+-rw-r--r--  1 deepthought  deepthought  1198 Aug  4 13:18 sort_list.c
+-rw-r--r--  1 deepthought  deepthought   973 Aug  4 13:18 sort_list.list.h
  
 = print_memory =================================================================
-Nothing turned in
-Grade: 0
+$> gcc -Wextra -Wall -Werror print_memory.c main.c -o user_exe 
 
-= Final grade: 0 ===============================================================
+= Test 1 ===================================================
+$> ./03fmx1st55ezs7endi8e6x5f
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

@@ -1,0 +1,106 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r3p16.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sun Aug  4 13:11:53 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst13
+
+= Git history ==================================================================
+$> git -C /var/folders/04/cb3y2vf957l2n3jlmy3tcx2m0000gp/T/tmp0beCKb/user log --pretty='%H - %an, %ad : %s'
+326968ec528a43a62c4197d14d38452295a96eb9 - Evan Johnston, Sun Aug 4 13:10:03 2019 -0700 : .
+ab6712860d5d8d942b507ca2218bdf6528c37d7f - Evan Johnston, Sun Aug 4 13:10:01 2019 -0700 : .
+32b49cccc3cfad1b38f045bbc3092694b5bf6006 - Evan Johnston, Sun Aug 4 13:08:00 2019 -0700 : .
+4f8bb5a1823738517b42b1c7019cd373143520ad - Evan Johnston, Sun Aug 4 13:07:59 2019 -0700 : .
+98dacf2c75852cb2c67932308549797fe2b432f3 - Evan Johnston, Sun Aug 4 13:07:48 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/04/cb3y2vf957l2n3jlmy3tcx2m0000gp/T/tmp0beCKb/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1071 Aug  4 13:11 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:11 ft_swap
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:11 only_a
+drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 13:11 snake_to_camel
+
+/var/folders/04/cb3y2vf957l2n3jlmy3tcx2m0000gp/T/tmp0beCKb/user/ft_swap:
+total 8
+-rw-r--r--  1 deepthought  deepthought  103 Aug  4 13:11 ft_swap.c
+
+/var/folders/04/cb3y2vf957l2n3jlmy3tcx2m0000gp/T/tmp0beCKb/user/only_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  104 Aug  4 13:11 only_a.c
+
+/var/folders/04/cb3y2vf957l2n3jlmy3tcx2m0000gp/T/tmp0beCKb/user/snake_to_camel:
+total 8
+-rw-r--r--  1 deepthought  deepthought  326 Aug  4 13:11 snake_to_camel.c
+ 
+= snake_to_camel ===============================================================
+$> gcc -Wextra -Wall -Werror snake_to_camel.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./q3k7rc1z5x0uvsz1068ph6eq ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./tyjtuofvstk0cbdv2x4qkc5j rbxdmpykqzunftj_cxk_dbv_dlugivmtsh_nopyghbskavu_jzwdyabx_cezultbvsjnox_olwjmksteqnrbcyu_qcouedp
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./15zxaxy8dlw424q83ad4kky6 pdtiu_tjxwksh_xyf_yamnskxgeihrbfol_jzbqmnlk_lcrjvuy_psrem_sxhtvnbyfwqkru_yjt_gwzbvtrquiohjksd_xidto_kshbjpdyaxwve_pojvizudwsqre
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./cftk91fjs87yvzzq9vs26s8j docqxlyrzmauewf_awjpnoumxgrq_pcrokbxmfyva_pkwxgrzajvohmeuty_rigzsyqhflwdkj_ozbrncwipy_zkcewt_bezguioadjvxrml_xzutvrjdsbhlmfowq_lmbduvjyghxonew_vfnohjpslguzcrdk_ruvwkhtifqdc_vduzhywx_mswnkbxuoa_cgso
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./9oy5qu44qyzwy8qf9ie9sw52 lafmy_gju_zptlhvinwkrds_wvqzbklonetfhjiym_frntzsam_afyoztirmdqvp_raucnxykqiw_vizqxyaunmjo_sxjgqh_tujbixzr_swtnfbdza_qgmwkrcbhxiv_roneiaqdpughcf_cwyjzodvhfkgnibat_fyjqzpnkholgbci
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./b50x4lw4mxqnbdyr22l9xrbh gcs_crhsfqx_bfctwxivmsghzejo_ujsw_dnfcmqtepxblzrhvw_avnjokwmuzh
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./kvadorhrwbbxf0e0ymnl4zq2 cjqfs_ybuwfgtojar_nyqg_tbrixylgzskecfpda_gnuhfwx
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./7b9zhw4x1m884namvd9kckwa nsqohf_tipyzevqfhno_mbnfovuziyaghqlx_kouczwhleg_cwfuiqmehjgab_pdtfghiwjayqzmeu
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./zs23khk49kbi61z6ww5gtbcp qawydgkmtf_yzdscfxrolpvhng_nkqpjvhzgletbuxas_xideujszv_sxnlytwzapbv_jufxcmyaqiztg_qhurltozj
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./icztmnur5az34z3s8ek83x3f rndlbxvzoyqwk_meq_goknuexlt_xelkicpmwfsrb
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

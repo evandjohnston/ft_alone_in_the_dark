@@ -1,0 +1,87 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r8p3.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sun Aug  4 16:22:37 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst19
+
+= Git history ==================================================================
+$> git -C /var/folders/rb/cyzxn2cj5b522pxv7z3ysrv00000gp/T/tmpiybZoC/user log --pretty='%H - %an, %ad : %s'
+d7f7ecc080af59a3ddd513f6c7e97a8562e43d05 - Evan Johnston, Sun Aug 4 16:20:52 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/rb/cyzxn2cj5b522pxv7z3ysrv00000gp/T/tmpiybZoC/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  233 Aug  4 16:22 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Aug  4 16:22 aff_first_param
+
+/var/folders/rb/cyzxn2cj5b522pxv7z3ysrv00000gp/T/tmpiybZoC/user/aff_first_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  265 Aug  4 16:22 aff_first_param.c
+ 
+= aff_first_param ==============================================================
+$> gcc -Wextra -Wall -Werror aff_first_param.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./rqvrtukaph4v3mygwya4i6gx 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./0fz32rnwhwrs7eajp3f6uvh2 "8vNueBC"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./yjqtwstnbv6w60c01acawh50 "sfV0oi4Ok"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./botdnb7q9hgiktfl90m9mjyg "Ymv0 Wrf8BtdO 8 9PEcNS MPS0tDRxwH3 k7ldDf5 bnA3 e WOm m9B yv vYW748iKs InckP2l6 xEThpQg3eH0"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./uiooigkxq5c213tfpkhl4nad "XzfjR5dIeFu ub8q Hdnxc5T2M rq18kbA7j WFczxY5 Nk8 xd1lwFLD DL Bhx1W XxDW2NvPq No"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./d4xyj1icxp9uxmdzwgtgd83a "6Y9TEgFC" "te5xQuUl3owq" "0OMuJ" "8wq" "zXFng" "WERV" "YrkopMh9Qtv" "EeZK" "ZpvlzDIs"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./jctu6jk7nzl7lqcwgmljxbd4 "NbCyX7u" "S9" "YJo" "6UlZL5" "E" "ObW4" "AYL" "Mxu0rcAj" "m4fEKJFYDRLv" "0cPAT7" "9DQY" "L4K" "MOzh2qReVv" "XwaU"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./po3j1osclemhiktpkaaih6fp "pb DQXZn9 PTm5J" "W95 cGd3jPhsL9" "2DO fvuYGUAen EA0KRz4Hf5 S" "xhfAkZotWJuS Gxa lt4xiaCIdc 4RpG0cJbzEy2" "5Xe YThd WATm" "rQJXSYLaVcGz" "UDGn8JC" "KgX" "qeybCt FMObIlt4UB 98zG" "rmuvi" "N jscWiLXZyBk A4L8hPwkUS dOayz" "u OGRVo Wez8wx20gF 4Ez" "CWNjqoPEYmF" "e axEM U5Z" "oxLOcIUXBwG n8dKmPNx2t qxahu ers"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./jx5ir9yi9pg02dd9o4iigcsb "Kqvd xCmchRTBQFqg" "L" "UVtHTEda5L3" "QKEZhiIr C1slzx CWZQpHuaS fYBdMt1" "ulBH4 eIkoY nN4 E8G5sQ" "qIyZQT" "p7eSWHcYDakZ x1A6"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
