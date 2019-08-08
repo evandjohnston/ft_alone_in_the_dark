@@ -8,14 +8,11 @@ Questions? Requests? Reach me on Slack @evjohnst.
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
-[Code from most recent session (2019.07.29)](Session_Code/2019.07.29)
+[Code from most recent session (2019.08.05)](Session_Code/2019.08.05)
 
-#### Agenda for next session (2019.08.05)
+#### Agenda for next session (2019.08.12)
 
-* Beginner 3: lcm [least common multiple]
-* Beginner 4: ft_list_foreach
-* Beginner 4: flood_fill
-* Intermediate 4: range_comb
+* Beginner 5: rpn_calc
 
 ## Beginner Exam
 
@@ -195,3 +192,27 @@ Exams take place every Tuesday morning from 9:00am - 1:00pm at 42 Silicon Valley
 Students are given one question at a time, beginning the test at level 0. For each correct solution, they are awarded points and they progress to the next level of the test, up to a maximum of level 5. For each incorrect solution, they are given a different problem of the same level, and the number of points they may earn on the current level is reduced by 5, to a minimum of 0. Up to 16 points may be earned for each of levels 0 through 4, and up to 20 points may be earned for level 5, for a maximum total of 100.
 
 In order to receive credit for an exam attempt, students must score at least 75 points. In order to pass the exam project and become eligible to take the next difficulty level, the average of a student's top 5 attempts must be at least 75 points for the beginner version, or 84 for intermediate. There is currently no advanced exam, but a few students are writing problems for it.
+
+## FAQ
+
+#### Q: Why is your code... the way that it is?
+
+A: I try to make my solutions easy to read, understand, and reproduce for _junior_ students at 42 Silicon Valley. For this reason, I usually prefer syntactically simpler, more explicit expressions that conform to [our school's standard](https://github.com/MagicHatJo/-42-Norm/blob/master/norme.en.pdf). As a result, the code in this repo tends to be idiosyncratic and unoptimized for resource usage.
+
+#### Q: How do you keep the files in this repo up-to-date?
+
+A: I've developed a tool to mine the exams, timestamping and updating files as they change. I usually aim to re-check both exams around the first of each month, but if you find a discrepancy, please let me know so I can do a full scan!
+
+I hope to release the exam mining tool once it's ~~less terrible~~ more stable and feature-complete, but I don't have an ETA for that right now.
+
+#### Q: Your solution doesn't make any sense! Can you help me understand what's going on?
+
+A: Sure! Hit me up on Slack in #ft_alone_in_the_dark or @evjohnst, and let's look at it together. Even if you figure it out on your own, please let me know what the sticking point was so I can make it clearer for the next person.
+
+#### Q: Your solution doesn't make any sense! Why didn't you do it this other way that's better?
+
+A: I'm always on the lookout for simpler solutions, so hit me up on Slack or send a pull request! Just keep in mind that my goal for this repo is to make the code easier for humans to understand, not for machines to execute.
+
+#### Q: Why do you have guides for some problems but not others?
+
+A: They're time-consuming to write, so I try to make them for the most confusing problems. If there's a particular problem you'd like to see a guide for, let me know and I'd be happy to write it.
