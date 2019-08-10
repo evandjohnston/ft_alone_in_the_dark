@@ -1,4 +1,4 @@
-# print_memory
+# options
 
 ## Conceptual Overview
 ### The Problem

@@ -12,6 +12,7 @@ Each Monday we discuss problems from the exams with an emphasis on conceptual un
 
 #### Agenda for next session (2019.08.12)
 
+* Beginner 4: ft_list_remove_if
 * Beginner 5: rpn_calc
 
 ## Beginner Exam
