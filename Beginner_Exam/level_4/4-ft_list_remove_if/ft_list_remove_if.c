@@ -5,29 +5,18 @@
 
 void ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
 {
-	if (begin_list == 0 || *begin_list == 0)
+	t_list *head = *begin_list;
+
+	if (head == NULL)
 		return;
 
-	t_list *prev = *begin_list;
-	t_list *cur;
-
-	while (prev != 0 && prev->next != 0)
+	if (cmp(head->data, data_ref) == 0)
 	{
-		cur = prev->next;
-		if (cmp(cur->data, data_ref) == 0)
-		{
-			prev->next = cur->next;
-			free(cur);
-		}
-		prev = prev->next;
+		*begin_list = (*(begin_list))->next;
+		free(head);
+		ft_list_remove_if(begin_list, data_ref, cmp);
 	}
-
-	cur = *begin_list;
-	if (cmp(cur->data, data_ref) == 0)
-	{
-		*begin_list = cur->next;
-		free(cur);
-	}
+	ft_list_remove_if(&(*(begin_list))->next, data_ref, cmp);
 }
 
 //---------------------------------------------------------------------
