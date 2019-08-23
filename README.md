@@ -8,11 +8,11 @@ Questions? Requests? Reach me on Slack @evjohnst.
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
-[Code from most recent session (2019.08.12)](Session_Code/2019.08.12)
+[Code from most recent session (2019.08.19)](Session_Code/2019.08.19)
 
-#### Agenda for next session (2019.08.19)
+#### Agenda for next session (2019.08.26)
 
-Nothing yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
+* print_bits
 
 ## Beginner Exam
 
@@ -131,7 +131,7 @@ Subjects covered include string manipulation, bitwise operations, memory allocat
 | [2-longest_sequence](Intermediate_Exam/level_2/2-longest_sequence) | [:scroll:](Intermediate_Exam/level_2/2-longest_sequence/longest_sequence.subject.en.txt) | [:pencil:](Intermediate_Exam/level_2/2-longest_sequence/longest_sequence.c) | [:mag_right:](Intermediate_Exam/level_2/2-longest_sequence/longest_sequence.trace) | :no_entry_sign: | :white_check_mark: Passing as of 2019.08.01 |
 | [2-ord_alphlong](Intermediate_Exam/level_2/2-ord_alphlong) | [:scroll:](Intermediate_Exam/level_2/2-ord_alphlong/ord_alphlong.subject.en.txt) | [:pencil:](Intermediate_Exam/level_2/2-ord_alphlong/ord_alphlong.c) | [:mag_right:](Intermediate_Exam/level_2/2-ord_alphlong/ord_alphlong.trace) | :no_entry_sign: | :white_check_mark: Passing as of 2019.08.01 |
 | [2-reverse_tree](Intermediate_Exam/level_2/2-reverse_tree) | [:scroll:](Intermediate_Exam/level_2/2-reverse_tree/reverse_tree.subject.en.txt) | [:pencil:](Intermediate_Exam/level_2/2-reverse_tree/reverse_tree.c) | [:mag_right:](Intermediate_Exam/level_2/2-reverse_tree/reverse_tree.trace) | :no_entry_sign: | :white_check_mark: Passing as of 2019.08.01 |
-| [2-str_maxlenoc](Intermediate_Exam/level_2/2-str_maxlenoc) | [:scroll:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.subject.en.txt) | [:pencil:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.c) | [:mag_right:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.trace) | :no_entry_sign: | :white_check_mark: Passing as of 2019.08.01 |
+| [2-str_maxlenoc](Intermediate_Exam/level_2/2-str_maxlenoc) | [:scroll:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.subject.en.txt) | [:pencil:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.c) | [:mag_right:](Intermediate_Exam/level_2/2-str_maxlenoc/str_maxlenoc.trace) | [:green_book:](Intermediate_Exam/level_2/2-str_maxlenoc/README.md) | :white_check_mark: Passing as of 2019.08.21 |
 | [3-can_split](Intermediate_Exam/level_3/3-can_split) | [:scroll:](Intermediate_Exam/level_3/3-can_split/can_split.subject.en.txt) | [:pencil:](Intermediate_Exam/level_3/3-can_split/can_split.c) | [:mag_right:](Intermediate_Exam/level_3/3-can_split/can_split.trace) | :no_entry_sign: | :white_check_mark: Passing as of 2019.08.01 |
 | [3-convert_bst](Intermediate_Exam/level_3/3-convert_bst) | [:scroll:](Intermediate_Exam/level_3/3-convert_bst/convert_bst.subject.en.txt) | [:pencil:](Intermediate_Exam/level_3/3-convert_bst/convert_bst.c) | [:mag_right:](Intermediate_Exam/level_3/3-convert_bst/convert_bst.trace) | :no_entry_sign: | :white_check_mark: Passing as of 2019.08.01 |
 | [3-gold_gain](Intermediate_Exam/level_3/3-gold_gain) | [:scroll:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.subject.en.txt) | [:pencil:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.c) | [:mag_right:](Intermediate_Exam/level_3/3-gold_gain/gold_gain.trace) | [:green_book:](Intermediate_Exam/level_3/3-gold_gain/README.md) | :white_check_mark: Passing as of 2019.08.01 |
@@ -182,6 +182,7 @@ Subjects covered include Big O notation, traversal of binary trees, multiply lin
 * [Mo Taylor (mtaylor)](https://github.com/motaylormo/42-Intermediate-Exam) -- Most solutions and many test mains
 
 ## Exam Tips
+* [2019.08.26 Bitwise Operations](Tips/2019.08.26_bitwise_operations/README.md) -- _All the bitwise operations you need for the test_
 * [2019.04.29 Using Sublime Text on Exams](Tips/2019.04.29_exam_sublime_text/README.md) -- _How to use a GUI text editor on 42's exams_
 * [2019.02.25 Testing Code with limits.h](Tips/2019.02.25_limits.h/README.md) -- _Use limits.h to test integer handling_
 
