@@ -36,43 +36,62 @@ We are asked to write a function that takes arguments of a 2-dimensional array o
 
 	Example:
 
-	$> cat test_main.c
-	#include "test_functions.h"
+	$> cat test.c
+	#include <stdlib.h>
+	#include <stdio.h>
 	#include "flood_fill.h"
+
+	char** make_area(char** zone, t_point size)
+	{
+		char** new;
+
+		new = malloc(sizeof(char*) * size.y);
+		for (int i = 0; i < size.y; ++i)
+		{
+			new[i] = malloc(size.x + 1);
+			for (int j = 0; j < size.x; ++j)
+				new[i][j] = zone[i][j];
+			new[i][size.x] = '\0';
+		}
+
+		return new;
+	}
 
 	int main(void)
 	{
-		char **area;
 		t_point size = {8, 5};
-		t_point begin = {2, 2};
 		char *zone[] = {
-			"1 1 1 1 1 1 1 1",
-			"1 0 0 0 1 0 0 1",
-			"1 0 0 1 0 0 0 1",
-			"1 0 1 1 0 0 0 1",
-			"1 1 1 0 0 0 0 1",
-		}
+			"11111111",
+			"10001001",
+			"10010001",
+			"10110001",
+			"11100001",
+		};
 
-		area = make_area(zone);
-		print_tab(area);
+		char**  area = make_area(zone, size);
+		for (int i = 0; i < size.y; ++i)
+			printf("%s\n", area[i]);
+		printf("\n");
+
+		t_point begin = {7, 4};
 		flood_fill(area, size, begin);
-		putc('\n');
-		print_tab(area);
+		for (int i = 0; i < size.y; ++i)
+			printf("%s\n", area[i]);
 		return (0);
 	}
 
-	$> gcc flood_fill.c test_main.c test_functions.c -o flood_fill; ./flood_fill
-	1 1 1 1 1 1 1 1
-	1 0 0 0 1 0 0 1
-	1 0 0 1 0 0 0 1
-	1 0 1 0 0 0 0 1
-	1 1 0 0 0 0 0 0
+	$> gcc flood_fill.c test.c -o test; ./test
+	11111111
+	10001001
+	10010001
+	10110001
+	11100001
 
-	1 1 1 1 1 1 1 1
-	1 F F F 1 0 0 1
-	1 F F 1 0 0 0 1
-	1 F 1 0 0 0 0 1
-	1 1 0 0 0 0 0 0
+	FFFFFFFF
+	F000F00F
+	F00F000F
+	F0FF000F
+	FFF0000F
 	$> 
 ```
 </details>
@@ -111,58 +130,5 @@ void	fill(char **tab, t_point size, t_point cur, char to_fill)
 void	flood_fill(char **tab, t_point size, t_point begin)
 {
 	fill(tab, size, begin, tab[begin.y][begin.x]);
-}
-```
-
-### Test Main
-```C
-#include <stdio.h>
-#include <stdlib.h>
-
-char	**make_area(char **zone, t_point size)
-{
-	int x, j, y = -1;
-	char **out;
-
-	out = malloc(sizeof(char *) * size.y);
-	while (++y < size.y)
-	{
-		x = j = -1;
-		out[y] = malloc(sizeof(char) * (size.x + 1));
-		while (zone[y][++j])
-			if (zone[y][j] != ' ')
-				out[y][++x] = zone[y][j];
-		out[y][x] = '\0';
-	}
-	return (out);
-}
-
-void	print_tab(char **zone, int size)
-{
-	int i = -1;
-	while (++i < size)
-		printf("%s\n", zone[i]);
-}
-
-int main(void)
-{
-	t_point size = {8, 5};
-	t_point begin = {1, 4};
-	char *zone[] = {
-		"1 1 1 1 1 1 1 1",
-		"1 0 1 0 1 0 0 1",
-		"1 0 0 1 0 0 0 1",
-		"1 0 1 0 0 0 0 1",
-		"1 1 0 0 0 0 0 1",
-	};
-
-	char **area = make_area(zone, size);
-	printf("Original:\n");
-	print_tab(area, size.y);
-
-	printf("\nResult:\n");
-	flood_fill(area, size, begin);
-	print_tab(area, size.y);
-	return (0);
 }
 ```

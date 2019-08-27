@@ -1,0 +1,61 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r7p31.42.us.org
+Darwin 17.2.0 x86_64
+$> date
+Mon Aug 12 21:27:39 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190813/evjohnst4
+
+= Git history ==================================================================
+$> git -C /var/folders/8d/_4288mwd65xf69mr7x2slk2m0000gp/T/tmpvHDHNo/user log --pretty='%H - %an, %ad : %s'
+851a9ba17cddd695b2807faf84eee031ca5ecc10 - Evan Johnston, Mon Aug 12 21:25:49 2019 -0700 : .
+465cb6cb6f31e83d4aab681cb02443ea12d32945 - Evan Johnston, Mon Aug 12 21:25:47 2019 -0700 : .
+3d4073c8ad6c69cd87d9c2c0bb1f5ad2d3cab05f - Evan Johnston, Mon Aug 12 21:23:46 2019 -0700 : .
+759de1b9719dd7d32cc237d8db4adf18eae5e9a5 - Evan Johnston, Mon Aug 12 21:23:45 2019 -0700 : .
+9d494a7f842fc6880c1c1bfc020cb5445a6f7d98 - Evan Johnston, Mon Aug 12 21:21:50 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/8d/_4288mwd65xf69mr7x2slk2m0000gp/T/tmpvHDHNo/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1072 Aug 12 21:27 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 12 21:27 aff_z
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 12 21:27 ft_strlen
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 12 21:27 print_bits
+
+/var/folders/8d/_4288mwd65xf69mr7x2slk2m0000gp/T/tmpvHDHNo/user/aff_z:
+total 8
+-rw-r--r--  1 deepthought  deepthought  107 Aug 12 21:27 aff_z.c
+
+/var/folders/8d/_4288mwd65xf69mr7x2slk2m0000gp/T/tmpvHDHNo/user/ft_strlen:
+total 8
+-rw-r--r--  1 deepthought  deepthought  118 Aug 12 21:27 ft_strlen.c
+
+/var/folders/8d/_4288mwd65xf69mr7x2slk2m0000gp/T/tmpvHDHNo/user/print_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  315 Aug 12 21:27 print_bits.c
+ 
+= print_bits ===================================================================
+$> gcc -Wextra -Wall -Werror main.c print_bits.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./la42eb3jbqmshrfb4bq26fus
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
