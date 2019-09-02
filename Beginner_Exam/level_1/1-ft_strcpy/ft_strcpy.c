@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.08.04
+// Passed Moulinette 2019.09.01
 
 char	*ft_strcpy(char *s1, char *s2)
 {

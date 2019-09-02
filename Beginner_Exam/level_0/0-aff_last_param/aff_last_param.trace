@@ -1,84 +1,84 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z1r8p15.42.us.org
-Darwin 17.5.0 x86_64
+e1z2r7p17.42.us.org
+Darwin 17.7.0 x86_64
 $> date
-Sun Aug  4 16:47:01 PDT 2019
+Sun Sep  1 18:03:24 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst21
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst
 
 = Git history ==================================================================
-$> git -C /var/folders/_c/9135n7tj7zbfhj_xxbd8nwnh0000gp/T/tmp5Bh8EY/user log --pretty='%H - %an, %ad : %s'
-af80cfe232ff3bb565fa7e8248e3084b5c5e6f4c - Evan Johnston, Sun Aug 4 16:45:14 2019 -0700 : .
+$> git -C /var/folders/7d/32php_4s1mn7p23r02hc54wc0000gp/T/tmppzTZDn/user log --pretty='%H - %an, %ad : %s'
+ea37006606e4b6a4fa429285877bda5ef55d91f4 - Evan Johnston, Sun Sep 1 18:01:34 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/_c/9135n7tj7zbfhj_xxbd8nwnh0000gp/T/tmp5Bh8EY/user
+$> ls -lAR /var/folders/7d/32php_4s1mn7p23r02hc54wc0000gp/T/tmppzTZDn/user
 total 8
--rw-r--r--  1 deepthought  deepthought  231 Aug  4 16:47 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  4 16:47 aff_last_param
+-rw-r--r--  1 deepthought  deepthought  231 Sep  1 18:03 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 18:03 aff_last_param
 
-/var/folders/_c/9135n7tj7zbfhj_xxbd8nwnh0000gp/T/tmp5Bh8EY/user/aff_last_param:
+/var/folders/7d/32php_4s1mn7p23r02hc54wc0000gp/T/tmppzTZDn/user/aff_last_param:
 total 8
--rw-r--r--  1 deepthought  deepthought  259 Aug  4 16:47 aff_last_param.c
+-rw-r--r--  1 deepthought  deepthought  259 Sep  1 18:03 aff_last_param.c
  
 = aff_last_param ===============================================================
 $> gcc -Wextra -Wall -Werror aff_last_param.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./lfuxmy3ld39y7cfeghf33su6 
+$> ./k2i5nfefk01td5p2b3dqiq41 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./mogrromjptpsctfdkb25nr04 "AYc56sa0MTEiCk"
+$> ./7vujeyqze4fy36qc2wrxl6nq "7XRiYJ"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./bszm3tiicxrwgz7pfml92oud "m48VgtMShLK"
+$> ./vq11m8bw0hs466v6csw8ia4v "Mx0XwWIheEq6ZAo"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./1oeyh90jt8fxcpbp9yo7or2i "j jY sM mdi8GKb 6EmSHbTe bAf 9YAm4 8wdzq3IKg 4GCAMYBRJd KpM0wc5VZlvJ uJNQ8Dap"
+$> ./5u2w74svzic0qf7u8dtba8zp "9tfXJ HwEmDv ISFR8vgs FQz3kd MJen 0uJAV4saMC FNUcGAWpvXfj CqK4"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./8cyibvycivg1cg9l5zfvit7l "kWSY BnUjQWqtoJ2 Y Faf7I8wRE1 q 6ikaWS5CQZx zIQxAMeS"
+$> ./hiie5gl8t1n9w7irxestf2sp "THWOctEqCQ W5xvdFjiO0mq el35 3QGpP OYH 6Y9 FuYAOyq nWzQCfdGRL89"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./7hugkjrtmus1m4uotk8hj8tl "5KjYQP" "6cD8frXb" "KbzIa14n2vZ" "y5Zfeo" "Co2mKf" "ai0B6V" "gFAYMPJ0Txj" "WpMwA2" "MiWydrE8" "A6mBvWoq50w9" "K4lvGFOJEY" "t" "K5" "Ue7kONifh"
+$> ./64ji74kxcz8s7z18ij8k98r2 "2YDU04" "qkpmArJ" "SWV" "suYqObF" "slxfucTNHL" "qosvdVHB" "HfS" "89eH5YdV4k1r" "MaxJsOZQl" "Zyf14UxH" "NZHcPqMGrk" "slPztM" "h7QY" "PgA6pn4xm8G" "hPMGw57A9YHR" "7tlOFn1y"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./p5ou4f2y0zapepf9a1112iky "kHTP" "4jvt82" "OF17YCrZsd" "tAU5ik9" "1cHrGx" "Axt7KVMQ"
+$> ./3b2cy8yyj55kcmghzonva0ej "X31jGt4" "OKTo" "R1CU" "JuYZzxe2" "CsvMEYV" "STKgi" "nNx" "AMeZmRnl" "tYsNCX0Amd9" "1QBkZ" "2" "8eBcXMi4" "9rD" "wcsD0OroAP" "fY"
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./c1k65pzgwnncgf19obz0722i "R xPp6oG9y" "3KCTF 8NF7lh14QX r E0fm" "W" "dB" "yvh" "EYFVtuxeqTh B6rYIR1K" "uoM" "g kIB1M 7V" "u Bizq93ebcH1P" "PXdaQMAUohen a1Fk4gVlvbt vVhxCmO Ky1" "wsaGE u31QR posq"
+$> ./ihhcxbbw2dpb4is0ls56lq15 "kHouGPvY 3syqn zpj8igBnQZAY" "tyw OR 03huMXRo" "C7gvxNlwa aMIgQZo7lV3 TMPqdFlK" "L4CGiI" "eW2i od3uR9qYMj 6F0Iv4nW 5HnM" "3LlU 1yuF YWAwVv7Xk51 QLKJ2aigT" "9AKoCGsc" "dQb53w mR" "KWrDwa4O fcXP PyLmqi"
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D
 = Test 9 ===================================================
-$> ./3rhujwbtw4gu9gw1r8qopban "cYOtpqZ A3" "yQ tqYunAVvM mxynDQTZH2gR" "mzc0FXs8 bzy5" "3lRTzbV" "89XWcQUduJv BrS9RKsl3aQ ejx8 1kI" "qcQb9Ti igW5o1VDE" "5uwdU 9CbDz Bn34rmtJLGXT" "SsuhOgwq 0VFMgTN7UkbX ec27jhY" "VWUcf" "DLM6c0 o9 EWtwne0U 0bvN7Zp1KY" "N 7 vZ"
+$> ./njvr0xfz7j4ecj9ko2b4b1r2 "8tJOLvj0DBy vy3I4fx" "RCdPks" "7IWzX 2Bs7Ta5uFK Fvo4dOgKhBN N3QcpyJ" "NPv03y V 95qKzIU" "62jsNXKZAVm" "WhQ2eO oR Q2cyqnW" "Mkft8uOc DbBfUYQyMk1l" "IhSfTilaL Sf3tFvhGX" "4S5kG1Hq6EU vLxjlVO GI9Vl4o7 RcFd" "Sv0OM 6eQUFLjZxw D0qI7LaG1rXv RyE2bH" "4A1E uNlQ VGpBEn U6P4R" "LRuOgaU13 5Yz" "ScH9diENpYR" "QNplrLS nM Zf8yJIuRQ FovsbAR4rMC" "XpWUg lFs0 VwZjlSr jIQ" "TsP37roU9GZF wsTrGaOKVdM"
 $> diff -U 3 user_output_test9 test9.output | cat -e
 
 Diff OK :D

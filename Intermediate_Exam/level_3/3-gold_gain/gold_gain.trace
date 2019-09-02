@@ -1,9 +1,9 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z1r7p34.42.us.org
+e1z1r6p18.42.us.org
 Darwin 17.5.0 x86_64
 $> date
-Thu Aug  1 22:25:46 PDT 2019
+Sun Sep  1 11:31:28 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
 Apple LLVM version 9.1.0 (clang-902.0.39.1)
@@ -18,67 +18,68 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst7
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst2
 
 = Git history ==================================================================
-$> git -C /var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user log --pretty='%H - %an, %ad : %s'
-ca6a480b870bd3a4a3aa04a7a289d96513bcfebd - Evan Johnston, Thu Aug 1 22:23:53 2019 -0700 : .
-138ca31a709fea3d69ed7e238f585dbe564ed6b1 - Evan Johnston, Thu Aug 1 22:21:52 2019 -0700 : .
-c2b7011c5ff833f3836aa951cc31ff91ed92f41b - Evan Johnston, Thu Aug 1 22:19:49 2019 -0700 : .
-4510578560867b7da46a704c9eacb3aca165606b - Evan Johnston, Thu Aug 1 22:13:42 2019 -0700 : .
-2a158a639f95ada4ba380e063717a9e199fb1504 - Evan Johnston, Thu Aug 1 22:11:41 2019 -0700 : .
-a1edaebf79b7eb02b9ca6820e270d9ac54b4acef - Evan Johnston, Thu Aug 1 22:03:20 2019 -0700 : .
+$> git -C /var/folders/9_/bn26nf4n6zs2tljsrdg5vm_40000gp/T/tmpBwLsGq/user log --pretty='%H - %an, %ad : %s'
+7a478eb1f9178298fc34263c85ae0b0415a540b3 - Evan Johnston, Sun Sep 1 11:29:36 2019 -0700 : .
+471a8f5e54e93101fac05193b3ba63816e442e80 - Evan Johnston, Sun Sep 1 11:29:34 2019 -0700 : .
+0aab6147650d8393c7d50216f0f562198d2e138c - Evan Johnston, Sun Sep 1 11:27:34 2019 -0700 : .
+5cef895c4ead60a830e8bac29960d16824a87c0f - Evan Johnston, Sun Sep 1 11:27:32 2019 -0700 : .
+6f4abcec686c72d46955f696b09563d8c8f620ec - Evan Johnston, Sun Sep 1 11:25:36 2019 -0700 : .
+bee962faa4e99eb0796f08951baee1a1ed602894 - Evan Johnston, Sun Sep 1 11:25:34 2019 -0700 : .
+5596d4a9d1e0df921278d77ed4498a139ef0cd71 - Evan Johnston, Sun Sep 1 11:25:18 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user
+$> ls -lAR /var/folders/9_/bn26nf4n6zs2tljsrdg5vm_40000gp/T/tmpBwLsGq/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1420 Aug  1 22:25 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 count_alpha
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 count_of_2
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 gold_gain
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 22:25 reverse_tree
+-rw-r--r--  1 deepthought  deepthought  1642 Sep  1 11:31 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:31 gold_gain
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:31 is_anagram
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:31 stack
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 11:31 str_maxlenoc
 
-/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/count_alpha:
+/var/folders/9_/bn26nf4n6zs2tljsrdg5vm_40000gp/T/tmpBwLsGq/user/gold_gain:
 total 8
--rw-r--r--  1 deepthought  deepthought  602 Aug  1 22:25 count_alpha.c
+-rw-r--r--  1 deepthought  deepthought  548 Sep  1 11:31 gold_gain.c
 
-/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/count_of_2:
+/var/folders/9_/bn26nf4n6zs2tljsrdg5vm_40000gp/T/tmpBwLsGq/user/is_anagram:
 total 8
--rw-r--r--  1 deepthought  deepthought  397 Aug  1 22:25 count_of_2.c
+-rw-r--r--  1 deepthought  deepthought  777 Sep  1 11:31 is_anagram.c
 
-/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/gold_gain:
+/var/folders/9_/bn26nf4n6zs2tljsrdg5vm_40000gp/T/tmpBwLsGq/user/stack:
 total 8
--rw-r--r--  1 deepthought  deepthought  551 Aug  1 22:25 gold_gain.c
+-rw-r--r--  1 deepthought  deepthought  1791 Sep  1 11:31 stack.c
 
-/var/folders/zl/2v9kt3sj6y9g4vz5cx0jxy3m0000gp/T/tmpI5ECg2/user/reverse_tree:
+/var/folders/9_/bn26nf4n6zs2tljsrdg5vm_40000gp/T/tmpBwLsGq/user/str_maxlenoc:
 total 8
--rw-r--r--  1 deepthought  deepthought  1641 Aug  1 22:25 reverse_tree.c
+-rw-r--r--  1 deepthought  deepthought  1644 Sep  1 11:31 str_maxlenoc.c
  
 = gold_gain ====================================================================
 $> gcc -Wextra -Wall -Werror gold_gain.c main.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./wjxv0wlp9ovvzf8pcs4vhd9o test_00.txt
+$> ./7j2wejilgt3z2fr8lopctxab test_00.txt
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./mjdrui11mepxaum4teczpdwo test_01.txt
+$> ./ujsolpyxm8r508fs8rj4gszg test_01.txt
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./u2syj2gg7c8mo3gnfgia5015 test_02.txt
+$> ./qnyu06sycv1b4l2bycbue28n test_02.txt
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./paitope8q3w33wu1d66wmt86 test_03.txt
+$> ./0alvsunugyih3umsdk77mw9w test_03.txt
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./7r47555ggphg31fki209rzri test_04.txt
+$> ./trl2w3jccgkn92dzgeh0ukpi test_04.txt
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D

@@ -1,51 +1,50 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r8p12.42.us.org
-Darwin 17.2.0 x86_64
+e1z3r8p8.42.us.org
+Darwin 17.4.0 x86_64
 $> date
-Sun Aug  4 14:13:51 PDT 2019
+Sun Sep  1 20:20:37 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.0.0 (clang-900.0.38)
-Target: x86_64-apple-darwin17.2.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.0.0 (clang-900.0.38)
-Target: x86_64-apple-darwin17.2.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst16
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst4
 
 = Git history ==================================================================
-$> git -C /var/folders/m3/4wwzzk7n4_jgcy0zcdxj9zjm0000gp/T/tmpRKGTbM/user log --pretty='%H - %an, %ad : %s'
-7eda8db901814bf8f1f3a016199fafef6d5fa2c0 - Evan Johnston, Sun Aug 4 13:49:16 2019 -0700 : .
-ad072940d7123349868eb8b41b45dbf34f0ce1b7 - Evan Johnston, Sun Aug 4 13:49:15 2019 -0700 : .
-2e4fe746c21ec77d321b55ad24bf4ce8cf261bdc - Evan Johnston, Sun Aug 4 13:49:04 2019 -0700 : .
+$> git -C /var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user log --pretty='%H - %an, %ad : %s'
+f2aedaba7852b01aa9088f3c2de6340b355cd944 - Evan Johnston, Sun Sep 1 20:18:52 2019 -0700 : .
+2340ed6baac45828385a29af6f9d71504c7f90a5 - Evan Johnston, Sun Sep 1 19:38:03 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/m3/4wwzzk7n4_jgcy0zcdxj9zjm0000gp/T/tmpRKGTbM/user
+$> ls -lAR /var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user
 total 8
--rw-r--r--  1 deepthought  deepthought  689 Aug  4 14:13 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  4 14:13 aff_last_param
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  4 14:13 fizzbuzz
+-rw-r--r--  1 deepthought  deepthought  432 Sep  1 20:20 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 20:20 fizzbuzz
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 20:20 hello
 
-/var/folders/m3/4wwzzk7n4_jgcy0zcdxj9zjm0000gp/T/tmpRKGTbM/user/aff_last_param:
+/var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user/fizzbuzz:
 total 8
--rw-r--r--  1 deepthought  deepthought  259 Aug  4 14:13 aff_last_param.c
+-rw-r--r--  1 deepthought  deepthought  421 Sep  1 20:20 fizzbuzz.c
 
-/var/folders/m3/4wwzzk7n4_jgcy0zcdxj9zjm0000gp/T/tmpRKGTbM/user/fizzbuzz:
+/var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user/hello:
 total 8
--rw-r--r--  1 deepthought  deepthought  421 Aug  4 14:13 fizzbuzz.c
+-rw-r--r--  1 deepthought  deepthought  118 Sep  1 20:20 hello.c
  
 = fizzbuzz =====================================================================
 $> gcc -Wextra -Wall -Werror fizzbuzz.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./u7p0rjaej0etwquixp8n44ss 
+$> ./dcphep8fzmyqdzo3lk0j6z7t 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D

@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.08.04
+// Passed Moulinette 2019.09.01
 
 unsigned int	lcm(unsigned int a, unsigned int b)
 {

@@ -1,69 +1,69 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z1r7p6.42.us.org
-Darwin 17.5.0 x86_64
+e1z2r7p28.42.us.org
+Darwin 17.4.0 x86_64
 $> date
-Sat Aug  3 14:56:58 PDT 2019
+Sun Sep  1 23:11:09 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190803/evjohnst14
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst8
 
 = Git history ==================================================================
-$> git -C /var/folders/46/35l845f17l70smqzsb5j58lm0000gp/T/tmpNfXP8A/user log --pretty='%H - %an, %ad : %s'
-017412152fb9d6da6c240e79015c74d127888219 - Evan Johnston, Sat Aug 3 14:56:57 2019 -0700 : .
+$> git -C /var/folders/ww/v6yg8xs15nb5gc8dzryhb14m0000gp/T/tmpM0fcTC/user log --pretty='%H - %an, %ad : %s'
+a8a7421aa8631147751026e95c170cc49c24a79e - Evan Johnston, Sun Sep 1 23:11:07 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/46/35l845f17l70smqzsb5j58lm0000gp/T/tmpNfXP8A/user
+$> ls -lAR /var/folders/ww/v6yg8xs15nb5gc8dzryhb14m0000gp/T/tmpM0fcTC/user
 total 8
--rw-r--r--  1 deepthought  deepthought  221 Aug  3 14:56 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  3 14:56 aff_a
+-rw-r--r--  1 deepthought  deepthought  221 Sep  1 23:11 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 23:11 aff_a
 
-/var/folders/46/35l845f17l70smqzsb5j58lm0000gp/T/tmpNfXP8A/user/aff_a:
+/var/folders/ww/v6yg8xs15nb5gc8dzryhb14m0000gp/T/tmpM0fcTC/user/aff_a:
 total 8
--rw-r--r--  1 deepthought  deepthought  308 Aug  3 14:56 aff_a.c
+-rw-r--r--  1 deepthought  deepthought  308 Sep  1 23:11 aff_a.c
  
 = aff_a ========================================================================
 $> gcc -Wextra -Wall -Werror aff_a.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./i4tbw9me4ouk2beua3oyz6fx 
+$> ./t23t2xj4ghscy701lilx5d3z 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./7jq2l99mobhu2r7jfk92hwl1 "17" "23" "42"
+$> ./0una1o8pou8aom21fvit9cem "17" "23" "42"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./ecbrru0rqn5szgao0z6f639o "mCTJas2O7RKr"
+$> ./z45s5bklu5tniistcx9aigms "AqsB7aQ"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./7485631wxj8puzglsanm2jw8 "PS9jY6zw7mlaO"
+$> ./7ey3iirmt9o9qseg2b6fmnpj "U0fakR5LIKJvH"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./i6gj3olbaj7sngajsfoomvyg "02RzXId69vg3VprSP"
+$> ./i07bi0k21mqixqfep4wvuel7 "zH0pvI3wCsZDoT"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./5f403yi7sa1rfkmjs3skbfdu "poy"
+$> ./6defukpdpx12ml2yjbqsx715 "Qtks4xbK9uvUYEWH"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D

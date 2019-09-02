@@ -1,114 +1,111 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r7p34.42.us.org
-Darwin 17.4.0 x86_64
+e1z2r5p13.42.us.org
+Darwin 17.7.0 x86_64
 $> date
-Sat Aug  3 17:18:42 PDT 2019
+Sun Sep  1 19:09:47 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst2
 
 = Git history ==================================================================
-$> git -C /var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user log --pretty='%H - %an, %ad : %s'
-4bd818962180ce048868c816c4d5f12cc4a08863 - Evan Johnston, Sat Aug 3 17:16:52 2019 -0700 : .
-a6fd3e25eaf7cd7e2879cf50f9a0ad942af86126 - Evan Johnston, Sat Aug 3 17:16:51 2019 -0700 : .
-31ffd519fc79a9c3c7c46e2de40f1a79d91eaded - Evan Johnston, Sat Aug 3 17:14:49 2019 -0700 : .
-1f00cd405c3a775dac8ef18fb66ec78be4604472 - Evan Johnston, Sat Aug 3 17:12:50 2019 -0700 : .
-e1861391ff82fd04d6d008bb3487ee86feb68edc - Evan Johnston, Sat Aug 3 17:12:48 2019 -0700 : .
-79793de50e9e894be679e7bb1789a56fb2193bed - Evan Johnston, Sat Aug 3 17:10:45 2019 -0700 : .
-8944af1bbb55eb57048171ac0d6b9aac2c587ae6 - Evan Johnston, Sat Aug 3 17:04:39 2019 -0700 : .
-af66aa53934a6e4b5c289af236235b6eb461b899 - Evan Johnston, Sat Aug 3 17:02:38 2019 -0700 : .
-1f5bc32ed8e9d708831fd44768654c2b45b467eb - Evan Johnston, Sat Aug 3 17:02:36 2019 -0700 : .
-5df62829916da548991826412f7f7fd2a444cae9 - Evan Johnston, Sat Aug 3 17:02:25 2019 -0700 : .
+$> git -C /var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user log --pretty='%H - %an, %ad : %s'
+e3224dc0d4f715de23c43acf5cfa1c339928618c - Evan Johnston, Sun Sep 1 19:04:20 2019 -0700 : .
+6065b723cdf8531da444847e4e4ba154f21a80c2 - Evan Johnston, Sun Sep 1 19:02:19 2019 -0700 : .
+6cdbc0a6347ba20cce98a8a16a3bccfa4c837d6e - Evan Johnston, Sun Sep 1 19:02:17 2019 -0700 : .
+e47c43655c638c2af3444e94c6db4ef93a8eaa7f - Evan Johnston, Sun Sep 1 19:00:16 2019 -0700 : .
+06c7ba8774f0894f8694c24b24f8393e221390e7 - Evan Johnston, Sun Sep 1 18:52:07 2019 -0700 : .
+e4ffa11c50ee329f5a93634fa7cd0e4f49fe6d17 - Evan Johnston, Sun Sep 1 18:50:06 2019 -0700 : .
+8332447b76377926ae1dc6676c1f6ac26a2833c0 - Evan Johnston, Sun Sep 1 18:41:59 2019 -0700 : .
+9e551f9d3a713ce7a9468e9b9d0340256fefb289 - Evan Johnston, Sun Sep 1 18:41:45 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user
+$> ls -lAR /var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user
 total 8
--rw-r--r--  1 deepthought  deepthought  2310 Aug  3 17:18 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 17:18 check_mate
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 17:18 first_word
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 17:18 only_a
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 17:18 print_hex
-drwxr-xr-x  4 deepthought  deepthought   136 Aug  3 17:18 sort_list
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 17:18 swap_bits
+-rw-r--r--  1 deepthought  deepthought  1846 Sep  1 19:09 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 19:09 add_prime_sum
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 19:09 aff_z
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 19:09 check_mate
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 19:09 ft_strlen
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 19:09 reverse_bits
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 19:09 rostring
 
-/var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user/check_mate:
+/var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user/add_prime_sum:
 total 8
--rw-r--r--  1 deepthought  deepthought  2039 Aug  3 17:18 check_mate.c
+-rw-r--r--  1 deepthought  deepthought  721 Sep  1 19:09 add_prime_sum.c
 
-/var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user/first_word:
+/var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user/aff_z:
 total 8
--rw-r--r--  1 deepthought  deepthought  329 Aug  3 17:18 first_word.c
+-rw-r--r--  1 deepthought  deepthought  107 Sep  1 19:09 aff_z.c
 
-/var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user/only_a:
+/var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user/check_mate:
 total 8
--rw-r--r--  1 deepthought  deepthought  104 Aug  3 17:18 only_a.c
+-rw-r--r--  1 deepthought  deepthought  2039 Sep  1 19:09 check_mate.c
 
-/var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user/print_hex:
+/var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user/ft_strlen:
 total 8
--rw-r--r--  1 deepthought  deepthought  425 Aug  3 17:18 print_hex.c
+-rw-r--r--  1 deepthought  deepthought  118 Sep  1 19:09 ft_strlen.c
 
-/var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user/sort_list:
-total 16
--rw-r--r--  1 deepthought  deepthought  1198 Aug  3 17:18 sort_list.c
--rw-r--r--  1 deepthought  deepthought   973 Aug  3 17:18 sort_list.list.h
-
-/var/folders/r0/ksxfrwrx1lv3fs9v1mzprqw80000gp/T/tmp4DpzTM/user/swap_bits:
+/var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user/reverse_bits:
 total 8
--rw-r--r--  1 deepthought  deepthought  497 Aug  3 17:18 swap_bits.c
+-rw-r--r--  1 deepthought  deepthought  393 Sep  1 19:09 reverse_bits.c
+
+/var/folders/t5/_z1xvdnj2wj15scj5tyh2rq40000gp/T/tmpztL0gy/user/rostring:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1008 Sep  1 19:09 rostring.c
  
 = check_mate ===================================================================
 $> gcc -Wextra -Wall -Werror check_mate.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./xbdurtzv849zh5xvhuip11ys 
+$> ./nh3dn3p1guo9f1fxhrkgjbq6 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./yg989lailrsycy616857qkoe '...B.' '.B...' '$%^&*' '...K.' '.....'
+$> ./0onnegmilccpl08lshdem114 '...B.' '.B...' '$%^&*' '...K.' '.....'
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./pdas93tgd968z9mt6l1cucpc  "...B." ".T..." "....." "...K." "....."
+$> ./8k1vxq33jolhmq2d3nzzwncv  "...B." ".T..." "....." "...K." "....."
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./7tyxuu37xml4c8st27gyhzog "K"
+$> ./3bvj76gd5vbmuvie7alcnxl7 "K"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./o74nrdh09pzfe3ok8ze593z4 "BPKP" "PRP." ".Q.." "..P."
+$> ./jfgabd9bqk9k1yui9qxdbnyd "BPKP" "PRP." ".Q.." "..P."
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./vchpv8p8cczoy402u4juk1gc "B....." "......" "......" "......" "......" ".....K"
+$> ./5q2kx1jy755vkw1hrv1rsh8f "B....." "......" "......" "......" "......" ".....K"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./94sqfgithskm6a7wnqt8wryn "K....." "......" "......" "......" "......" ".....B"
+$> ./s4hwsgkgnfzo6ycwju9gf6ks "K....." "......" "......" "......" "......" ".....B"
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./3wub0d2tppp1hmssng3nuhm3 '........' '........' '.P....P.' '...B.B..' '....Q...' '..R..R..' '......K.' '...R....'
+$> ./f1ftzhfkaj4drzb5ll1lzukx '........' '........' '.P....P.' '...B.B..' '....Q...' '..R..R..' '......K.' '...R....'
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D

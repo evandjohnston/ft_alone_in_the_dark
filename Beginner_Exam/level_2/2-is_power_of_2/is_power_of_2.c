@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.08.03
+// Passed Moulinette 2019.09.01
 
 int	is_power_of_2(unsigned int n)
 {

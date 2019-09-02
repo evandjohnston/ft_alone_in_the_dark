@@ -1,103 +1,104 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z1r6p40.42.us.org
-Darwin 17.5.0 x86_64
+e1z2r5p28.42.us.org
+Darwin 17.4.0 x86_64
 $> date
-Thu Aug  1 17:11:18 PDT 2019
+Sun Sep  1 12:37:04 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst4
 
 = Git history ==================================================================
-$> git -C /var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user log --pretty='%H - %an, %ad : %s'
-2e069de1ba847792820f2e1df1143409e6c11756 - Evan Johnston, Thu Aug 1 17:09:38 2019 -0700 : .
-e05180a210ba02b069275f7120672cb8e7e66644 - Evan Johnston, Thu Aug 1 17:09:37 2019 -0700 : .
-41d41af1096c650f7d044ab257bbfbd23258df24 - Evan Johnston, Thu Aug 1 17:07:27 2019 -0700 : .
-8793a9603440b3e1dfce424a2a174c60c4acb4ce - Evan Johnston, Thu Aug 1 17:07:25 2019 -0700 : .
-031aa26aafcc2eba76b475fd6e49b10e6c5e0648 - Evan Johnston, Thu Aug 1 17:05:28 2019 -0700 : .
-774e8fb8f8dc1e0c69b6779e24971e882b8753c8 - Evan Johnston, Thu Aug 1 17:05:27 2019 -0700 : .
-38e28f534e11e0b816083db9e34a941863e35b2a - Evan Johnston, Thu Aug 1 17:03:22 2019 -0700 : .
-d977d957fa7bdea20b256fa13117fef8326ccb8c - Evan Johnston, Thu Aug 1 17:01:21 2019 -0700 : .
-96fa3f587c136b91f0e62c3c0c46b62c739f4f42 - Evan Johnston, Thu Aug 1 17:01:20 2019 -0700 : .
-f4efe9509074c38434cbe4e07a134cb2a7737915 - Evan Johnston, Thu Aug 1 17:01:07 2019 -0700 : .
+$> git -C /var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user log --pretty='%H - %an, %ad : %s'
+5c0042ba25e882f54186e17b5c0cbe42f4b49e2d - Evan Johnston, Sun Sep 1 12:35:14 2019 -0700 : .
+b32afcc9f9470ed2c7c1ea0a57e6a85c52d5bfc3 - Evan Johnston, Sun Sep 1 12:35:12 2019 -0700 : .
+eac12c76d702c26d866d7da9210b05ac3771b457 - Evan Johnston, Sun Sep 1 12:33:11 2019 -0700 : .
+e0819e303abcbb6048741646f3275d8a7c71fa17 - Evan Johnston, Sun Sep 1 12:27:04 2019 -0700 : .
+76b1d402b1297d81cad98aad680802048534ebda - Evan Johnston, Sun Sep 1 12:25:03 2019 -0700 : .
+6153cffbdcac87726b41eed525eaf3a09a4c3c83 - Evan Johnston, Sun Sep 1 12:10:51 2019 -0700 : .
+caaee494c286184747e828eb10ab13598c4b9682 - Evan Johnston, Sun Sep 1 12:08:49 2019 -0700 : .
+f9fa26e2a81f9986f34eadce4e9fdc7f80dbe708 - Evan Johnston, Sun Sep 1 12:06:46 2019 -0700 : .
+b1d434fa6a561ebcfa08578891c6cb3ca0444a3d - Evan Johnston, Sun Sep 1 12:04:45 2019 -0700 : .
+77de6f7d507957bfb55111982c2c8a51f873c963 - Evan Johnston, Sun Sep 1 12:02:47 2019 -0700 : .
+c6c954b31859939b2c6a233ea1cbd2a236fd79d1 - Evan Johnston, Sun Sep 1 12:00:41 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user
+$> ls -lAR /var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user
 total 8
--rw-r--r--  1 deepthought  deepthought  2410 Aug  1 17:11 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 can_split
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 g_diam
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 height_tree
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 is_anagram
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 longest_subarray
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  1 17:11 ord_alphlong
+-rw-r--r--  1 deepthought  deepthought  2618 Sep  1 12:37 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:37 clone_list
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:37 g_diam
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:37 ord_alphlong
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:37 perimeter
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:37 print_doublon
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 12:37 queue
 
-/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/can_split:
+/var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user/clone_list:
 total 8
--rw-r--r--  1 deepthought  deepthought  1945 Aug  1 17:11 can_split.c
+-rw-r--r--  1 deepthought  deepthought  2238 Sep  1 12:37 clone_list.c
 
-/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/g_diam:
+/var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user/g_diam:
 total 8
--rw-r--r--  1 deepthought  deepthought  1877 Aug  1 17:11 g_diam.c
+-rw-r--r--  1 deepthought  deepthought  1877 Sep  1 12:37 g_diam.c
 
-/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/height_tree:
+/var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user/ord_alphlong:
 total 8
--rw-r--r--  1 deepthought  deepthought  1851 Aug  1 17:11 height_tree.c
+-rw-r--r--  1 deepthought  deepthought  2201 Sep  1 12:37 ord_alphlong.c
 
-/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/is_anagram:
+/var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user/perimeter:
 total 8
--rw-r--r--  1 deepthought  deepthought  777 Aug  1 17:11 is_anagram.c
+-rw-r--r--  1 deepthought  deepthought  2255 Sep  1 12:37 perimeter.c
 
-/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/longest_subarray:
-total 16
--rw-r--r--  1 deepthought  deepthought  6581 Aug  1 17:11 longest_subarray.c
-
-/var/folders/q4/x7l844z91_35p7psb6l3q6ym0000gp/T/tmpSvPc5H/user/ord_alphlong:
+/var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user/print_doublon:
 total 8
--rw-r--r--  1 deepthought  deepthought  2201 Aug  1 17:11 ord_alphlong.c
+-rw-r--r--  1 deepthought  deepthought  719 Sep  1 12:37 print_doublon.c
+
+/var/folders/z8/m7l78r3d7l94b768prv0kn9m0000gp/T/tmplhwMFc/user/queue:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1970 Sep  1 12:37 queue.c
  
 = g_diam =======================================================================
 $> gcc -Wextra -Wall -Werror g_diam.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./k4nxw117be3dk6y8nuwgsijv "9-23 9-2122 2122-23 2122-24 31-2122 31-41 71-31 8-71 42-71"
+$> ./aidrpsqpaudpn9cn4exlhf3c "9-23 9-2122 2122-23 2122-24 31-2122 31-41 71-31 8-71 42-71"
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./ppljo3xs79a3hpyc5w0rpyuh "5-56 9-56 7-9 49-9 49-36 7-36 21-7 21-17"
+$> ./yrrft6l7rwvqhac7mec0fyg6 "5-56 9-56 7-9 49-9 49-36 7-36 21-7 21-17"
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./1yna6lrxw8vwrlwq94gjqbak "0-4 0-3 0-1 0-2 1-2 1-0 1-4 1-5 2-4 3-2 3-4 3-0 3-1 4-0 4-1 4-5 4-2 5-4 5-3 5-1 5-0"
+$> ./lilsslxp22s6l1z2g0g89h09 "0-4 0-3 0-1 0-2 1-2 1-0 1-4 1-5 2-4 3-2 3-4 3-0 3-1 4-0 4-1 4-5 4-2 5-4 5-3 5-1 5-0"
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./vcv7269hewqvloo2j8760d8b "0-2 0-3 0-1 1-3 1-2 2-3 3-1 3-0"
+$> ./86jb8et902jmnyblganjin44 "0-2 0-3 0-1 1-3 1-2 2-3 3-1 3-0"
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./g0rrzlf25dcb4osz9yq3k4io "0-2 0-1 1-3 1-4 1-5 1-2 2-6 2-1 3-2 3-7 3-6 3-1 4-1 4-7 4-6 5-6 5-2 6-5 6-7 6-4 6-3 6-1 6-0 6-2 7-1 7-5 7-3"
+$> ./80l5r2cr97j78yzcclm4g3zp "0-2 0-1 1-3 1-4 1-5 1-2 2-6 2-1 3-2 3-7 3-6 3-1 4-1 4-7 4-6 5-6 5-2 6-5 6-7 6-4 6-3 6-1 6-0 6-2 7-1 7-5 7-3"
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./fa1sk947smyikccgxziotvwt "0-2 0-1 1-3 1-6 1-0 1-5 2-5 2-6 3-6 3-4 3-5 3-0 3-1 3-2 4-6 5-4 5-2 5-0 5-3 5-6 6-0"
+$> ./od5gq9nh4l1e800zgr79uz7v "0-2 0-1 1-3 1-6 1-0 1-5 2-5 2-6 3-6 3-4 3-5 3-0 3-1 3-2 4-6 5-4 5-2 5-0 5-3 5-6 6-0"
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D

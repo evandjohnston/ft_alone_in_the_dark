@@ -1,133 +1,135 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r8p21.42.us.org
-Darwin 17.4.0 x86_64
+e1z2r9p11.42.us.org
+Darwin 17.7.0 x86_64
 $> date
-Sat Aug  3 18:10:52 PDT 2019
+Mon Sep  2 11:19:44 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst6
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst10
 
 = Git history ==================================================================
-$> git -C /var/folders/4h/34yst3g12ts6lhwspf0fqhqm0000gp/T/tmpqAZg7p/user log --pretty='%H - %an, %ad : %s'
-ff5c1a93240fbdd3fb3333dc67c2b3901f381736 - Evan Johnston, Sat Aug 3 18:09:01 2019 -0700 : .
-bd0c56cf6e2927d31c4d17210c3be2c8ee2ebdfe - Evan Johnston, Sat Aug 3 18:09:00 2019 -0700 : .
-73c39cfcf9334c7f325a756506b93f742b47ba37 - Evan Johnston, Sat Aug 3 18:06:58 2019 -0700 : .
-4674927c0eda43f5dc006ca443049c3cd7a1fb93 - Evan Johnston, Sat Aug 3 18:04:56 2019 -0700 : .
-42fa76ee767040fbb9faf7e6cf3c6935f119b98a - Evan Johnston, Sat Aug 3 18:04:44 2019 -0700 : .
+$> git -C /var/folders/pg/rc27xfjj2h5_cdxkxm7c5kjr0000gp/T/tmpUXGWvk/user log --pretty='%H - %an, %ad : %s'
+7086ee59cdc13fadd6575f0a2e0f03d6df2f49da - Evan Johnston, Mon Sep 2 11:17:54 2019 -0700 : .
+80ecbbca0e98631ad6f52e8b04fc615475ad68e7 - Evan Johnston, Mon Sep 2 11:17:53 2019 -0700 : .
+febc3c00231c51793ee345cca7982a4848009c70 - Evan Johnston, Mon Sep 2 11:15:52 2019 -0700 : .
+bbdec39ee0ef13b2dfe8415f6e0b857e1320c613 - Evan Johnston, Mon Sep 2 11:15:50 2019 -0700 : .
+ecc21a04484e4bf365d8fa814c00e11446bfb8f1 - Evan Johnston, Mon Sep 2 11:13:50 2019 -0700 : .
+123d5825b1ef16cc74fb994dc33f7bbcf1d84f13 - Evan Johnston, Mon Sep 2 11:13:49 2019 -0700 : .
+cd5a8cd8b7d9469b1881b0e25a76aaa5c2229c0d - Evan Johnston, Mon Sep 2 11:13:37 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/4h/34yst3g12ts6lhwspf0fqhqm0000gp/T/tmpqAZg7p/user
+$> ls -lAR /var/folders/pg/rc27xfjj2h5_cdxkxm7c5kjr0000gp/T/tmpUXGWvk/user
 total 8
--rw-r--r--  1 deepthought  deepthought  1146 Aug  3 18:10 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:10 first_word
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:10 ft_strpbrk
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:10 hello
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  3 18:10 tab_mult
+-rw-r--r--  1 deepthought  deepthought  1549 Sep  2 11:19 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  2 11:19 ft_strpbrk
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  2 11:19 ft_swap
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  2 11:19 only_z
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  2 11:19 tab_mult
 
-/var/folders/4h/34yst3g12ts6lhwspf0fqhqm0000gp/T/tmpqAZg7p/user/first_word:
+/var/folders/pg/rc27xfjj2h5_cdxkxm7c5kjr0000gp/T/tmpUXGWvk/user/ft_strpbrk:
 total 8
--rw-r--r--  1 deepthought  deepthought  329 Aug  3 18:10 first_word.c
+-rw-r--r--  1 deepthought  deepthought  755 Sep  2 11:19 ft_strpbrk.c
 
-/var/folders/4h/34yst3g12ts6lhwspf0fqhqm0000gp/T/tmpqAZg7p/user/ft_strpbrk:
+/var/folders/pg/rc27xfjj2h5_cdxkxm7c5kjr0000gp/T/tmpUXGWvk/user/ft_swap:
 total 8
--rw-r--r--  1 deepthought  deepthought  755 Aug  3 18:10 ft_strpbrk.c
+-rw-r--r--  1 deepthought  deepthought  103 Sep  2 11:19 ft_swap.c
 
-/var/folders/4h/34yst3g12ts6lhwspf0fqhqm0000gp/T/tmpqAZg7p/user/hello:
+/var/folders/pg/rc27xfjj2h5_cdxkxm7c5kjr0000gp/T/tmpUXGWvk/user/only_z:
 total 8
--rw-r--r--  1 deepthought  deepthought  118 Aug  3 18:10 hello.c
+-rw-r--r--  1 deepthought  deepthought  104 Sep  2 11:19 only_z.c
 
-/var/folders/4h/34yst3g12ts6lhwspf0fqhqm0000gp/T/tmpqAZg7p/user/tab_mult:
+/var/folders/pg/rc27xfjj2h5_cdxkxm7c5kjr0000gp/T/tmpUXGWvk/user/tab_mult:
 total 8
--rw-r--r--  1 deepthought  deepthought  632 Aug  3 18:10 tab_mult.c
+-rw-r--r--  1 deepthought  deepthought  632 Sep  2 11:19 tab_mult.c
  
 = tab_mult =====================================================================
 $> gcc -Wextra -Wall -Werror tab_mult.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./7cxxrti15n8794bz8mjjk025 
+$> ./xq7jv9m7dcbv46rh11j84hne 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./cum0du3vpl6rlljz4f7lak3j 47672060
+$> ./i15w31357f3nbnfic3m9hsva 62761755
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./moy9ec26gltrs4cpv8oct8st 113516499
+$> ./z4hv8woq7lufxkaedx6nobce 33928416
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./s47qf8p3vs3cdxmnlohvygc3 45837015
+$> ./cox0l7nyaaj59qvl7kftwpnl 86622870
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./6jam88bd9oyky4xyn969ojxt 61579055
+$> ./hu0989pymsneh6eu2kglir5u 21131771
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./9l8acehzbuxoqu7ptdiehgrg 58501844
+$> ./gdd0u6u4micd4fab66xtrbl0 154580590
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./ooiy7wi8um3y1axvjxkcys30 94849296
+$> ./mud8sz7oi456m05fm9kc9hzk 185407662
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./ez84nyv69cdi1oxqa8ow9nve 187312672
+$> ./dylkl6h8irapcgfq1llu1802 124482599
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D
 = Test 9 ===================================================
-$> ./ipmqvtbup1v2o2fbq23an95r 31849863
+$> ./105ld7yterlxur441nll9egs 140023223
 $> diff -U 3 user_output_test9 test9.output | cat -e
 
 Diff OK :D
 = Test 10 ==================================================
-$> ./swpkbidkfvara8oyahj5r8l9 163402165
+$> ./j3bmhog2ylmxzfhggcsd0mtg 101713575
 $> diff -U 3 user_output_test10 test10.output | cat -e
 
 Diff OK :D
 = Test 11 ==================================================
-$> ./fikx005n9doswag1ylqkkpys 255750
+$> ./xv00uf24aufs7arnriftohg0 69831899
 $> diff -U 3 user_output_test11 test11.output | cat -e
 
 Diff OK :D
 = Test 12 ==================================================
-$> ./c4pvrc0yapl462puzvkt87in 29886253
+$> ./otbhxyv2ogz7bv822i1rnbog 114258619
 $> diff -U 3 user_output_test12 test12.output | cat -e
 
 Diff OK :D
 = Test 13 ==================================================
-$> ./2b2hp82p1csle76cog2bfsii 141734117
+$> ./bvupir0sg13ml4bmaakcu63p 4661681
 $> diff -U 3 user_output_test13 test13.output | cat -e
 
 Diff OK :D
 = Test 14 ==================================================
-$> ./ilcjl9cd4f26ca31mop4dc7c 17447756
+$> ./1l42iiveqzq5a7wn1tjjn186 180762011
 $> diff -U 3 user_output_test14 test14.output | cat -e
 
 Diff OK :D
 = Test 15 ==================================================
-$> ./ncyn1xwu9dojqnskdg4h5okj 186837569
+$> ./6t2mdwtszea8r5eeuf64j6wz 57153271
 $> diff -U 3 user_output_test15 test15.output | cat -e
 
 Diff OK :D

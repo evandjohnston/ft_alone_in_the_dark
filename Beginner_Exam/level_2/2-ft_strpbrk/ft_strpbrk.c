@@ -1,4 +1,4 @@
-// Passed Moulinette 2019.08.03
+// Passed Moulinette 2019.09.02
 
 int		find_char(const char c, const char *str)
 {

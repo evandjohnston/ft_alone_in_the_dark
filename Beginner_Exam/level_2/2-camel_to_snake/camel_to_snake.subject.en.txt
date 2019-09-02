@@ -16,6 +16,6 @@ Examples:
 $>./camel_to_snake "hereIsACamelCaseWord"
 here_is_a_camel_case_word
 $>./camel_to_snake "helloWorld" | cat -e
-hello_word$
+hello_world$
 $>./camel_to_snake | cat -e
 $

@@ -1,71 +1,71 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z1r8p17.42.us.org
-Darwin 17.5.0 x86_64
+e1z2r5p31.42.us.org
+Darwin 17.4.0 x86_64
 $> date
-Thu Aug  1 21:21:44 PDT 2019
+Sun Sep  1 12:06:36 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
-Target: x86_64-apple-darwin17.5.0
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190802/evjohnst5
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-intermediate/practice-exam_20190901/evjohnst4
 
 = Git history ==================================================================
-$> git -C /var/folders/cf/l0xd6rhx75bb7b313k54yw_c0000gp/T/tmpkyb8Od/user log --pretty='%H - %an, %ad : %s'
-c7601067e9f5188fa3f9f230758540f087f6f81b - Evan Johnston, Thu Aug 1 21:20:08 2019 -0700 : .
-ea81b1cbad2edf1dcb9b134504cf3ab00b2426d9 - Evan Johnston, Thu Aug 1 21:20:06 2019 -0700 : .
-ac27f86af41003da3fade9712ffe6ed02c6caccd - Evan Johnston, Thu Aug 1 21:17:51 2019 -0700 : .
+$> git -C /var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user log --pretty='%H - %an, %ad : %s'
+b1d434fa6a561ebcfa08578891c6cb3ca0444a3d - Evan Johnston, Sun Sep 1 12:04:45 2019 -0700 : .
+77de6f7d507957bfb55111982c2c8a51f873c963 - Evan Johnston, Sun Sep 1 12:02:47 2019 -0700 : .
+c6c954b31859939b2c6a233ea1cbd2a236fd79d1 - Evan Johnston, Sun Sep 1 12:00:41 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/cf/l0xd6rhx75bb7b313k54yw_c0000gp/T/tmpkyb8Od/user
+$> ls -lAR /var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user
 total 8
--rw-r--r--  1 deepthought  deepthought  730 Aug  1 21:21 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 21:21 print_doublon
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  1 21:21 queue
+-rw-r--r--  1 deepthought  deepthought  730 Sep  1 12:06 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 12:06 print_doublon
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 12:06 queue
 
-/var/folders/cf/l0xd6rhx75bb7b313k54yw_c0000gp/T/tmpkyb8Od/user/print_doublon:
+/var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user/print_doublon:
 total 8
--rw-r--r--  1 deepthought  deepthought  719 Aug  1 21:21 print_doublon.c
+-rw-r--r--  1 deepthought  deepthought  719 Sep  1 12:06 print_doublon.c
 
-/var/folders/cf/l0xd6rhx75bb7b313k54yw_c0000gp/T/tmpkyb8Od/user/queue:
+/var/folders/rl/lw5dd3gs4jx5rvtpx7z6vxkm0000gp/T/tmpBpXD5E/user/queue:
 total 8
--rw-r--r--  1 deepthought  deepthought  1970 Aug  1 21:21 queue.c
+-rw-r--r--  1 deepthought  deepthought  1970 Sep  1 12:06 queue.c
  
 = queue ========================================================================
 $> gcc -Wextra -Wall -Werror main.c queue.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./7b8smozmenrtbxr98z04hnzc NULL
+$> ./40t5m77m59jsp1pcnrnk4eqk NULL
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./o3hu54x0lhaqq4tj490dt6xz 1 2 3 4 5
+$> ./ucj1nczfx0jiyvw2e1k0gto3 1 2 3 4 5
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./o086bku7vh7rvmhsyqqitb6x We wants it, we needs it. Must have the precious. They stole it from us. Sneaky little hobbitses. Wicked, tricksy, false!
+$> ./9s5uib8enphyrkobyo69yp2i We wants it, we needs it. Must have the precious. They stole it from us. Sneaky little hobbitses. Wicked, tricksy, false!
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./2i0fco0cu8v4m6la868rlsyj 42
+$> ./8a9gq5cck0w81f94ujg4a6bu 42
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./mzyj5afiytqtiagm5aaeht2f I have a bad feeling about this
+$> ./d00hudzpoxqvfcbxhlwfq2yx I have a bad feeling about this
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D

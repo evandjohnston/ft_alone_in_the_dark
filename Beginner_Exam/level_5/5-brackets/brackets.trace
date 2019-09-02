@@ -1,114 +1,111 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z2r8p18.42.us.org
-Darwin 17.4.0 x86_64
+e1z1r7p9.42.us.org
+Darwin 17.5.0 x86_64
 $> date
-Sun Aug  4 16:03:18 PDT 2019
+Sun Sep  1 20:49:59 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 10.0.0 (clang-1000.10.44.4)
-Target: x86_64-apple-darwin17.4.0
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190804/evjohnst17
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst4
 
 = Git history ==================================================================
-$> git -C /var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user log --pretty='%H - %an, %ad : %s'
-823f1ed66e6b1ba401b06edf8e180a76365d68cb - Evan Johnston, Sun Aug 4 16:01:27 2019 -0700 : .
-295dc3e8abf7ba0b432914b65a6e0efcde1372e5 - Evan Johnston, Sun Aug 4 16:01:26 2019 -0700 : .
-a27b03ca7817c8f8bb6a40a15e3e29b8d11ffb70 - Evan Johnston, Sun Aug 4 15:59:25 2019 -0700 : .
-645256783f070b4ebfb39db2936732b6dd8d79e0 - Evan Johnston, Sun Aug 4 15:59:24 2019 -0700 : .
-6faf1e5e3153457271d1e1ac149cde9c687e6475 - Evan Johnston, Sun Aug 4 15:57:23 2019 -0700 : .
-26a3b7f79e1bf2bf593bed734c02cb268a22efcf - Evan Johnston, Sun Aug 4 15:57:22 2019 -0700 : .
-93202dd62f056ba5aeb2e61691275b8ea32feb7d - Evan Johnston, Sun Aug 4 15:48:38 2019 -0700 : .
-d6f3f3e86373d5c26cd77f2e7f3c1c5e675d9018 - Evan Johnston, Sun Aug 4 15:48:36 2019 -0700 : .
-07ec6897bd0046372d2b2f6c87b34fd5bf30cbab - Evan Johnston, Sun Aug 4 15:46:34 2019 -0700 : .
-acce0a62f6d4822f0494574476a10f5e665304ac - Evan Johnston, Sun Aug 4 15:46:33 2019 -0700 : .
-aeaf079ba23b63217d7a3b1ea6f8bddc22d43340 - Evan Johnston, Sun Aug 4 15:46:21 2019 -0700 : .
+$> git -C /var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user log --pretty='%H - %an, %ad : %s'
+5291c3ca8ea8de060127216670493d4afdfb6203 - Evan Johnston, Sun Sep 1 20:49:57 2019 -0700 : .
+fd179befe08cf75a4a19f43210e37104f9a26716 - Evan Johnston, Sun Sep 1 20:36:50 2019 -0700 : .
+866ac25287f362dfdd4e4f68c42929d9e4ea74b1 - Evan Johnston, Sun Sep 1 20:36:47 2019 -0700 : .
+69aed47c022dae749df76446937c930f0f6a569f - Evan Johnston, Sun Sep 1 20:34:45 2019 -0700 : .
+7a8523c41aeb1ddae9c55a137730987955e12ce6 - Evan Johnston, Sun Sep 1 20:24:52 2019 -0700 : .
+ff9475faec7494375d0b511075b4c3c0e73b3ac5 - Evan Johnston, Sun Sep 1 20:22:50 2019 -0700 : .
+f2aedaba7852b01aa9088f3c2de6340b355cd944 - Evan Johnston, Sun Sep 1 20:18:52 2019 -0700 : .
+2340ed6baac45828385a29af6f9d71504c7f90a5 - Evan Johnston, Sun Sep 1 19:38:03 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user
+$> ls -lAR /var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user
 total 8
--rw-r--r--  1 deepthought  deepthought  2488 Aug  4 16:03 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 16:03 brackets
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 16:03 ft_putstr
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 16:03 ft_strcmp
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 16:03 only_z
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 16:03 rev_wstr
-drwxr-xr-x  3 deepthought  deepthought   102 Aug  4 16:03 rstr_capitalizer
+-rw-r--r--  1 deepthought  deepthought  1826 Sep  1 20:50 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 20:50 brackets
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 20:50 do_op
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 20:50 fizzbuzz
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 20:50 hello
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 20:50 print_hex
+drwxr-xr-x  3 deepthought  deepthought   102 Sep  1 20:50 sort_int_tab
 
-/var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user/brackets:
+/var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user/brackets:
 total 8
--rw-r--r--  1 deepthought  deepthought  787 Aug  4 16:03 brackets.c
+-rw-r--r--  1 deepthought  deepthought  787 Sep  1 20:50 brackets.c
 
-/var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user/ft_putstr:
+/var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user/do_op:
 total 8
--rw-r--r--  1 deepthought  deepthought  202 Aug  4 16:03 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought  535 Sep  1 20:50 do_op.c
 
-/var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user/ft_strcmp:
+/var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user/fizzbuzz:
 total 8
--rw-r--r--  1 deepthought  deepthought  587 Aug  4 16:03 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought  421 Sep  1 20:50 fizzbuzz.c
 
-/var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user/only_z:
+/var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user/hello:
 total 8
--rw-r--r--  1 deepthought  deepthought  104 Aug  4 16:03 only_z.c
+-rw-r--r--  1 deepthought  deepthought  118 Sep  1 20:50 hello.c
 
-/var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user/rev_wstr:
+/var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user/print_hex:
 total 8
--rw-r--r--  1 deepthought  deepthought  559 Aug  4 16:03 rev_wstr.c
+-rw-r--r--  1 deepthought  deepthought  425 Sep  1 20:50 print_hex.c
 
-/var/folders/v4/r62h19fx0hl7xmj8_5jsck8m0000gp/T/tmppHIGvw/user/rstr_capitalizer:
+/var/folders/1m/zp6ksqjx0p9f94yrrcg9hz7w0000gp/T/tmpHgN2vo/user/sort_int_tab:
 total 8
--rw-r--r--  1 deepthought  deepthought  779 Aug  4 16:03 rstr_capitalizer.c
+-rw-r--r--  1 deepthought  deepthought  844 Sep  1 20:50 sort_int_tab.c
  
 = brackets =====================================================================
 $> gcc -Wextra -Wall -Werror brackets.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./8yrjmqdlpqfnvcbr4ass0fgt '(toto)'
+$> ./nnkmkjud4pugi46t2jwdvoc2 '(toto)'
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
 = Test 2 ===================================================
-$> ./jj7prv1yoosygq6jkcp5331e '([)]'
+$> ./tfyabs5zzwy3i5o0cz23m4b9 '([)]'
 $> diff -U 3 user_output_test2 test2.output | cat -e
 
 Diff OK :D
 = Test 3 ===================================================
-$> ./jcsr7pb8ihsn81hwv2om44z0 '' '{[(0 + 0)(1 + 1)](3*(-1)){()}}'
+$> ./0uyijtj2og9yg9yeh0s9uvql '' '{[(0 + 0)(1 + 1)](3*(-1)){()}}'
 $> diff -U 3 user_output_test3 test3.output | cat -e
 
 Diff OK :D
 = Test 4 ===================================================
-$> ./1bjx90g9fjj9332l9gbgfh4n 
+$> ./ruqt05hn4dyqewqjxblw5ybe 
 $> diff -U 3 user_output_test4 test4.output | cat -e
 
 Diff OK :D
 = Test 5 ===================================================
-$> ./tt31xnewbou26822l48fbj0i '()' '[]' '{}' '' 'toto' '([{}[{(()[])}()]]())(((([])))())'
+$> ./mepax3gkkpmqa5cood1ybpkd '()' '[]' '{}' '' 'toto' '([{}[{(()[])}()]]())(((([])))())'
 $> diff -U 3 user_output_test5 test5.output | cat -e
 
 Diff OK :D
 = Test 6 ===================================================
-$> ./se8pf4fj6qzioom0ng1aqqzb '()[]{}' '([{}])[({})]{([])}'
+$> ./9tijo1ts80h9m95r5l7rq56j '()[]{}' '([{}])[({})]{([])}'
 $> diff -U 3 user_output_test6 test6.output | cat -e
 
 Diff OK :D
 = Test 7 ===================================================
-$> ./58ahgjz5ypjrnq6fg41a29lr '(]' '{)' '[}' ')' '}' ')' '(' '{' '['
+$> ./spmpi0j6q7zyoc8gciazzg4m '(]' '{)' '[}' ')' '}' ')' '(' '{' '['
 $> diff -U 3 user_output_test7 test7.output | cat -e
 
 Diff OK :D
 = Test 8 ===================================================
-$> ./istj72p2mthxdf6b706aqpk0 '({)}' '[()]{}]' '])}' '([{' "(cette (trace n'a pas [de but precis]) {a part embeter (tout le monde)})"
+$> ./4n20q1frd3q5prxb5rwpw74p '({)}' '[()]{}]' '])}' '([{' "(cette (trace n'a pas [de but precis]) {a part embeter (tout le monde)})"
 $> diff -U 3 user_output_test8 test8.output | cat -e
 
 Diff OK :D

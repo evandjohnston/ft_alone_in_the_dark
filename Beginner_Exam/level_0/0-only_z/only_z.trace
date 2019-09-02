@@ -1,44 +1,44 @@
 = Host-specific information ====================================================
 $> hostname; uname -msr
-e1z1r7p1.42.us.org
+e1z3r1p16.42.us.org
 Darwin 17.5.0 x86_64
 $> date
-Sun Aug  4 17:35:49 PDT 2019
+Mon Sep  2 11:35:03 PDT 2019
 $> gcc --version
 Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
 Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 $> clang --version
-Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
 Target: x86_64-apple-darwin17.5.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 
 = User files collection ========================================================
 Collecting user files from Vogsphere
-Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190805/evjohnst3
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst12
 
 = Git history ==================================================================
-$> git -C /var/folders/4_/3zm_vhv95wx6pf1j544fzj0r0000gp/T/tmp_iNbNR/user log --pretty='%H - %an, %ad : %s'
-a4437afdaa2feb570ca8ece45aff39321024c906 - Evan Johnston, Sun Aug 4 17:34:05 2019 -0700 : .
+$> git -C /var/folders/vq/089bph554sv95h_1pwx_pvvm0000gp/T/tmpAA9PCl/user log --pretty='%H - %an, %ad : %s'
+85021ddf7aa7e28f67797b206c45635039770828 - Evan Johnston, Mon Sep 2 11:35:00 2019 -0700 : .
  
 = Collected files ==========================================
-$> ls -lAR /var/folders/4_/3zm_vhv95wx6pf1j544fzj0r0000gp/T/tmp_iNbNR/user
+$> ls -lAR /var/folders/vq/089bph554sv95h_1pwx_pvvm0000gp/T/tmpAA9PCl/user
 total 8
--rw-r--r--  1 deepthought  deepthought  203 Aug  4 17:35 __GIT_HISTORY
-drwxr-xr-x  3 deepthought  deepthought  102 Aug  4 17:35 only_z
+-rw-r--r--  1 deepthought  deepthought  203 Sep  2 11:35 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  2 11:35 only_z
 
-/var/folders/4_/3zm_vhv95wx6pf1j544fzj0r0000gp/T/tmp_iNbNR/user/only_z:
+/var/folders/vq/089bph554sv95h_1pwx_pvvm0000gp/T/tmpAA9PCl/user/only_z:
 total 8
--rw-r--r--  1 deepthought  deepthought  104 Aug  4 17:35 only_z.c
+-rw-r--r--  1 deepthought  deepthought  104 Sep  2 11:35 only_z.c
  
 = only_z =======================================================================
 $> gcc -Wextra -Wall -Werror only_z.c -o user_exe 
 
 = Test 1 ===================================================
-$> ./x6r894sdqskkc7895ti71aca 
+$> ./9rcqjjj25b9hpd4v9vy0p2oi 
 $> diff -U 3 user_output_test1 test1.output | cat -e
 
 Diff OK :D
