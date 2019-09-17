@@ -1,0 +1,53 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r8p8.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Sun Sep  1 20:20:37 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190902/evjohnst4
+
+= Git history ==================================================================
+$> git -C /var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user log --pretty='%H - %an, %ad : %s'
+f2aedaba7852b01aa9088f3c2de6340b355cd944 - Evan Johnston, Sun Sep 1 20:18:52 2019 -0700 : .
+2340ed6baac45828385a29af6f9d71504c7f90a5 - Evan Johnston, Sun Sep 1 19:38:03 2019 -0700 : .
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  432 Sep  1 20:20 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 20:20 fizzbuzz
+drwxr-xr-x  3 deepthought  deepthought  102 Sep  1 20:20 hello
+
+/var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user/fizzbuzz:
+total 8
+-rw-r--r--  1 deepthought  deepthought  421 Sep  1 20:20 fizzbuzz.c
+
+/var/folders/03/yrkvd5ln6vq0khvzvwxh2xw00000gp/T/tmpxIKN_K/user/hello:
+total 8
+-rw-r--r--  1 deepthought  deepthought  118 Sep  1 20:20 hello.c
+ 
+= fizzbuzz =====================================================================
+$> gcc -Wextra -Wall -Werror fizzbuzz.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./dcphep8fzmyqdzo3lk0j6z7t 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
