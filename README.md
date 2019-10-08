@@ -8,9 +8,9 @@ Questions? Requests? Reach me on Slack @evjohnst.
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
 
-[Code from most recent session (2019.09.30)](Session_Code/2019.09.30)
+[Code from most recent session (2019.10.07)](Session_Code/2019.10.07)
 
-#### Agenda for next session (2019.10.07)
+#### Agenda for next session (2019.10.14)
 
 *Nothing yet. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.*
 
