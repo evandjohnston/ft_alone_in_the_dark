@@ -9,7 +9,11 @@ struct s_node
 
 int	max_three(int a, int b, int c)
 {
-	return ((a > b) ? ((a > c) ? a : c) : (b > c) ? b : c);
+	if (a > b && a > c)
+		return (a);
+	if (b > a && b > c)
+		return (b);
+	return (c);
 }
 
 int	recur(struct s_node *node, int *longest_seq)
