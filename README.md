@@ -1,18 +1,18 @@
 # ft_alone_in_the_dark
 Complete set of 42 Silicon Valley exam subjects, pseudocode, testcases, and solutions
 
-Questions? Requests? Reach me on Slack @evjohnst.
+Questions? Requests? Reach me on Slack @evan.
 
 ## Sessions
 *6pm - 8pm on Mondays, room 115*
 
-Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.
+Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson.
 
-[Code from most recent session (2019.10.07)](Session_Code/2019.10.07)
+[Code from most recent session (2019.10.21)](Session_Code/2019.10.21)
 
-#### Agenda for next session (2019.10.14)
+#### Agenda for next session (2019.10.28)
 
-*Nothing yet. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evjohnst or @jadawson.*
+None yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson.
 
 ## Beginner Exam
 
