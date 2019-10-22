@@ -58,9 +58,7 @@ void *peek(struct s_queue *queue)
 
 int isEmpty(struct s_queue *queue)
 {
-	if (queue == NULL || queue->first == NULL)
-		return (1);
-	return (0);
+	return (queue == NULL || queue->first == NULL);
 }
 
 //------------------------------------------------------
