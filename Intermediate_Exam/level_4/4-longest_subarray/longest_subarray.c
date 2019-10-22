@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define IS_ODD(n) (((n) % 2 == 1) ? 1 : 0)
+#define IS_ODD(n) ((n) % 2 == 1 ? 1 : 0)
 
 char	*ft_strndup(char *str, int len)
 {
