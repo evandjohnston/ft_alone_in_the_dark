@@ -8,11 +8,11 @@ Questions? Requests? Reach me on Slack @evan.
 
 Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson.
 
-[Code from most recent session (2019.11.04)](Session_Code/2019.11.04)
+[Code from most recent session (2019.11.11)](Session_Code/2019.11.11)
 
-#### Agenda for next session (2019.11.11)
+#### Agenda for next session (2019.11.18)
 
-None yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson.
+_Nothing yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson._
 
 ## Beginner Exam
 
