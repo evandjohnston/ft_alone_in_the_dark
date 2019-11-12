@@ -32,42 +32,43 @@ char	*ft_itoa_base(int value, int base)
 	return (out);
 }
 
-// ------------------------------------------------
-// #include <stdio.h>
-// #include <limits.h>
-// int	main(void)
-// {
-// 	int base;
-// 	int test;
+#ifdef TEST		// To enable this block of code, compile with `-D TEST`
+#include <stdio.h>
+#include <limits.h>
+int	main(void)
+{
+	int base;
+	int test;
 
-// 	base = 10;
-// 	test = INT_MIN;
-// 	printf("%s\n%d\n", ft_itoa_base(test, base), test);
-// 	test = -1;
-// 	printf("%s\n%d\n", ft_itoa_base(test, base), test);
-// 	test = 0;
-// 	printf("%s\n%d\n", ft_itoa_base(test, base), test);
-// 	test = 1;
-// 	printf("%s\n%d\n", ft_itoa_base(test, base), test);
-// 	test = INT_MAX;
-// 	printf("%s\n%d\n", ft_itoa_base(test, base), test);
+	base = 10;
+	test = INT_MIN;
+	printf("%s\n%d\n", ft_itoa_base(test, base), test);
+	test = -1;
+	printf("%s\n%d\n", ft_itoa_base(test, base), test);
+	test = 0;
+	printf("%s\n%d\n", ft_itoa_base(test, base), test);
+	test = 1;
+	printf("%s\n%d\n", ft_itoa_base(test, base), test);
+	test = INT_MAX;
+	printf("%s\n%d\n", ft_itoa_base(test, base), test);
 
-// 	base = 8;
-// 	test = 28;
-// 	printf("%s\n%o\n", ft_itoa_base(test, base), test);
-// 	test = INT_MAX;
-// 	printf("%s\n%o\n", ft_itoa_base(test, base), test);
+	base = 8;
+	test = 28;
+	printf("%s\n%o\n", ft_itoa_base(test, base), test);
+	test = INT_MAX;
+	printf("%s\n%o\n", ft_itoa_base(test, base), test);
 
-// 	base = 16;
-// 	test = 0xABCDEF9;
-// 	printf("%s\n%x\n", ft_itoa_base(test, base), test);
-// 	test = INT_MAX;
-// 	printf("%s\n%x\n", ft_itoa_base(test, base), test);
-// 	test = INT_MIN;
-// 	printf("%s\n%x\n", ft_itoa_base(test, base), test);
+	base = 16;
+	test = 0xABCDEF9;
+	printf("%s\n%x\n", ft_itoa_base(test, base), test);
+	test = INT_MAX;
+	printf("%s\n%x\n", ft_itoa_base(test, base), test);
+	test = INT_MIN;
+	printf("%s\n%x\n", ft_itoa_base(test, base), test);
 
-// 	base = 4;
-// 	test = -42368063;
-// 	printf("%s\n3331132120033001\n", ft_itoa_base(test, base));
-// 	return (0);
-// }
+	base = 9;
+	test = -86872362;
+	printf("%s\n", ft_itoa_base(test, base));
+	return (0);
+}
+#endif
