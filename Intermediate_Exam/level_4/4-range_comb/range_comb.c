@@ -13,20 +13,20 @@ int		factorial(int n)
 	return (out);
 }
 
-void	permute(int **tab, int *avail, int *soln, int n, int cur, int *soln_i)
+void	permute(int **tab, int *avail, int *soln_buf, int n, int soln_i, int *tab_i)
 {
 	int i = -1;
-	if (cur == n)
-		memcpy(tab[++(*soln_i)], soln, n * sizeof(int));
+	if (soln_i == n)
+		memcpy(tab[++(*tab_i)], soln_buf, n * sizeof(int));
 	else
 	{
 		while (++i < n)
 		{
 			if (avail[i] == 1)
 			{
-				soln[cur] = i;
+				soln_buf[soln_i] = i;
 				avail[i] = 0;
-				permute(tab, avail, soln, n, cur + 1, soln_i);
+				permute(tab, avail, soln_buf, n, soln_i + 1, tab_i);
 				avail[i] = 1;
 			}
 		}
@@ -39,7 +39,7 @@ int		**range_comb(int n)
 		return (0);
 
 	int i = -1;
-	int soln[n];
+	int soln_buf[n];
 	int permutations = factorial(n);
 	int avail[n];
 	while (++i < n)
@@ -52,25 +52,26 @@ int		**range_comb(int n)
 	while (++i < permutations)
 		tab[i] = malloc(sizeof(**tab) * n);
 
-	int soln_i = -1;
-	permute(tab, avail, soln, n, 0, &soln_i);
+	int tab_i = -1;
+	permute(tab, avail, soln_buf, n, 0, &tab_i);
 	return (tab);
 }
 
-//-------------------------------------------
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int n = 5;
-// 	int **arr = range_comb(n);
-// 	int i = -1;
-// 	int j;
-// 	int size = factorial(n);
-// 	while (++i < size)
-// 	{
-// 		j = -1;
-// 		while (++j < n)
-// 			printf("%d, ", arr[i][j]);
-// 		printf("\n");
-// 	}
-// }
+#ifdef TEST		// To enable this block of code, compile with `-D TEST`
+#include <stdio.h>
+int	main(void)
+{
+	int n = 5;
+	int **arr = range_comb(n);
+	int i = -1;
+	int j;
+	int size = factorial(n);
+	while (++i < size)
+	{
+		j = -1;
+		while (++j < n)
+			printf("%d, ", arr[i][j]);
+		printf("\n");
+	}
+}
+#endif
