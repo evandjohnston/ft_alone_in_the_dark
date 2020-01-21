@@ -6,13 +6,13 @@ Questions? Requests? Reach me on Slack @evan.
 ## Sessions
 *6pm - 8pm on Mondays, room 115*
 
-Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson.
+Each Monday we discuss problems from the exams with an emphasis on conceptual understanding. To request a problem, let us know on Slack in #42sv_club_exam-study or DM @evan or @jadawson.
 
-[Code from most recent session (2019.12.16)](Session_Code/2020.01.06)
+[Code from most recent session (2020.01.13)](Session_Code/2020.01.20)
 
-#### Agenda for next session (2020.01.13)
+#### Agenda for next session (2020.01.27)
 
-_None yet! To request a problem, let us know on Slack in #ft_alone_in_the_dark or DM @evan or @jadawson._
+_None yet! To request a problem, let us know on Slack in #42sv_club_exam-study or DM @evan._
 
 ## Beginner Exam
 
