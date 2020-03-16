@@ -2,7 +2,7 @@
 
 #include <unistd.h>
 #include <stdlib.h>
-#define ABS(V) (((V) < 0) ? -(V) : (V))
+#define ABS(V) ((V) < 0 ? -(V) : (V))
 
 int		max_two(int a, int b)
 {
