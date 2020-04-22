@@ -49,9 +49,7 @@ void *peek(struct s_stack *stack)
 
 int isEmpty(struct s_stack *stack)
 {
-	if (stack == NULL || stack->top == NULL)
-		return (1);
-	return (0);
+	return (stack == NULL || stack->top == NULL);
 }
 
 
