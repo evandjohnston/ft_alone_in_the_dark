@@ -6,9 +6,9 @@
 
 int	fill_arr(int fd, char arr[1024][1024])
 {
-	char buf[1025] = {[0 ... 1024] = '\0'};
+	char buf[1025] = {0};
 	int b;
-	int	bytes_read = 0;
+	int bytes_read = 0;
 	int row = 0;
 	int col = -1;
 	int line_len = 0;
